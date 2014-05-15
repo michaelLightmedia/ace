@@ -1,0 +1,50 @@
+<?php
+/**
+ * This is a global variable that will help js
+ * to retrieved and manipulate data without the use of
+ * the backend code.
+ *
+ */
+
+?>
+
+<script id="global-js-vars">
+    //<![CDATA[
+    var CONST = {};
+
+    var baseURL = '<?php echo URL::to("/");; ?>/';
+    CONST.BASEURL = "<?php echo  URL::to('/') ?>";
+    CONST.URL = "<?php echo URL::to('/') ?>";
+    CONST.CURRENTURL = "<?php echo URL::current() ?>";
+
+    CONST.TOKEN = "<?php echo Session::get('_token'); ?>";
+    CONST.IS_LOGGED = <?php echo is_logged_in() ? 1 : 0 ?>;
+
+
+    <?php
+        $currency = DB::table('currencies')->where('code','=',get_settings('payment_currency'))->first();
+        if ($currency) {
+            $symbol_left = $currency->symbol_left;
+            $symbol_right = $currency->symbol_right;
+            $thousands_point = $currency->thousands_point;
+            $decimal_point = $currency->decimal_point;
+        } else {
+            $symbol_left = "$";
+            $symbol_right = "";
+            $thousands_point = ",";
+            $decimal_point = ".";
+        }
+     ?>
+
+    CONST.CURRENCY = {};
+    CONST.CURRENCY.SYMBOL_LEFT = "<?php echo $symbol_left; ?>";
+    CONST.CURRENCY.SYMBOL_RIGHT = "<?php echo $symbol_right; ?>";
+    CONST.CURRENCY.THOUSANDS_POINT = "<?php echo $thousands_point; ?>";
+    CONST.CURRENCY.DECIMAL_POINT = "<?php echo $decimal_point; ?>";
+
+    <?php if (isset($user_tax_year)): ?>
+    CONST.USER_TAX_YEAR_ID = <?php echo $user_tax_year->id; ?>;
+    <?php endif; ?>
+
+    //]]>
+</script>

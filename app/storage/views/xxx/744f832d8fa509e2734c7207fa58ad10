@@ -1,0 +1,59 @@
+
+<?php $__env->startSection('sub-content'); ?>
+
+<form class="form-horizontal" method="post" action="<?php if (isset($cents_per_kilometre)): ?><?php echo URL::to('/admin/tax-form/settings/cents-per-kilometre/' . $cents_per_kilometre->id . '/edit'); ?><?php endif; ?>" autocomplete="off">
+    <!-- CSRF Token -->
+    <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>" />
+    <!-- ./ csrf token -->
+    <div class="panel">
+        <div class="panel__heading">
+            <?php if(!isset($cents_per_kilometre)): ?>
+            <h1 class="h4">Add Cents Per Kilometre</h1>
+            <?php else: ?>
+            <h1 class="h4">Edit Cents Per Kilometre</h1>
+            <?php endif; ?>
+        </div>
+
+        <div class="panel__sub_content">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="mt-15px mb-15px form-horizontal" role="form">
+
+                        <?php list($error_msg, $error_class) = validator_res($errors,'engine_capacity') ?>
+                        <div class="form-group <?php echo $error_class; ?>">
+                            <label for="engine_capacity" class="col-lg-4 col-sm-4 control-label">
+                                Engine Capacity:
+                            </label>
+                            <div class="col-lg-8 col-md-7 col-sm-7">
+                                <input id="engine_capacity" class=" form-control " type="text" name="engine_capacity" value="<?php echo e(Input::old('engine_capacity', isset($cents_per_kilometre) ? $cents_per_kilometre->engine_capacity : null)); ?>" />
+                                <?php echo $error_msg; ?>
+                            </div>
+                        </div>
+
+                        <?php list($error_msg, $error_class) = validator_res($errors,'cents_per_kilometre') ?>
+                        <div class="form-group <?php echo $error_class; ?>">
+                            <label for="cents_per_kilometre" class="col-lg-4 col-sm-4 control-label">
+                                Taxable income from:
+                            </label>
+                            <div class="col-lg-8 col-md-7 col-sm-7">
+                                <input id="cents_per_kilometre" class=" form-control " type="text" name="cents_per_kilometre" value="<?php echo e(Input::old('cents_per_kilometre', isset($cents_per_kilometre) ? $cents_per_kilometre->cents_per_kilometre : null)); ?>" />
+                                <?php echo $error_msg; ?>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="pull-right col-lg-8 col-md-7 col-sm-7">
+                                <?php echo Form::button('<i class="fa fa-edit mr-5px"></i>&nbsp;<span>Save</span>',array('name' => 'action', 'type' => 'submit', 'value' => 'save', 'class' => 'btn btn-info')); ?>
+                                <a href="<?php echo URL::to("/admin/tax-form/settings/cents-per-kilometre"); ?>" class="btn btn-default">Back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('tax::tax-settings._sidebar', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

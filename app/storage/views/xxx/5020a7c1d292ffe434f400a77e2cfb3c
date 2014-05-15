@@ -1,0 +1,15 @@
+
+<div id="refund_estimate" class="layout-l3">
+    <h1 class="layout-title">Tax Return Form <?php echo $user_tax_year->tax_year; ?></h1>
+    <div class="layout-circle">
+        <span class="title"><?php echo format_currency($income_summary->getEstimateAmount(),0); ?></span>
+
+        <?php if ($income_summary->isEstimateAmountRefundable()): ?>
+        <span class="label">Estimated Tax Refund </span>
+        <?php else: ?>
+        <span class="label">Estimated Tax Payable </span>
+        <?php endif; ?>
+    </div>
+
+    <?php echo Gy::getUserTaxYearStatus( $user_tax_year->status ); ?>
+</div>

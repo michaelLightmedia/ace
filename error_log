@@ -11,3 +11,7 @@
 [14-May-2014 11:05:35 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/acegroup/public_html/autogit.php on line 100
 [14-May-2014 11:05:35 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/acegroup/public_html/autogit.php on line 101
 [14-May-2014 11:05:35 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/acegroup/public_html/autogit.php on line 102
+[15-May-2014 10:17:05 UTC] PHP Fatal error:  Class 'Gy' not found in /home/acegroup/public_html/app/storage/views/0ae8c06c1be1d776892ab377693878a2 on line 2
+[15-May-2014 10:17:10 UTC] PHP Fatal error:  Class 'Gy' not found in /home/acegroup/public_html/app/storage/views/0ae8c06c1be1d776892ab377693878a2 on line 2
+[15-May-2014 18:19:25 Asia/Brunei] PHP Fatal error:  Class 'Gy' not found in /home/acegroup/public_html/app/storage/views/3edfdb5d292673880e24b49980250b36 on line 42
+[15-May-2014 18:20:07 Asia/Brunei] PHP Fatal error:  Class 'Gy' not found in /home/acegroup/public_html/app/storage/views/6d0fa7b40731ce4cae7c3ee37b91e8bc on line 38

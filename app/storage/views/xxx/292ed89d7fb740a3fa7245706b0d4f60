@@ -1,0 +1,62 @@
+
+<?php $__env->startSection('section-top'); ?>
+  <div class="navbar-left">
+    <h1 class="page-title">
+      <span>Media</span>
+    </h1>
+    <?php echo $lists->search_box(); ?>
+  </div>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+  <div class="section--top">
+    <div class="section-left">
+      <ul class="action-list">
+        <li>
+          <a href="<?php echo URL::to('admin/media/create'); ?>" class="btn btn-success">
+            <i class="fa fa-picture-o mr-5px"></i>
+            <span>Add New</span>
+          </a>
+        </li>
+        <li>
+          <a onclick="cskAdmin.BootrstrapAlert.xdelete('admin/media/delete', 'File');return false;" class="delete-media btn btn-default">
+            <i class="fa fa-trash-o"></i>
+            <span>Delete</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="section-right">
+      <div class="selectpicker-sm">
+        <?php echo $lists->records_per_page(); ?>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section--box mt-58px">
+    <div class="row">
+      <?php echo Gy::system_messages(); ?>
+    	<?php echo Form::open(array('url' => 'admin/dashboard', 'method' => 'GET')); ?>
+      <div class="section section--offset">
+          <?php echo $lists->prepare_items(); ?>
+          <?php echo $lists->display(); ?>
+        
+        <div class="pull-left">
+          <div class="table-results">
+            <?php echo $lists->pagination_info(); ?>
+          </div>
+        </div>
+        <div class="pull-right">    
+          <?php echo $lists->pagination(); ?>
+        </div>
+      </div>
+      <?php echo Form::close(); ?>
+    </div>
+  </div>
+
+  <script>
+    $(function(){
+      tableHelper.init("<?php echo URL::to('admin/media'); ?>");
+    })
+  </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.back', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,114 @@
+
+<?php $__env->startSection('content'); ?>
+
+<div class="banner banner-home">
+    <div class="container">
+        <div class="banner-heading">
+            <h1 class="banner-title">Get your Tax back Online</h1>
+            <p class="banner-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+            <a href="#" class="progress-button btn btn-yellow" data-style="fill" data-horizontal="">Get Started!</a>
+
+        </div>
+        <div class="banner-form">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+            <h1 class="title">Sign in to your account</h1>
+            <form class="" action="<?php echo URL::to("/login"); ?>" method="POST">
+                <input type="hidden" name="returnUrl" value="<?php echo URL::to("/login"); ?>" />
+                <?php echo $__env->make('user::auth.login-form', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+            </form>
+        </div>
+        <div class="banner-box banner-box-media">
+            <div class="banner-inner">
+                <img src="<?php echo URL::asset('assets/site/placeholders/banner-video.jpg'); ?>" alt="">
+                <button class="banner-bgblack" data-toggle="modal" data-target="#videoModal">
+                    <span class="banner-play-btn"><span>play</span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Video modal  -->
+<div class="modal modal-l2 fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            <div class="modal-body">
+                <a class="brand brand2 navbar-brand-dark" href="#">GYTBO</a>
+                <div class="modal-video-wrap">
+                    <iframe width="853" height="480" src="//www.youtube.com/embed/kzX-kKg3PKA?autoplay=0&controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section section-l2">
+    <div class="container">
+        <div class="section-heading">
+            <h1 class="section-title">Online makes your Tax Return easier.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        </div>
+        <div class="section-body feature-list">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-benefits"></span>
+                        <h3 class="layout-title">Benefits</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-pricing"></span>
+                        <h3 class="layout-title">Pricing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-process"></span>
+                        <h3 class="layout-title">Process</h3>
+                        <p>How deos it works. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-calculator"></span>
+                        <h3 class="layout-title">Calculator</h3>
+                        <p>Try our simple Calculator. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-safe-web"></span>
+                        <h3 class="layout-title">Is it safe?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="layout layout-2">
+                        <span class="icon icon-online"></span>
+                        <h3 class="layout-title">Why Online?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-footer">
+            <a href="<?php echo URL::to("/login"); ?>" class="btn btn-yellow btn-xlg">Get Started!</a>
+        </div>
+    </div>
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.front', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

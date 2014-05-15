@@ -304,3 +304,35 @@ Stack trace:
 #3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
 #4 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
 #5 {main} [] []
+[2014-05-15 10:17:05] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Gy' not found' in /home/acegroup/public_html/app/storage/views/0ae8c06c1be1d776892ab377693878a2:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-15 10:17:10] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Gy' not found' in /home/acegroup/public_html/app/storage/views/0ae8c06c1be1d776892ab377693878a2:2
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-15 18:19:25] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Gy' not found' in /home/acegroup/public_html/app/storage/views/3edfdb5d292673880e24b49980250b36:42
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-15 18:20:07] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'Gy' not found' in /home/acegroup/public_html/app/storage/views/6d0fa7b40731ce4cae7c3ee37b91e8bc:38
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-05-15 18:20:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-05-15 18:20:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
