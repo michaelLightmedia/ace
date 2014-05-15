@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    {{ Gy::system_messages() }}
+    {{ Site::system_messages() }}
     
 
         
@@ -80,7 +80,7 @@
                         <div class="cf nestable-lists">
 
                             <div class="dd" id="nestable">
-                                {{ Gy::widgets(0, $item['widget']) }}
+                                {{ Site::widgets(0, $item['widget']) }}
                                 
                             </div>
 
