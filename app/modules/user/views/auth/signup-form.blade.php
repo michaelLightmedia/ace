@@ -8,8 +8,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title> {{ Gy::title(); }} </title>
-    <meta name="description" content="{{ Gy::metaDescription(); }}">
+    <title> {{ Site::title(); }} </title>
+    <meta name="description" content="{{ Site::metaDescription(); }}">
 
     <link rel="stylesheet" href="{{ URL::asset('assets/global/css/bootstrap.min.css') }}">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">

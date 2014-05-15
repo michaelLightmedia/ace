@@ -30,7 +30,7 @@
             <div class="col-sm-offset-2 col-sm-10">
                 <div class="row">
                     <div class="col-sm-6">
-                        <a href="{{ URL::to('/') }}">&larr; Back to Gytbo</a>
+                        <a href="{{ URL::to('/') }}">&larr; Back to Sitetbo</a>
                     </div>
                     <div class="col-sm-6">
                         <a href="{{ URL::to('login') }}">Login</a>
@@ -43,7 +43,7 @@
                 {{ Form::submit('reset', array('class' => 'btn btn-blue btn-in')) }}
             </div>
         </div>
-        {{ Gy::system_messages() }}
+        {{ Site::system_messages() }}
 
 
     {{ Form::close() }}

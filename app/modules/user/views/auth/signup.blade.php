@@ -23,7 +23,7 @@
             <div class="form-icon"></div>
             <div class="banner-form-body">
 
-                {{ Gy::system_messages() }}
+                {{ Site::system_messages() }}
 
                 <?php list($error_msg, $error_class) = validator_res($errors,'email') ?>
                 <div class="form-group form-group-lg {{ $error_class }}">

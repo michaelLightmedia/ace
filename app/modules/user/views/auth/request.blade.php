@@ -26,7 +26,7 @@
 					    </div>
 
 					</div>
-	            	{{ Gy::system_messages() }}
+	            	{{ Site::system_messages() }}
 	
 				{{ Form::close() }}
 
@@ -38,6 +38,6 @@
 	    </div>
 	</div>
 
-	<!-- <a href="{{ URL::to('/') }}">&larr; Back to Gytbo</a> -->
+	<!-- <a href="{{ URL::to('/') }}">&larr; Back to Sitetbo</a> -->
 		
 @stop
