@@ -1,0 +1,29 @@
+
+body {
+    background: #fff;
+    font-size: 14px;
+}
+
+.screen {
+    position: fixed;
+    z-index: 0;
+    top: -0.5%;
+    left: -0.5%;
+    width: 101%;
+    height: 101%;
+    background: url("@{image-url-site}/bg-screen.jpg") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.screen-pattern {
+    position: fixed;
+    z-index: 1;
+    top: -0.5%;
+    left: -0.5%;
+    width: 101%;
+    height: 101%;
+    background: url("@{image-url-site}/bg-pattern.png") repeat center;
+    background-attachment: fixed;
+    .box-shadow(0 50px 200px rgba(0,0,0,0.5) inset);
+}

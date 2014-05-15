@@ -1,0 +1,30 @@
+<div id="tax_uniform_<?php echo isset($uniform) ? $uniform->id : null; ?>" class="form-item">
+    <div class="row">
+        <div class="col-md-9">
+            <?php list($error_msg, $error_class) = validator_res($errors,'uniforms['.$index.'][description]') ?>
+            <div class="form-group <?php echo $error_class; ?>">
+                <label for="#input_uniforms_description" class="label-control">Description:
+                    <span class="fa fa-question-circle tooltip2" data-toggle="tooltip" data-placement="top" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></span>
+                </label>
+                <div class="form-group-control">
+                    <select name="uniforms[<?php echo $index; ?>][description]" id="input_uniforms_description" class="form-control select2">
+                        <?php foreach(Gy::getUniformDescription() as $key=>$value): ?>
+                        <option <?php echo is_selected( Input::old('uniforms['.$index.'][description]', isset($uniform) ? $uniform->description : null),$key); ?> value="<?php echo $key; ?>"><?php echo $value; ?></option>
+                        <?php endforeach; ?>
+                    </select>
+                    <?php echo $error_msg; ?>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <?php list($error_msg, $error_class) = validator_res($errors,'uniforms['.$index.'][amount]') ?>
+            <div class="form-group <?php echo $error_class; ?>">
+                <label for="#uniforms_amount" class="label-control">Amount: </label>
+                <div class="form-group-control form-group-currency">
+                    <input value="<?php echo e(Input::old('uniforms['.$index.'][amount]', isset($uniform) ? $uniform->amount : null)); ?>" id="uniforms_amount" name="uniforms[<?php echo $index; ?>][amount]" type="text" class="form-control">
+                    <?php echo $error_msg; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

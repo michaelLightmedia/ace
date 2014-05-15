@@ -1,0 +1,31 @@
+th.column_header {
+	cursor:pointer;
+}
+
+th.column_header > a {
+	display:block;
+}
+
+th.sorting
+{
+	background: url('./images/sort_both.png') right 15px no-repeat transparent;
+}
+th.sorting_asc
+{
+	background: url('./images/sort_asc.png') right 18px no-repeat transparent;
+
+}
+
+th.sorting_desc
+{
+	background: url('./images/sort_desc.png') right 14px no-repeat transparent;
+
+}
+
+.table-loader {
+	background: url('./images/loading.gif') center right no-repeat transparent;
+	display: block;
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+}

@@ -1,0 +1,77 @@
+[2014-04-24 02:57:41] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('wireless')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 02:59:03] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('wireframes')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 02:59:12] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('wireframe')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 03:00:47] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('admin')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 03:17:31] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('admin')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 04:09:39] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('solutions')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-24 05:42:28] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /home/acegroup/public_html/app/routes.php(409): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('admin')
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /home/acegroup/public_html/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []

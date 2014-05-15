@@ -1,0 +1,184 @@
+[class^="icon-"],
+[class*="icon-"] {
+  display: inline-block;
+}
+
+.icons-sprite, .icons-icon-aceWaterServices, .icons-icon-aceinfrast, .icons-icon-briefcase-yellow, .icons-icon-briefcase, .icons-icon-civilservices, .icons-icon-electInfrast, .icons-icon-envelope-yellow, .icons-icon-envelope, .icons-icon-environmental, .icons-icon-group-yellow, .icons-icon-group, .icons-icon-home-yellow, .icons-icon-home, .icons-icon-landscapeservices, .icons-icon-monitorCheck-yellow, .icons-icon-monitorCheck, .icons-icon-next-w, .icons-icon-next, .icons-icon-prev {
+  background: url('../i/icons-s54afa59aa1.png') no-repeat;
+}
+
+.icons-icon-aceWaterServices {
+  background-position: 0 -137px;
+}
+
+.icons-icon-aceinfrast {
+  background-position: 0 0;
+}
+
+.icons-icon-briefcase-yellow {
+  background-position: 0 -372px;
+}
+
+.icons-icon-briefcase {
+  background-position: 0 -387px;
+}
+
+.icons-icon-civilservices {
+  background-position: 0 -178px;
+}
+
+.icons-icon-electInfrast {
+  background-position: 0 -221px;
+}
+
+.icons-icon-envelope-yellow {
+  background-position: 0 -337px;
+}
+
+.icons-icon-envelope {
+  background-position: 0 -348px;
+}
+
+.icons-icon-environmental {
+  background-position: 0 -45px;
+}
+
+.icons-icon-group-yellow {
+  background-position: 0 -264px;
+}
+
+.icons-icon-group {
+  background-position: 0 -280px;
+}
+
+.icons-icon-home-yellow {
+  background-position: 0 -324px;
+}
+
+.icons-icon-home {
+  background-position: 0 -359px;
+}
+
+.icons-icon-landscapeservices {
+  background-position: 0 -92px;
+}
+
+.icons-icon-monitorCheck-yellow {
+  background-position: 0 -296px;
+}
+
+.icons-icon-monitorCheck {
+  background-position: 0 -310px;
+}
+
+.icons-icon-next-w {
+  background-position: 0 -444px;
+}
+
+.icons-icon-next {
+  background-position: 0 -423px;
+}
+
+.icons-icon-prev {
+  background-position: 0 -402px;
+}
+
+.icon-civilservices {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -218px;
+}
+
+.icon-electInfrast {
+  width: 47px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -271px;
+}
+
+.icon-civilservices {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -218px;
+}
+
+.icon-landscapeservices {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -112px;
+}
+
+.icon-aceinfrast {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 0;
+}
+
+.icon-prev {
+  width: 11px;
+  height: 21px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -562px;
+}
+
+.icon-next {
+  width: 11px;
+  height: 21px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -593px;
+}
+
+.icon-next-w {
+  width: 8px;
+  height: 14px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -624px;
+}
+
+.icon-environmental {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -55px;
+}
+
+.icon-aceWaterServices {
+  width: 59px;
+  height: 43px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -167px;
+}
+
+.icon-home {
+  margin-bottom: -2px;
+  width: 15px;
+  height: 14px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -489px;
+}
+
+.icon-monitorCheck {
+  margin-bottom: -2px;
+  width: 16px;
+  height: 14px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -400px;
+}
+
+.icon-group {
+  margin-bottom: -3px;
+  width: 14px;
+  height: 16px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -350px;
+}
+
+.icon-briefcase {
+  margin-bottom: -2px;
+  width: 16px;
+  height: 15px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -537px;
+}
+
+.icon-envelope {
+  margin-top: -1px;
+  width: 16px;
+  height: 10px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -468px;
+}
+.icon-chevron{
+  width: 30px;
+  height: 30px;
+  background: url('../i/icons-s92e917c2eb.png') 0 -665px;
+}

@@ -1,0 +1,142 @@
+[2014-04-04 08:58:53] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(376): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('settings')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-04 08:58:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\HttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:682
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Foundation\Application->abort(403)
+#1 /Users/Designer/Sites/gytbo/app/modules/settings/filters.php(5): Illuminate\Support\Facades\Facade::__callStatic('abort', Array)
+#2 /Users/Designer/Sites/gytbo/app/modules/settings/filters.php(5): Illuminate\Support\Facades\App::abort(403)
+#3 [internal function]: App\Modules\ServiceProvider->{closure}(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(159): call_user_func_array(Object(Closure), Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(100): Illuminate\Routing\Route->callFilter('manage_settings...', Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(43): Illuminate\Routing\Route->callBeforeFilters(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-04-04 08:59:24] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(376): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('admin')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-04-04 09:04:40] log.ERROR: exception 'ErrorException' with message 'Undefined variable: password' in /Users/Designer/Sites/gytbo/app/storage/views/9509356a15992d737202ffb5a8d0fc91:8
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/storage/views/9509356a15992d737202ffb5a8d0fc91(8): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/Designer...', 8, Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/Users/Designer...')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/Designer...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/Users/Designer...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /Users/Designer/Sites/gytbo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(58): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2014-04-04 11:09:59] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:10:02] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:16:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:46:27] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:46:56] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php:326
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php(326): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/Users/Designer...', 326, Array)
+#1 /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php(19): TaxSummary->doCalculate()
+#2 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormSummaryController.php(11): TaxSummary->__construct(Object(UserTaxYear))
+#3 [internal function]: App\Modules\TaxForm\TaxFormSummaryController->getIndex(Object(UserTaxYear))
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(UserTaxYear))
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-04-04 11:47:07] log.ERROR: exception 'ErrorException' with message 'Trying to get property of non-object' in /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php:326
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php(326): Illuminate\Exception\Handler->handleError(8, 'Trying to get p...', '/Users/Designer...', 326, Array)
+#1 /Users/Designer/Sites/gytbo/app/libraries/taxform/TaxSummary.php(19): TaxSummary->doCalculate()
+#2 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormSummaryController.php(11): TaxSummary->__construct(Object(UserTaxYear))
+#3 [internal function]: App\Modules\TaxForm\TaxFormSummaryController->getIndex(Object(UserTaxYear))
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(UserTaxYear))
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2014-04-04 11:48:54] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:48:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-04-04 11:48:55] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []

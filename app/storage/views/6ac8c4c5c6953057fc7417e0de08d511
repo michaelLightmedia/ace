@@ -1,0 +1,76 @@
+
+<?php $__env->startSection('section-top'); ?>
+  <div class="navbar-left">
+    <h1 class="page-title">
+      <span>Posts</span>
+    </h1>
+    <?php echo $lists->search_box(); ?>
+  </div>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+  <div class="section--top">
+    <div class="section-left">
+      <ul class="action-list">
+          <li>
+            <a href="<?php echo URL::to('admin/testimonial/create'); ?>" class="btn btn-success">
+              <i class="fa fa-plus mr-5px"></i>
+              <span>Add New</span>
+            </a>
+          </li>
+          <li>
+            <a onclick="cskAdmin.BootrstrapAlert.xdelete('admin/testimonial/delete', 'Group buy');return false;" class="delete-post btn btn-default">
+              <i class="fa fa-trash-o"></i>
+              <span>Delete</span>
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="section-right">
+      <ul class="action-list">
+        <li>
+          <div class="selectpicker-sm">
+            <?php echo $lists->records_per_page(); ?>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+	<?php echo Site::system_messages(); ?>
+
+    <div class="section section--box mt-58px">
+      <div class="row">
+      	<?php echo Form::open(array('url' => 'admin/dashboard', 'method' => 'GET')); ?>
+        <div class="section section--offset">
+
+            <div class="table-actions">
+              <div class="table-action-left">
+                <div class="table-results">
+                     <?php echo $lists->pagination_info(); ?>
+                  </div>
+              </div>
+            </div>
+
+            <?php echo $lists->prepare_items(); ?>
+            <?php echo $lists->display(); ?>
+          <div class="table-actions">
+            <div class="table-action-left">
+              <div class="table-results">
+                <?php echo $lists->pagination_info(); ?>
+              </div>
+            </div>
+            <div class="table-action-right">
+              <?php echo $lists->pagination(); ?>
+            </div>
+          </div>
+        </div>
+        <?php echo Form::close(); ?>
+      </div>
+    </div>
+
+  <script>
+    $(function(){
+      tableHelper.init("<?php echo URL::to('admin/testimonials'); ?>");
+    })
+  </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.back', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

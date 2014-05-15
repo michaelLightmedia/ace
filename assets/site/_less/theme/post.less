@@ -1,0 +1,172 @@
+.post {
+    .post-title {
+        font-size: 14px;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0 0 12px;
+
+        a {
+            color: #000000;     
+
+            &:hover {
+                color: #EDAF2C;
+            }       
+        }
+    }
+    p {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 0;
+
+        a {
+            display: inline;
+            color: #bf8509;
+        }
+    }
+
+    a {
+        display: block;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+.post-block {
+    position: relative;
+
+
+    .post-title {
+        margin: 0 0 3px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fdbb2f;
+    }
+
+
+    .post-content {
+        background: rgba(0, 0, 0, 0.73);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 10px 12px 9px;
+        box-sizing: border-box;
+
+        p {
+            margin: 0;
+            font-size: 12px;
+            color: #fff;
+        }
+
+    }
+
+
+}
+
+.post-default {
+    .post-img {
+        margin-bottom: 20px;
+    }
+}
+
+.post-box {
+    border: 1px solid #eeeeee;
+    background: url('../i/pat-2.png');
+    padding: 5px;
+    margin-bottom: 20px;
+
+    .post-inner {
+        border: 1px solid #eeeeee;
+        background-color: #fff;
+    }
+    .post-content {
+        padding: 12px;
+    }
+    .post-title {
+        .clearfix;
+        font-size: 14px;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0 0 12px;
+
+        span {
+            padding-top: 4px;
+            display: block;
+            float: left;
+        }
+
+        a {
+            color: #000000;     
+
+            &:hover {
+                color: #EDAF2C;
+            }       
+        }
+
+        .post-link {
+            background: #EDAF2C;
+            padding: 4px;
+            height: 21px;
+            display: inline-block;
+            float: right;
+        }
+    }
+
+    
+}
+
+.post-testimonial {
+    border-bottom: 1px solid #FEECC5;
+    box-shadow: #AC7F20 0 1px 0;
+    margin-bottom: 13px;
+    padding-bottom: 13px;
+
+    .col-xs-4,
+    .col-xs-8 {
+        padding-top: 5px;
+    }
+
+    .copy {
+        padding-bottom: 3em;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    &:last-child {
+        border: 0;
+        box-shadow: none;
+        padding-bottom: 0;
+        margin-bottom: ;
+    }
+    .avatar{
+        @media (max-width: @mobile-size){}
+    }
+}
+
+.post-spread {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #a0a0a0;
+
+    .post-title {
+        font-size: 18px;
+        text-transform: none;
+    }
+
+    .post-body {
+        padding-bottom: 20px;
+    }
+
+    .post-img {
+        border: 1px solid #d6d6d6;
+        width: 90px;
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+    @media (max-width: @mobile-size-l){
+        .post-title{
+            
+        }
+    }
+
+}

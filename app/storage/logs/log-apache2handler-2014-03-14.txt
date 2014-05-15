@@ -1,0 +1,156 @@
+[2014-03-14 15:29:52] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(434): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('register')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-14 15:34:14] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ';' or '{'' in /Users/Designer/Sites/gytbo/app/modules/user/controllers/UserController.php:1779
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-14 15:34:28] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ';' or '{'' in /Users/Designer/Sites/gytbo/app/modules/user/controllers/UserController.php:1779
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-14 15:43:39] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ';' or '{'' in /Users/Designer/Sites/gytbo/app/modules/user/controllers/UserController.php:1779
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-14 15:44:38] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '}', expecting ';' or '{'' in /Users/Designer/Sites/gytbo/app/modules/user/controllers/UserController.php:1779
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-14 15:50:21] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(434): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('register')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-14 15:50:25] log.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'Class 'App\Modules\User\View' not found' in /Users/Designer/Sites/gytbo/app/modules/user/controllers/UserController.php:1780
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2014-03-14 15:50:42] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "signup" as such route does not exist.' in /Users/Designer/Sites/gytbo/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('signup', Array, true)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(809): Illuminate\Routing\UrlGenerator->route('signup')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(766): Illuminate\Html\FormBuilder->getRouteAction('signup')
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(109): Illuminate\Html\FormBuilder->getAction(Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Html\FormBuilder->open(Array)
+#5 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Form::open(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/Users/Designer...')
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/Designer...', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/Users/Designer...', Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#12 /Users/Designer/Sites/gytbo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getSignup', Object(Illuminate\View\View))
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getSignup', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-14 15:51:16] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "signup" as such route does not exist.' in /Users/Designer/Sites/gytbo/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('signup', Array, true)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(809): Illuminate\Routing\UrlGenerator->route('signup')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(766): Illuminate\Html\FormBuilder->getRouteAction('signup')
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(109): Illuminate\Html\FormBuilder->getAction(Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Html\FormBuilder->open(Array)
+#5 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Form::open(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/Users/Designer...')
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/Designer...', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/Users/Designer...', Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#12 /Users/Designer/Sites/gytbo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getSignup', Object(Illuminate\View\View))
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getSignup', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-14 15:51:42] log.ERROR: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Unable to generate a URL for the named route "signup" as such route does not exist.' in /Users/Designer/Sites/gytbo/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(192): Symfony\Component\Routing\Generator\UrlGenerator->generate('signup', Array, true)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(809): Illuminate\Routing\UrlGenerator->route('signup')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(766): Illuminate\Html\FormBuilder->getRouteAction('signup')
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php(109): Illuminate\Html\FormBuilder->getAction(Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Html\FormBuilder->open(Array)
+#5 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Facade::__callStatic('open', Array)
+#6 /Users/Designer/Sites/gytbo/app/storage/views/492a6d5e3f0e08d9d833180afadf6461(7): Illuminate\Support\Facades\Form::open(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/Users/Designer...')
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/Designer...', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/Users/Designer...', Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#12 /Users/Designer/Sites/gytbo/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Illuminate\View\View))
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Illuminate\View\View))
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Illuminate\View\View), Object(Illuminate\Http\Request))
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getSignup', Object(Illuminate\View\View))
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getSignup', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-14 15:51:52] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(434): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('signup')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-14 17:34:24] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(434): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('register')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []
+[2014-03-14 17:35:51] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(434): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('register')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []

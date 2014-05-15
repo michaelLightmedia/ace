@@ -1,0 +1,45 @@
+
+<?php $__env->startSection('section-top'); ?>
+<!-- Main Content -->
+<div class="section section--top">
+	<div class="pull-left">
+		<h1 class="h3 section__title">
+			<i class="fa fa-cog fa-spin mr-5px"></i>
+			<span>Settings</span>
+		</h1>
+	</div>
+</div>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+	<?php echo Gy::system_messages(); ?>
+	<div class="section">
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				<div class="list-group list-group--2nd">
+					<a href="<?php echo URL::to('admin/settings/general'); ?>" id="general" class="list-group-item active">
+						<i class="fa fa-cog mr-5px"></i>
+						Site Settings
+					</a>
+					<a href="<?php echo URL::to('admin/settings/user'); ?>" id="user" class="list-group-item">
+						<i class="fa fa-user mr-5px"></i>
+						User Role
+					</a>
+				</div>
+			</div>
+            <div class="col-lg-9 col-md-8">
+			    <?php echo $__env->yieldContent('sub-content'); ?>
+            </div>
+		</div>
+	</div>
+
+<script>
+  $('.list-group .list-group-item').removeClass('active');
+  <?php if(Request::segment(3) != '' ): ?>
+    $('#<?php echo Request::segment(3); ?>').addClass('active');
+  <?php else: ?>
+    $('.list-group .list-group-item:eq(0)').addClass('active');
+  <?php endif; ?>
+</script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.back', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

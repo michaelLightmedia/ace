@@ -1,0 +1,101 @@
+// this file is compile with compass.
+
+@import "compass/utilities/sprites";
+
+[class^="icon-"],
+[class*="icon-"] {
+	display: inline-block;
+}
+
+$icon-layout:horizontal;
+@import "icons/*.png";
+@include all-icons-sprites;
+$icons: sprite-map("icons/*.png", $spacing: 10px);
+
+.icon-civilservices {  	
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-civilservices);
+}
+
+.icon-electInfrast {
+	width: 47px;
+	height: 43px;
+	background: sprite($icons, icon-electInfrast);
+}
+.icon-civilservices {
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-civilservices);
+}
+.icon-landscapeservices {
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-landscapeservices);
+}
+.icon-aceinfrast {
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-aceinfrast);
+}
+.icon-prev {
+	width: 11px;
+	height: 21px;
+	background: sprite($icons, icon-prev);
+}
+
+.icon-next {
+	width: 11px;
+	height: 21px;
+	background: sprite($icons, icon-next);
+}
+.icon-next-w {
+	width: 8px;
+	height: 14px;
+	background: sprite($icons, icon-next-w);
+}
+
+.icon-environmental {
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-environmental);
+}
+
+.icon-aceWaterServices {
+	width: 59px;
+	height: 43px;
+	background: sprite($icons, icon-aceWaterServices);
+}
+
+
+
+.icon-home {
+	margin-bottom: -2px;
+	width: 15px;
+	height: 14px;
+	background: sprite($icons, icon-home);
+}
+.icon-monitorCheck {
+	margin-bottom: -2px;
+	width: 16px;
+	height: 14px;
+	background: sprite($icons, icon-monitorCheck);
+}
+.icon-group {
+	margin-bottom: -3px;
+	width: 14px;
+	height: 16px;
+	background: sprite($icons, icon-group);
+}
+.icon-briefcase {
+	margin-bottom: -2px;
+	width: 16px;
+	height: 15px;
+	background: sprite($icons, icon-briefcase);
+}
+.icon-envelope {
+	margin-top: -1px;
+	width: 16px;
+	height: 10px;
+	background: sprite($icons, icon-envelope);
+}

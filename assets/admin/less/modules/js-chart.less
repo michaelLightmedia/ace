@@ -1,0 +1,224 @@
+
+.bar-chart {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+    background: #eee;
+}
+
+.border-head  {
+    h3 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        font-weight: normal;
+        font-size: 18px;
+        display: inline-block;
+        width: 100%;
+        font-weight: 300;
+    }
+}
+
+.custom-bar-chart {
+    height: 305px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px dashed #c9cdd7;
+    
+    .bar {
+        height: 100%;
+        position: relative;
+        width: 4.3%;
+        margin: 20px 2%;
+        float: left;
+        text-align: center;
+        border-radius: 4px;
+        z-index: 10;
+
+        .title {
+            position: absolute;
+            top: -50px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .value {
+            position: absolute;
+            bottom: 0;
+            background: #9ec0ce;
+            color: #d2d2d2;
+            width: 100%;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            -webkit-transition: all .3s ease;
+            -moz-transition: all .3s ease;
+            -ms-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            
+            &:hover {
+                background: #638694;
+                color: #fff;
+            }
+            
+            &:before {
+                border-top: 5px solid #eee;
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                top: -5px;
+                left: 0;
+            }
+        }
+
+        .dotted {
+            .title {
+                top: -42px;
+                font-size: 10px;
+            }
+
+            &:before {
+                background: #d2d2d2;
+                content: "";
+                height: 8px;
+                left: 50%;
+                margin-left: -3px;
+                margin-top: -25px;
+                position: absolute;
+                width: 8px;
+                z-index: -1;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                margin-top: -10px;
+                left: 50%;
+                margin-left: 0;
+                height: 100%;
+                width: 1px;
+                background: transparent;
+                border-left: 1px dashed #d6d9e0;
+            }
+        }
+        
+        &:before {
+            background:#d2d2d2;
+            border-radius: 50%;
+            content: "";
+            height: 10px;
+            left: 50%;
+            margin-left: -5px;
+            margin-top: -26px;
+            position: absolute;
+            width: 10px;
+            z-index: -1;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            margin-top: -10px;
+            left: 50%;
+            margin-left: -1px;
+            height: 100%;
+            width: 1px;
+            background: #d2d2d2;
+        }
+    }
+}
+
+
+
+/*spark line*/
+.chart {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+    .heading {
+        text-align: left;
+        
+        span {
+            display: block;
+        }
+    }
+}
+.panel.green-chart .chart-tittle {
+    font-size: 16px;
+    padding: 15px;
+    display: inline-block;
+    font-weight:normal;
+    background: #99c262;
+    width: 100%;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#barchart {
+    margin-bottom: -15px;
+    display: inline-block;
+}
+
+.chart-tittle .title {
+
+}
+
+.panel.green-chart .chart-tittle .value {
+    float: right;
+    color: #c0f080;
+}
+
+.panel.green-chart {
+    background: #a9d96c;
+    color: #fff;
+}
+
+.panel.terques-chart {
+    background: #41cac0;
+    color: #fff;
+}
+
+.panel.terques-chart .chart-tittle .value {
+    float: right;
+    color: #fff;
+}
+
+.panel.terques-chart .chart-tittle .value a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.panel.terques-chart .chart-tittle .value a:hover, .panel.terques-chart .chart-tittle .value a.active {
+    color: #55f2e7;
+    font-size: 12px;
+}
+
+.panel.terques-chart .chart-tittle {
+    font-size: 16px;
+    padding: 15px;
+    display: inline-block;
+    font-weight:normal;
+    background: #39b7ac;
+    width: 100%;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/**/
+
+.panel-body.chart-texture {
+    background: url("../img/chart-texture.jpg");
+    -webkit-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+

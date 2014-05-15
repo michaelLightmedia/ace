@@ -1,0 +1,1539 @@
+[2014-03-31 04:00:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 04:00:58] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 15:23:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 15:23:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 15:23:37] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 07:41:57] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 07:46:35] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:04:03] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:06:19] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:19:00] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:20:07] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 16:20:58] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `gy_tax_...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `gy_tax_...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#9 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#10 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: update `gy_tax_address` set `updated_at` = ?, `home_is_postal` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-03-31 16:20:58',
+  1 => '',
+  2 => '1',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `gy_tax_...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#8 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#9 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-03-31 16:21:00] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `gy_tax_...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `gy_tax_...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#9 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#10 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: update `gy_tax_address` set `updated_at` = ?, `home_is_postal` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-03-31 16:21:00',
+  1 => '',
+  2 => '1',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `gy_tax_...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#8 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#9 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-03-31 16:26:39] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `gy_tax_...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `gy_tax_...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#9 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#10 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: update `gy_tax_address` set `updated_at` = ?, `home_is_postal` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-03-31 16:26:39',
+  1 => '',
+  2 => '1',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `gy_tax_...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#8 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#9 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-03-31 16:26:41] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:351
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(351): PDO->prepare('update `gy_tax_...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'update `gy_tax_...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#8 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#9 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#10 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#13 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#14 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#20 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#21 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: update `gy_tax_address` set `updated_at` = ?, `home_is_postal` = ? where `id` = ?) (Bindings: array (
+  0 => '2014-03-31 16:26:41',
+  1 => '',
+  2 => '1',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'update `gy_tax_...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(356): Illuminate\Database\Connection->run('update `gy_tax_...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(301): Illuminate\Database\Connection->affectingStatement('update `gy_tax_...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1456): Illuminate\Database\Connection->update('update `gy_tax_...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(277): Illuminate\Database\Query\Builder->update(Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1196): Illuminate\Database\Eloquent\Builder->update(Array)
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1132): Illuminate\Database\Eloquent\Model->performUpdate(Object(Illuminate\Database\Eloquent\Builder))
+#7 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#8 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#9 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#12 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#13 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#19 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#20 {main} [] []
+[2014-03-31 16:31:06] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:06',
+  13 => '2014-03-31 16:31:06',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:08] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:08',
+  13 => '2014-03-31 16:31:08',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:09] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:09',
+  13 => '2014-03-31 16:31:09',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:10] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:10',
+  13 => '2014-03-31 16:31:10',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:10] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:10',
+  13 => '2014-03-31 16:31:10',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:11] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:11',
+  13 => '2014-03-31 16:31:11',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:12] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:12',
+  13 => '2014-03-31 16:31:12',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:19] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:19',
+  13 => '2014-03-31 16:31:19',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:25] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:25',
+  13 => '2014-03-31 16:31:25',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:26] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:26',
+  13 => '2014-03-31 16:31:26',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:30] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:30',
+  13 => '2014-03-31 16:31:30',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:32] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:32',
+  13 => '2014-03-31 16:31:32',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:32] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:32',
+  13 => '2014-03-31 16:31:32',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:33] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:33',
+  13 => '2014-03-31 16:31:33',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:33] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:33',
+  13 => '2014-03-31 16:31:33',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 16:31:53] log.ERROR: exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list'' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:331
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(331): PDO->prepare('insert into `gy...')
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(521): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'insert into `gy...', Array)
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#6 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#11 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#12 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#13 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#14 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#17 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#18 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#24 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#25 {main}
+
+Next exception 'Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'home_is_postal' in 'field list' (SQL: insert into `gy_tax_address` (`user_tax_year_id`, `postal_address_1`, `postal_address_2`, `postal_post_code`, `postal_suburb`, `postal_state`, `home_is_postal`, `home_address_1`, `home_address_2`, `home_post_code`, `home_suburb`, `home_state`, `updated_at`, `created_at`) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) (Bindings: array (
+  0 => '5',
+  1 => 'asdfsad',
+  2 => '',
+  3 => '3432',
+  4 => '34324',
+  5 => 'NSW',
+  6 => '',
+  7 => 'fdsafdsaf',
+  8 => '',
+  9 => '1234',
+  10 => 'dsfdsafdasf',
+  11 => 'NSW',
+  12 => '2014-03-31 16:31:53',
+  13 => '2014-03-31 16:31:53',
+))' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php:556
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(529): Illuminate\Database\Connection->handleQueryException(Object(PDOException), 'insert into `gy...', Array)
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(332): Illuminate\Database\Connection->run('insert into `gy...', Array, Object(Closure))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Connection.php(289): Illuminate\Database\Connection->statement('insert into `gy...', Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Processors/Processor.php(30): Illuminate\Database\Connection->insert('insert into `gy...', Array)
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(1441): Illuminate\Database\Query\Processors\Processor->processInsertGetId(Object(Illuminate\Database\Query\Builder), 'insert into `gy...', Array, 'id')
+#5 [internal function]: Illuminate\Database\Query\Builder->insertGetId(Array, 'id')
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(774): call_user_func_array(Array, Array)
+#7 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->__call('insertGetId', Array)
+#8 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1259): Illuminate\Database\Eloquent\Builder->insertGetId(Array, 'id')
+#9 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1229): Illuminate\Database\Eloquent\Model->insertAndSetId(Object(Illuminate\Database\Eloquent\Builder), Array)
+#10 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1140): Illuminate\Database\Eloquent\Model->performInsert(Object(Illuminate\Database\Eloquent\Builder))
+#11 /Users/Designer/Sites/gytbo/app/modules/tax/models/UserTaxDetail.php(144): Illuminate\Database\Eloquent\Model->save()
+#12 /Users/Designer/Sites/gytbo/app/modules/taxform/controllers/TaxFormController.php(47): UserTaxDetail::saveData()
+#13 [internal function]: App\Modules\TaxForm\TaxFormController->postIndex()
+#14 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#15 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#16 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#17 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#18 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#19 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#20 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#21 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#23 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#24 {main} [] []
+[2014-03-31 08:41:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:41:51] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:42:50] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:43:36] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:50:18] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:51:29] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:52:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:52:47] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:52:56] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:56:17] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 08:56:26] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 09:01:10] log.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2014-03-31 23:44:05] log.ERROR: exception 'Illuminate\Database\Eloquent\ModelNotFoundException' in /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php:121
+Stack trace:
+#0 /Users/Designer/Sites/gytbo/app/routes.php(376): Illuminate\Database\Eloquent\Builder->firstOrFail()
+#1 [internal function]: {closure}('feedback')
+#2 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#3 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#4 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#5 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /Users/Designer/Sites/gytbo/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(506): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /Users/Designer/Sites/gytbo/index.php(50): Illuminate\Foundation\Application->run()
+#8 {main} [] []

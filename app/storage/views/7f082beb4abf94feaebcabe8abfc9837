@@ -1,0 +1,81 @@
+
+<?php $__env->startSection('section-top'); ?>
+  <div class="section section--top">
+    <div class="pull-left mr-15px">
+      <h1 class="h3 section__title">
+        <i class="fa fa-group mr-5px"></i>
+        <span>Members</span>
+      </h1>
+    </div>
+    <div class="pull-left  mr-15px">
+      <a href="<?php echo URL::to('admin/member/0/edit/membership'); ?>" class="btn btn-blue btn-uc btn-sm-2nd mt-5px">
+        <i class="fa fa-plus mr-5px"></i>
+        <span>Add New</span>
+      </a>
+    </div>
+    <div class="pull-left  mr-15px">
+      <?php echo Form::open(array( 'url' => 'admin/members/import', 'files' => true )); ?>
+      <span class="btn btn-success btn-uc btn-sm-2nd mt-5px fileinput-button">
+        <span><i class="fa fa-plus mr-5px"></i><input type="file" name="csv">Browse</span>
+      </span>
+      <button type="submit" class="btn btn-warning btn-uc btn-sm-2nd mt-5px" >Go</button>
+      <?php echo Form::close(); ?>
+    </div>
+    <?php echo $lists->search_box(); ?>
+  </div>
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('content'); ?>
+<!-- Main Content -->
+	<?php echo Gy::system_messages(); ?>
+    <div class="section section--stroke">
+     <div class="pull-left  mr-15px">
+        <a href="#" onclick="cskAdmin.BootrstrapAlert.xdelete('admin/member/delete', 'Member');"  class="delete-membrs btn btn-default">
+          <i class="fa fa-trash-o"></i>
+          <span>Delete</span>
+        </a>
+      </div>
+      <div class="pull-left">
+        <div class="selectpicker-m">
+          <select onchange="cskAdmin.BootrstrapAlert.xActivate(this, 'admin/member/activate', 'Member');"  class="selectpicker" id="status" name="status">
+            <option value="-1">Bulk Action</option>
+            <option value="1">Active</option>
+            <option value="0">Inactive</option>
+          </select>
+        </div>
+      </div>
+      
+      
+
+      <div class="pull-right">
+        <div class="selectpicker-sm">
+          <?php echo $lists->records_per_page(); ?>
+        </div>
+      </div>
+    </div>
+    <div class="section section--box">
+      <div class="row">
+      	<?php echo Form::open(array('url' => 'admin/members', 'method' => 'GET')); ?>
+        <div class="section section--offset">
+            <?php echo $lists->prepare_items(); ?>
+            <?php echo $lists->display(); ?>
+          
+          <div class="pull-left">
+            <div class="table-results">
+              <?php echo $lists->pagination_info(); ?>
+            </div>
+          </div>
+          <div class="pull-right">    
+            <?php echo $lists->pagination(); ?>
+          </div>
+        </div>
+        <?php echo Form::close(); ?>
+      </div>
+    </div>
+
+  <script>
+    $(function(){
+      tableHelper.init("<?php echo URL::to('admin/members'); ?>");
+    })
+  </script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.back', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
