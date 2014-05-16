@@ -97,32 +97,32 @@ Route::get('/thankyou', function()
 });
 
 
-Route::get('/projects', function()
-{
-	return View::make('front.projects');
-});
+// Route::get('/projects', function()
+// {
+// 	return View::make('front.projects');
+// });
 
 
-Route::get('/company', function()
-{
-	return View::make('front.company');
-});
+// Route::get('/company', function()
+// {
+// 	return View::make('front.company');
+// });
 
 
-Route::get('/contact', function()
-{
-	return View::make('front.contact');
-});
+// Route::get('/contact', function()
+// {
+// 	return View::make('front.contact');
+// });
 
 Route::get('/tenders', function()
 {
 	return View::make('front.tenders');
 });
 
-Route::get('/people', function()
-{
-	return View::make('front.people');
-});
+// Route::get('/people', function()
+// {
+// 	return View::make('front.people');
+// });
 
 Route::get('/policies', function()
 {
@@ -351,8 +351,8 @@ Route::any('{post_type}', function($post_type)
 
 
 
-Route::get( '/contact-us', 'SiteController@getContactUs');
-Route::post( '/contact-us', 'SiteController@postContactUs');
+//Route::get( '/contact-us', 'SiteController@getContactUs');
+//Route::post( '/contact-us', 'SiteController@postContactUs');
 
 Route::any('{guid}',function($guid){
 	$post 	= \PPost::where('guid', $guid)->firstOrFail();
@@ -368,9 +368,10 @@ Route::any('{guid}',function($guid){
 
         //$arrPost['post_content']  = str_replace('[contact_form param1="hello" param2="3"]', 'Hello World', $arrPost['post_content']);
         $arrPost['post-media'] = Site::postFeatureMedia($post::mediaAttachment($arrPost['id'], 'large'));
+		$template = isset($arrPost['page_template']) ? $arrPost['page_template'] : 'default-template' ;
 
-        return View::make('front.single')
-            ->with('page', $arrPost);
+		return View::make('templates.'.$template)
+			->with('page', $arrPost);
     }
 });
 

@@ -128,7 +128,7 @@
 					</header>
 					<div class="panel__content">
 						<div class="pull-left selectpicker-full">
-							{{ Form::select('meta[page_template]',Site::getPageTemplate(),  (isset($post['page_template'])) ? $post['page_template'] : null, array('class' => 'selectpicker')) }}
+							{{ Form::select('meta[page_template]',Site::getPageTemplate(),  (isset($post['page_template'])) ? $post['page_template'] : 'default', array('class' => 'selectpicker')) }}
 						</div>
 					</div>
 				</div>

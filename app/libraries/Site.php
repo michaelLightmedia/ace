@@ -455,7 +455,7 @@ class Site
 	 *@param user_id, points
 	 *@return BOOL
 	 */
-	public static function gy_nav_menu( $arr = array() )
+	public static function site_nav_menu( $arr = array() )
 	{
 		extract($arr);
 
@@ -524,7 +524,7 @@ class Site
 							'menu'		=> isset($menu) ? $menu : null,
 						);
 
-						self::gy_nav_menu($default);
+						self::site_nav_menu($default);
 					}
 
 

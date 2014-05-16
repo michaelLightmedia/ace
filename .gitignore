@@ -1,3 +1,4 @@
 app/config/database.php
 .htaccess
 app/storage/views/
+app/storage/cache/
