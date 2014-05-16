@@ -75,7 +75,7 @@ class WidgetController extends \BaseController
 								'_widget_item_object_id' 	=> $item_obj_Id,
 								'_widget_item_object'		=> $item_obj,
 								'_widget_item_type'		=> $item_type,
-								//'_widget_item_url'		=> $item_url != '#' && $item_url != '' ? \Gy::addhttp($item_url) : '#',
+								//'_widget_item_url'		=> $item_url != '#' && $item_url != '' ? \Site::addhttp($item_url) : '#',
 							)
 						);
 
@@ -214,7 +214,7 @@ class WidgetController extends \BaseController
 							'meta'				=> array(
 								'_widget_item_classes'	=> serialize($item_classes),
 								'_widget_item_target'		=> $item_target,
-								'_widget_item_url'		=> $item_url == '#' ? $item_url :\Gy::addhttp($item_url),
+								'_widget_item_url'		=> $item_url == '#' ? $item_url :\Site::addhttp($item_url),
 							)
 						);
 
