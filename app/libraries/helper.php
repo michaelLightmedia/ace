@@ -1982,3 +1982,51 @@ function the_segments() {
 
      return $segments;
 }
+
+
+
+
+
+global $short_codes;
+
+
+function the_content( $content ) {
+
+    global $short_codes;
+
+    // $name = 'hello [hello_kitty param="sdfas" param2=\'dfas\' hell="dfadsf"], how good is today';
+
+
+    // $name = "My name is [yourname param1='serg' param2='casquejo'] ";
+
+    preg_match( '/\[(.*?)\]/', $content, $match );
+
+    if( $match ) {
+
+        $short_code = explode( " " , $match[1] );
+
+
+        $params = array();
+        for( $i = 1; $i < count( $short_code ); $i++ ) {
+
+            $paramStr = explode( "=", preg_replace('/(\'|")/','', $short_code[$i] ) );
+
+            $params[$paramStr[0]] = $paramStr[1];
+            
+            
+        }
+
+
+        if( is_callable( $short_codes[$short_code[0]] ) )
+            echo preg_replace( '/\[(.*?)\]/', $short_codes[$short_code[0]]($params), $content );
+    } else {
+        echo $content;
+    }
+
+}
+
+function add_shortcode( $tag, $func ) {
+    global $short_codes;
+
+    $short_codes[$tag] = $func;
+}

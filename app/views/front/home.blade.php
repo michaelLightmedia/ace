@@ -1,7 +1,11 @@
 @extends('layouts.front')
 
 @section('content')
+<?php 
+      $flag = true; 
+      $banners = Site::getBanner('Home');
 
+    ?>
 <div id="main-carousel" class="carousel carousel-main slide" data-ride="carousel">
   <!-- Indicators -->
   <div class="carousel-indicators-wrap">
@@ -9,9 +13,9 @@
       <span class="icon-prev"></span>
     </a>
     <ol class="carousel-indicators">
-      <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#main-carousel" data-slide-to="1"></li>
-      <li data-target="#main-carousel" data-slide-to="2"></li>                
+      @for( $i = 1; $i <= count( $banners ); $i++ )
+      <li data-target="#main-carousel" data-slide-to="{{ $i }}" class="@if( $i == 1 ) active @endif"></li>
+      @endfor               
     </ol>
     <a class="" href="#main-carousel" data-slide="next">
       <span class="icon-next"></span>
@@ -22,8 +26,8 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
 
-    @foreach( Site::getBanner('Home') as $banner )
-        <div class="item @if(key($banner) == 0) active @endif">
+    @foreach( $banners as $banner )
+        <div class="item @if( $flag ) active @endif">
            <img src="{{ $banner['image'] }}" alt="...">
           <div class="carousel-caption">
             <h1 class="carousel-title">{{ $banner['title'] }}</h1>
@@ -36,6 +40,7 @@
 
           </div>
         </div>
+        <?php $flag = false;  ?>
   @endforeach
   </div>
 </div>

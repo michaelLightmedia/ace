@@ -61,6 +61,7 @@ Log::useDailyFiles(storage_path().'/logs/'.$logFile);
 require_once(app_path().'/libraries/helper.php');
 require_once(app_path().'/libraries/util.php');
 require_once(app_path().'/libraries/functions.php');
+require_once(app_path().'/libraries/shortcode.php');
 require_once(app_path().'/libraries/custom-validator.php');
 
 /*

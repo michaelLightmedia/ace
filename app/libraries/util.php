@@ -66,9 +66,9 @@ function get_blog_edit_link($blog_id) {
 
 // Short Code Registration
 
-function add_short_code($short_code_name,$func) {
-    ShortCode::add($short_code_name,$func);
-}
+// function add_short_code($short_code_name,$func) {
+//     ShortCode::add($short_code_name,$func);
+// }
 
 function post_decode($post_text) {
     preg_match_all('/\[([!?a-zA-Z_]+)\s(.+)?.+?\]/i', $post_text, $matches);
