@@ -52,7 +52,7 @@
       <div class="l-content">
         <div class="container">
             @include('layouts.top-nav')
-
+              {{ Site::system_messages() }}
             @yield('content')
 
             @include('layouts.footer')

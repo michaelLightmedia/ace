@@ -1994,10 +1994,6 @@ function the_content( $content ) {
 
     global $short_codes;
 
-    // $name = 'hello [hello_kitty param="sdfas" param2=\'dfas\' hell="dfadsf"], how good is today';
-
-
-    // $name = "My name is [yourname param1='serg' param2='casquejo'] ";
 
     preg_match( '/\[(.*?)\]/', $content, $match );
 
@@ -2017,8 +2013,11 @@ function the_content( $content ) {
         }
 
 
-        if( is_callable( $short_codes[$short_code[0]] ) )
-            echo preg_replace( '/\[(.*?)\]/', $short_codes[$short_code[0]]($params), $content );
+        if( isset( $short_codes[$short_code[0]] ) ) {
+
+            if( is_callable( $short_codes[$short_code[0]] ) )
+                echo preg_replace( '/\[(.*?)\]/', $short_codes[$short_code[0]]($params), $content );
+        }
     } else {
         echo $content;
     }
@@ -2029,4 +2028,47 @@ function add_shortcode( $tag, $func ) {
     global $short_codes;
 
     $short_codes[$tag] = $func;
+}
+
+
+function do_shortcode( $shortcode = false ) {
+    global $short_codes;
+
+
+    preg_match( '/\[(.*?)\]/', $shortcode, $match );
+
+    if( $match ) {
+
+        $short_code = explode( " " , $match[1] );
+
+
+        $params = array();
+        for( $i = 1; $i < count( $short_code ); $i++ ) {
+
+            $paramStr = explode( "=", preg_replace('/(\'|")/','', $short_code[$i] ) );
+
+            $params[$paramStr[0]] = $paramStr[1];
+            
+        }
+
+        if( isset( $short_codes[$short_code[0]] ) ) {
+            if( is_callable( $short_codes[$short_code[0]] ) )
+                echo $short_codes[$short_code[0]]($params);
+        }
+    }
+
+}
+
+function excerpt_content( $content = false, $length = 100, $more_text = '', $is_echo = false ) {
+
+
+    if( strlen($content) > $length) {
+        $content = substr($content, 0, $length).$more_text;
+    }
+
+    if( $is_echo )
+        echo $content;
+    else 
+        return $content;
+
 }

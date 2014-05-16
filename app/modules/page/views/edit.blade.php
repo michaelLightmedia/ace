@@ -153,7 +153,7 @@
 								<div class="form-group">
 									<div class="form-control form-pretty form-offset">
 										<div class="form-url">
-											{{ URL::to('/page') }}/
+											{{ URL::to('/') }}/
 										</div>
 										<div class="form-title">
 											{{ Form::text( 'slug', $post['slug'], array('class' => 'form-control form-pretty')) }}

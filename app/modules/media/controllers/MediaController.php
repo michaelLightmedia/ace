@@ -31,14 +31,18 @@ class MediaController extends \BaseController
 	                	'max_width' => 340,
 	                	'max_height'	=> 195,
 	                ),
-	                'medium' => array(
-	                    'max_width' => 300,
-	                    'max_height' => 147
-	                ),
 	                'thumbnail' => array(
 	                    'max_width' => 80,
 	                    'max_height' => 80
                 	),
+                	'medium' => array(
+	                    'max_width' => 800,
+	                    'max_height' => 600
+	                ),
+	               'project_thumbnail' => array(
+	                    'max_width' => 286,
+	                    'max_height' => 105
+	                ),
                 ),
 			);
 

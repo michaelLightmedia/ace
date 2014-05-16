@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => 'info@lightmedia.com.au', 'name' => 'Gy'),
+	'from' => array('address' => 'info@lightmedia.com.au', 'name' => 'Ace'),
 
 	/*
 	|--------------------------------------------------------------------------

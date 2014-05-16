@@ -149,38 +149,34 @@ class Site
 	}  
 
 
-	/**
+	/** 
 	 * Display sytem message
 	 * @param none
 	 * @return none
 	 */
 
-	public static function system_messages($message_prefix = false)
+	public static function system_messages()
 	{
-        ?>
-
-        <?php
-        $message_prefix = $message_prefix ? $message_prefix . "_" : "";
-
 		//Display single success message
-		if(Session::has($message_prefix . 'success_msg')): ?>
-			<div class="alert alert-small alert-success fade in">
-                <button class="close" aria-hidden="true" data-dismiss="alert" type="button">×</button>
+		if(Session::has('success_msg')): ?>
+			<div class="alert alert-omega alert-small alert-success fade in">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                 <i class="fa fa-check mr-5px"></i>
-               	<?php echo Session::get($message_prefix . 'success_msg'); ?>
+               	<?php echo Session::get('success_msg'); ?>
             </div>
 		<?php endif;
-
 		//Display modal message
-		if (Session::has($message_prefix . 'modal_msg')): ?>
+		if (Session::has('modal_msg')): ?>
 			<noscript>
-	            <div class="alert alert-small alert-danger fade in">
+			<div class="section section--offset-bottom">
+	            <div class="alert alert-omega alert-small alert-danger fade in">
 	                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
 	                <i class="fa fa-info-circle"></i>
 	               	<?php 
-	               	$modalMessage = Session::get($message_prefix . 'modal_msg');
-	               	print_r($modalMessage[$message_prefix . 'message']); ?>
+	               	$modalMessage = Session::get('modal_msg');
+	               	print_r($modalMessage['message']); ?>
 	            </div>
+	        </div>
 	    	</noscript>
 	    	<script>
 	    		$(function(){
@@ -194,16 +190,38 @@ class Site
 
 		<?php endif; 
 		//display error message
-		if (Session::has($message_prefix . 'error_msg')): ?>
-            <div class="alert alert-small alert-danger fade in">
+		if (Session::has('error_msg')): ?>
+			<div class="section section--offset-bottom">
+	            <div class="alert alert-omega alert-small alert-danger fade in">
+	                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+	                <i class="fa fa-info-circle"></i>
+	               	<?php print_r(Session::get('error_msg')); ?>
+	            </div>
+	        </div>
+		<?php endif; 
+		//Display all errors
+		if (Session::has('errors')): 
+			$errors = Session::get('errors');
+	
+		?>
+			
+
+			<div class="alert alert-omega alert-small alert-danger fade in">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                 <i class="fa fa-info-circle"></i>
-               	<?php print_r(Session::get($message_prefix . 'error_msg')); ?>
-            </div>
-		<?php endif;
-        ?>
-		<div id="validator_message"></div>
-<?php
+				Error: Please check fields. <br />
+		               
+               	<?php foreach ($errors as $el => $messages)
+					{
+						foreach($messages as $message)
+						{
+					    	echo $message .'<br />';
+					    }
+					} ?>
+		    </div>
+		<?php			
+		endif;
+		
 	}
 
 
@@ -412,7 +430,7 @@ class Site
 	}
 
 
-	public static function gy_widget( $arr = array() )
+	public static function getWidget( $arr = array() )
 	{
 		extract($arr);
 
@@ -437,12 +455,12 @@ class Site
 		{
 			foreach($resultSet as $k => $result)
 			{
-				echo '<div class="container">';
+				//echo '<div class="container">';
 				if( $showTitle )
 					echo '<h3>'.$result->post_title.'</h3>';
 
 				echo $result->post_content;
-				echo '</div>';
+				//echo '</div>';
 			}
 		}
 
@@ -817,20 +835,7 @@ class Site
 	}
 
 
-	/**
-	 * Get loyalty points lists
-	 *@param none
-	 *@return object
-	 */
-	public static function CSKList()
-	{
-		$resultSet = \DB::table('loyalty_points_settings')
-			->leftJoin('levels', 'loyalty_points_settings.level_id', '=', 'levels.id')
-			->select('loyalty_points_settings.level_id', 'loyalty_points_settings.redeemed', 'loyalty_points_settings.earned', 'levels.name')
-			->get();
 
-		return $resultSet;
-	}
 
 
 	public static function countryNameByCode($code)
@@ -942,56 +947,6 @@ class Site
 	}
 
 
-	public static function logLoyaltyPoints($user_id, $points, $description)
-	{
-		$result = \DB::table('loyalty_points')->insert(array(
-				'user_id' 				=> $user_id,
-				'loyalty_points' 		=> (float)$points,
-				'loyalty_information' 	=> $description,
-				'created_at'			=> date('Y-m-d H:i:s'),
-				));
-
-		return $result;
-	}
-	/**
-	 * Process referral
-	 *@param email
-	 *@return boolean
-	 */
-
-	public static function processReferral( $email )
-	{
-
-		//Check if email is on shared email
-		$sender_id = \DB::table('posts_shared')->where('email', $email)->pluck('user_id');
-
-		if( $sender_id )
-		{
-			//Get earned points of specific level
-			$points = \DB::table('users')
-			->join('referral_settings', 'users.level_id', '=', 'referral_settings.level_id')
-			->where('users.id',$sender_id)
-			->pluck('successfull_referral');
-
-			//save to log
-			$result = self::logLoyaltyPoints($sender_id, $points, 'Successfull Referral to '.$email);
-
-			//check if loyalty points was saved.
-			if($result)
-			{
-				$user = User::find($sender_id);
-
-				$user->points = (float)$user->points + $points;
-				$user->save(); 
-				return true;
-			}
-			
-		}
-
-
-		return false;
-	}
-
 	
 	/**
 	 * Get current page url
@@ -1076,809 +1031,9 @@ class Site
 	  	return $innerHTML;
 	}
 
-	/**
-	 * Get carts
-	 *@param none
-	 *@return array
-	 */
-
-	public static function getCart()
-	{
-
-		$cart = Session::get('cart');
-
 	
 
-		$items 			= array();
-		$_cart 			= array();
-		$subTotal 		= 0;
-		$totalQty 		= 0;
-		$total 			= 0;
-		$totalEarned 	= 0;
-		$totalRedeemable = 0;
-
-		if($cart)
-		{
-
-
-			foreach( $cart as $productCode => $item )
-			{
-				
-				$post = PPost::find($item['post_id']);
-				$arrItem = array();
-
-				if($post->product)
-				{
-					$arrItem = $post->product->toArray();
-				}
-				
-				$arrItem['productEarned'] 	= 0;
-				$arrItem['productRedeemed'] = 0;
-
-				if(Auth::check())
-				{
-					if($userLevel = Level::find(Auth::User()->level_id))
-					{
-						//Get the global points setting by level
-						$globalLoyaltyPoints = LoyaltyPointsSettings::find( Auth::User()->level_id );
-
-						$userLevel = $userLevel->toArray();
-						//Get product total earned points
-						$custEarned = PostMeta::getPostMetaValue(Str::slug($userLevel['name'],'_').'_earned', $post->id);
-						//Get product total redeemed points
-						$custRedeemed = PostMeta::getPostMetaValue(Str::slug($userLevel['name'],'_').'_redeemed', $post->id);
-						//check if product total earned was set.
-						$custEarned =  $custEarned != '' ? $custEarned : $globalLoyaltyPoints->earned;
-						//check if product total redeemed was set.
-						$custRedeemed = $custRedeemed != '' ? $custRedeemed : $globalLoyaltyPoints->redeemed;
-
-						$arrItem['productEarned'] 	= (float)$custEarned * (int)$item['quantity'];
-						$arrItem['productRedeemed'] = (float)$custRedeemed * (int)$item['quantity'];
-					}
-				}
-
-				
-				
-
-				$discount = $arrItem['discount'] != 0 ? $arrItem['discount'] / 100 : 1;
-				$price 	 = $arrItem['sale_price'] == 0 ? $arrItem['price'] : $arrItem['sale_price'];
-
-
-				$payout = (float)$discount * (float)$price;
-
-				$stotal 	= (int)$item['quantity'] * (float)$payout;//$arrItem['sale_price'];
-
-
-				$arrItem['productName'] = $post->post_title;
-				$arrItem['cartQty'] 		= $item['quantity'];
-				$arrItem['productSalePrice'] = $arrItem['sale_price'];
-				$arrItem['productPayout']	= $payout;	
-				$arrItem['productPrice'] 	= $arrItem['price'];
-				$arrItem['productDiscount']	= $arrItem['discount'];
-				$arrItem['productCode']		= $arrItem['productCode'];
-				$arrItem['cartSubTotal'] 	= $stotal;
-				$arrItem['thumbnail']		= Site::postFeatureMediaThumb(PPost::mediaAttachment($arrItem['post_id'], 'thumbnail'));
-				
-				
-
-				$_cart[] = $arrItem;
-				$totalEarned += (float)$arrItem['productEarned'];
-				$totalRedeemable += (float)$arrItem['productRedeemed'];
-				$subTotal += $stotal;
-				$totalQty += (int)$item['quantity']; 
-				
-
-			}
-		}
-		$items['cart'] 		= $_cart;
-		$items['totalQty']	= $totalQty;
-		$items['subTotal'] 	= $subTotal;
-		$items['totalEarned'] = $totalEarned;
-		$items['totalRedeemable'] = $totalRedeemable;
-		$items['custPoints'] = Auth::check() ? $totalRedeemable : 0;
-
-		return $items;
-	}
-
-	public static function getTotalCartItems()
-	{
-		$items  = self::getCart();
-
-		return $items['totalQty'];
-	}
-
-	public static function getCartTotalAmnt()
-	{
-		$items  = self::getCart();
-
-		return $items['subTotal'];
-	}
-
-	public static function getPointsToRedeemed($totalRedeemable)
-	{
-		//$items  = self::getCart();
-		
-		return Auth::User()->points > $totalRedeemable ? $totalRedeemable : Auth::User()->points;
-	}
-
-	/**
-	 * Top navigation cart
-	 *@param none
-	 *@return string
-	 */
-
-	public static function topNavCartItems()
-	{
-		$items  = self::getCart();
-		$innerHTML = '';
-		
-		if( $items['totalQty'] > 0 )
-		{
-			foreach($items['cart'] as $item)
-			{
-	        $innerHTML .= '<li class="product__item">
-	                  <a href="#">
-	                    <img src="'.$item['thumbnail'].'" alt="" class="pull-left product__image mr-10px">
-	                    <span class="product__title">'.$item['productName'].'</span>
-	                    <span class="product__quantity"><strong class="quantity__views">'.$item['cartQty'].'</strong> x <strong class="quantity__price">'.Settings::get('prod_currency_symbol').Sitetbo::formatNumber($item['productSalePrice']).'</strong></span>
-	                  </a>
-	                  <a href="'.URL::to('cart/remove?productCode='.$item['productCode']).'" data-product-code="'.$item['productCode'].'" class="product__remove remove-badge-cart">
-	                    <i class="fa fa-times"></i>
-	                  </a>
-	                </li>';
-
-	        }
-
-	       	$innerHTML .= '<li>
-                  <div class="product__subtotal">
-                  
-                    <div class="pull-right">
-                      <div class="clearfix mb-10px">
-                        <strong class="mr-5px">Subtotal:</strong> 
-                        <span class="price">'.Settings::get('prod_currency_symbol').Sitetbo::formatNumber($items['subTotal']) .'</span>
-                      </div>
-                      <a href="'. URL::to('checkout/step/index') .'" class="btn btn-blue btn-checkout btn-sm pull-right">Checkout</a>
-                    </div>
-                  
-                  </div>
-                </li>';
-     	}
-     	else
-     	{
-     		$innerHTML .= '<li class="product__item"><div class="empty-cart product__empty">Your cart is empty.</div></li>';
-     	}
-
-        return $innerHTML;
-	}
-
-	/**
-	 * Process paypal payment
-	 *@param none
-	 *@return none
-	 */
-
-	public static function process_paypal( $input )
-	{
-
-		$PayPalMode 			= Settings::get('payment_mode');//'sandbox'; // sandbox or live
-		$PayPalApiUsername 		= Settings::get('paypal_api_username');//'philweb.pprogrammer49_api1.gmail.com'; //PayPal API Username
-		$PayPalApiPassword 		= Settings::get('paypal_api_password');//'1386583187'; //Paypal API password
-		$PayPalApiSignature 	= Settings::get('paypal_api_signature');//'AxtNopGeHglMyNcsbCPiF7N2mEu5A.anpdVN73fVvBAkbK4Ct.Y2t-ae'; //Paypal API Signature
-		$PayPalCurrencyCode 	= Settings::get('paypal_currency');//'USD'; //Paypal Currency Code
-		$PayPalReturnURL 		= URL::to('checkout/paypal-return-url'); //Point to process.php page
-		$PayPalCancelURL 		= URL::to('/'); //Cancel URL if 
-
-		$items  = self::getCart();
-
-		$padata = "";
-
-
-		$index = 0;
-
-		
-
-		foreach( $items["cart"] as $item)
-		{
-			$cartQty 	= (int)$item['cartQty'];
-			$itemAmnt 	= $item['productPayout'];//$item['productSalePrice'];
-			$trdmd 		= $item['productRedeemed'];
-
-			$padata .=	"&L_PAYMENTREQUEST_0_QTY$index=".urlencode($cartQty).
-						"&L_PAYMENTREQUEST_0_AMT$index=".urlencode($itemAmnt).
-						"&L_PAYMENTREQUEST_0_NAME$index=".urlencode($item['productName']).
-						"&L_PAYMENTREQUEST_0_NUMBER$index=".urlencode($item['productCode']);
-
-			$index++;
-		}
-
-		$subTotal = $items['subTotal'];
-		$redeemed = 0;
-
-		if(isset($input['usepoints']))
-		{
-			//Get customer points
-			$custPoints = Auth::User()->points;
-
-			
-			$totalRedeemable = $items['totalRedeemable'];
-			//check if csk points is greater than total redeemable points
-			if( $custPoints > $totalRedeemable )
-			{
-				$redeemed = $totalRedeemable;
-				//Deduct totalredeemable to subtotal
-				$subTotal -= $totalRedeemable; 
-			}
-			else
-			{
-				$redeemed = $custPoints;
-				//Deduct totalredeemable to subtotal
-				$subTotal -= $custPoints;
-			}
-
-			$padata .=	"&L_PAYMENTREQUEST_0_AMT$index=-".$redeemed.
-						"&L_PAYMENTREQUEST_0_NAME$index=Loyalty Points";
-		}
-		
-
-		$padata .= 	"&CURRENCYCODE=".urlencode(Settings::get('paypal_currency')).
-					"&PAYMENTACTION=Sale".
-					"&ALLOWNOTE=1".
-					"&PAYMENTREQUEST_0_CURRENCYCODE=".urlencode(Settings::get('paypal_currency')).
-					"&PAYMENTREQUEST_0_AMT=".urlencode($subTotal).
-					"&PAYMENTREQUEST_0_ITEMAMT=0".urlencode($subTotal).
-					"&AMT=".urlencode($subTotal).
-					"&RETURNURL=".urlencode($PayPalReturnURL).
-					"&CANCELURL=".urlencode($PayPalCancelURL);
-
-
-
-		//Check if customer use points
-		if(isset($input['usepoints']))
-		{
-			//Get order
-			$order = Order::find(Session::get('order_number'));
-			//Update order customer points used
-			$order->customer_redeemed_points = $redeemed;
-			$order->save();
-		}
-
-
-		$paypal = new PayPal();
-
-		$httpParsedResponseAr = $paypal->PPHttpPost('SetExpressCheckout', $padata, $PayPalApiUsername, $PayPalApiPassword, $PayPalApiSignature, $PayPalMode);
-
-		//Respond according to message we receive from Paypal
-		if("SUCCESS" == strtoupper($httpParsedResponseAr["ACK"]) || "SUCCESSWITHWARNING" == strtoupper($httpParsedResponseAr["ACK"]))
-		{
-				
-			if($PayPalMode=='sandbox')
-			{
-				$paypalmode 	=	'.sandbox';
-			}
-			else
-			{
-				$paypalmode 	=	'';
-			}
-			//Redirect user to PayPal store with Token received.
-		 	return array('status' => true, 'url' => 'https://www'.$paypalmode.'.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token='.$httpParsedResponseAr["TOKEN"]);
-
-			 
-		}
-		else
-		{
-			return array('status' => false, 'error_msg' => urldecode($httpParsedResponseAr['ACK'].': '.$httpParsedResponseAr['L_LONGMESSAGE0']));
-		}
-	}
-
-
-	public static function process_paypal_rtrn_url()
-	{
-		$PayPalMode 			= Settings::get('payment_mode');//'sandbox'; // sandbox or live
-		$PayPalApiUsername 		= Settings::get('paypal_api_username');//'philweb.pprogrammer49_api1.gmail.com'; //PayPal API Username
-		$PayPalApiPassword 		= Settings::get('paypal_api_password');//'1386583187'; //Paypal API password
-		$PayPalApiSignature 	= Settings::get('paypal_api_signature');//'AxtNopGeHglMyNcsbCPiF7N2mEu5A.anpdVN73fVvBAkbK4Ct.Y2t-ae'; //Paypal API Signature
-		$PayPalCurrencyCode 	= Settings::get('paypal_currency');//'USD'; //Paypal Currency Code
-		$PayPalReturnURL 		= URL::to('checkout/paypal-return-url'); //Point to process.php page
-		$PayPalCancelURL 		= URL::to('/'); //Cancel URL if 
-
-		//Paypal redirects back to this page using ReturnURL, We should receive TOKEN and Payer ID
-		if(isset($_GET["token"]) && isset($_GET["PayerID"]))
-		{
-			//we will be using these two variables to execute the "DoExpressCheckoutPayment"
-			//Note: we haven't received any payment yet.
-			
-			$token 		= $_GET["token"];
-			$playerid 	= $_GET["PayerID"];
-			
-			
-			$padata = 	'&TOKEN='.urlencode($token).
-						'&PAYERID='.urlencode($playerid).
-						'&PAYMENTACTION='.urlencode("SALE").
-						'&AMT='.urlencode(self::getCartTotalAmnt()).
-						'&CURRENCYCODE='.urlencode(Settings::get('paypal_currency'));
-			
-			//We need to execute the "DoExpressCheckoutPayment" at this point to Receive payment from user.
-			$paypal= new PayPal();
-			$httpParsedResponseAr = $paypal->PPHttpPost('DoExpressCheckoutPayment', $padata, $PayPalApiUsername, $PayPalApiPassword, $PayPalApiSignature, $PayPalMode);
-			
-			//Check if everything went ok..
-			if("SUCCESS" == strtoupper($httpParsedResponseAr["ACK"]) || "SUCCESSWITHWARNING" == strtoupper($httpParsedResponseAr["ACK"])) 
-			{
-  
-				$msgHTML = '';
-				$msgHTML .= '<p>Your Transaction ID : <span class="label label-info label-transaction-id">'.urldecode($httpParsedResponseAr["TRANSACTIONID"]).'</span></p>';
-				
-				
-				/*
-				//Sometimes Payment are kept pending even when transaction is complete. 
-				//May be because of Currency change, or user choose to review each payment etc.
-				//hence we need to notify user about it and ask him manually approve the transiction
-				*/
-				
-				$txnid = $httpParsedResponseAr["TRANSACTIONID"];
-				
-				if('Completed' == $httpParsedResponseAr["PAYMENTSTATUS"])
-				{
-					$msgHTML .= '<p>Payment Received! Your product will be sent to you very soon!</p>';
-				}
-				elseif('Pending' == $httpParsedResponseAr["PAYMENTSTATUS"])
-				{
-					$msgHTML .= '<p>Transaction Complete, but payment is still pending! You need to manually authorize this payment in your <a target="_new" href="http://www.paypal.com">Paypal Account</a></p>';
-				}
-
-				$transactionID = urlencode($httpParsedResponseAr["TRANSACTIONID"]);
-				$nvpStr = "&TRANSACTIONID=".$transactionID;
-				$paypal= new PayPal();
-				$httpParsedResponseAr = $paypal->PPHttpPost('GetTransactionDetails', $nvpStr, $PayPalApiUsername, $PayPalApiPassword, $PayPalApiSignature, $PayPalMode);
-
-				if("SUCCESS" == strtoupper($httpParsedResponseAr["ACK"]) || "SUCCESSWITHWARNING" == strtoupper($httpParsedResponseAr["ACK"])) {
-					
-					if(!$payment = Payment::find($txnid))
-					{
-						$payment = new Payment;
-					}
-					
-					$payment->txnid 			= $httpParsedResponseAr["TRANSACTIONID"];
-					$payment->order_number 		= Session::get("order_number");
-					$payment->payment_amount 	= self::getCartTotalAmnt();
-					$payment->payment_status 	= $httpParsedResponseAr["PAYMENTSTATUS"];
-					$payment->created_time 		= date('Y-m-d H:i:s');
-					$payment->save();
-					//Get order
-					$order = Order::find(Session::get("order_number"));
-					if( $order->customer_redeemed_points != 0 )
-					{
-						//Deduct points to the customer for this order
-						self::redeemedPoints($order->user_id, $order->customer_redeemed_points);
-					}
-
-					if( $payment->payment_status == 'Completed' )
-					{
-						$order->order_status = 'Complete';
-						$order->save();
-					}
-
-
-					if($order->total_points_to_earn != 0)
-					{
-						//Add points to the customer
-						self::earnPoints($order->user_id, $order->total_points_to_earn);
-					}
-
-					if( $order->customer_redeemed_points != 0 )
-					{
-						//Log loyalty points
-						self::logLoyaltyPoints($order->user_id, '-'.$order->customer_redeemed_points, 'Redeemed on order of '.Session::get("order_number"));
-					}
-					//Log loyalty points
-					self::logLoyaltyPoints($order->user_id, $order->total_points_to_earn, 'Successfully order of '.Session::get("order_number"));
-					//Log customer spending
-					self::logCustomerSpending($order->user_id, $order->total_price);
-
-					//Log Customer Referral points for successfull payment
-					if($referral = self::getCustomerReferral( Auth::User()->email ))
-					{
-
-						$referralSettings = ReferralSettings::find(Auth::User()->level_id);
-						//get referral settings
-						$percentage = $referralSettings->percentage_of_products;
-						//$points = $percentage ? ( $percentage / 100) * $order->total_price : $percentage;
-
-						$points = 0;
-						//Get all product sub total by order id
-						$item_sub_total = DB::table("order_details")->where("order_id", $order->id)->lists("item_sub_total");
-						if( $item_sub_total )
-						{
-							foreach( $item_sub_total as $total )
-							{
-								$points += $percentage ? ( $percentage / 100) * $total : 0;
-							}
-						}
-
-						if( $points != 0 )
-						{
-							if(self::earnPoints( $referral, $points ))
-							{
-								//Log loyalty points
-								self::logLoyaltyPoints( $referral, $points, 'Affiliate '.Auth::User()->email.' Successfully order of '.Session::get("order_number"));
-							}
-						}
-					}
-
-					$user 	= Auth::User();
-					$order 	= Order::find(Session::get("order_number"));
-
-					$dateFormat = Settings::get('date_format') == 'custom' ? Settings::get('date_format_custom') : Settings::get('date_format');
-					$timeFormat = Settings::get('time_format') == 'custom' ? Settings::get('time_format_custom') : Settings::get('time_format');
-				
-					$data = array(
-						'items' 			=> self::getCart(),
-						'payment_status' 	=> $httpParsedResponseAr["PAYMENTSTATUS"],
-						'customer_name'		=> $user->firstname.' '.$user->lastname,
-						'customer_email'	=> $user->email,
-						'customer_phone'	=> $user->mobile,
-						'customer_address' 	=> $user->address_1,
-						'order_recipient_email' => Settings::get('order_recipient_email'),
-						'order_recipient_name' => Settings::get('order_recipient_name'),
-						'payment_method'	=> 'paypal',
-						'date_order'		=> date("$dateFormat $timeFormat",strtotime($order->date_order)),
-						'order_status'		=> $order->order_status,
-						'order_no' 			=> Session::get("order_number")
-					);
-
-					
-					//Send email notification to customer
-					Mail::send('emails.customer_order_notification',$data, function($message)  use($user){
-						$message->to($user->email, $user->firstname.' '.$user->lastname)->subject('Sitetbo Order notification');
-					});
-					//Send email notification to administrator
-					Mail::send('emails.site_order_notification',$data, function($message)  use($data){
-						$message->to($data['order_recipient_email'], $data['order_recipient_name'])->subject('New order notification');
-					});
-
-					//Remove cart session
-					Session::forget('cart');
-					//Remove order number session
-					Session::forget('order_number');
-
-				} 
-				else  
-				{
-					$msgHTML .= urldecode($httpParsedResponseAr["L_LONGMESSAGE0"]);
-
-				}
-
-				return array('status' => true, 'message' => $msgHTML);
-			
-			}
-			else
-			{
-				$msgHTML = urldecode($httpParsedResponseAr["L_LONGMESSAGE0"]);
-				return array('status' => true, 'message' => $msgHTML);
-			}
-		}
-	}
-
-
-	/*==============================================
-	 * Reporting
-	 */
-
 	
-	/**
-	 * Get whole year total Sales
-	 *@param year
-	 *@return result - object array
-	 */
-	public static function earningGraphs( $y )
-	{
-
-		$sql = "SELECT substr(m.month,1, 3) as month_order, ( SELECT (sum(total_price)/ 100000) * 100 from gy_orders where order_status = 'Complete' and DATE_FORMAT(date_order, '%m') = m.id and DATE_FORMAT(date_order, '%Y') = ?  ) as total_order FROM gy_months as m order by m.id asc";
-		
-		return DB::select( $sql, array($y) );
-	}
-
-
-	public static function todaySales()
-	{
-
-		return Order::whereRaw("DATE_FORMAT(date_order, '%Y-%m-%d') = DATE_FORMAT(CURDATE(), '%Y-%m-%d')")->lists('total_price');
-	}
-
-	public static function thisMonthSales()
-	{
-
-		return Order::whereRaw("DATE_FORMAT(date_order, '%m') = DATE_FORMAT(CURDATE(), '%m') AND order_status = 'Complete' ")->lists('total_price');
-	}
-
-
-
-	/**
-	 * Get total Sales
-	 *@param none
-	 *@return none
-	 */
-	public static function getTotalSales()
-	{
-		return (float)Order::where('order_status', 'Complete')->sum('total_price');
-	}
-
-
-	/**
-	 * Get total Profit
-	 *@param none
-	 *@return none
-	 */
-	public static function getTotalMonthSales( $m )
-	{
-		return (float)Order::whereRaw('DATE_FORMAT(date_order, "%m") = '.$m.' AND order_status = "Complete"')->sum('total_price');
-	}
-
-	/**
-	 * Get total Profit
-	 *@param none
-	 *@return none
-	 */
-	public static function getTotalTodaySales(  )
-	{
-		return (float)Order::whereRaw("DATE_FORMAT(date_order, '%Y-%m-%d') = DATE_FORMAT(CURDATE(), '%Y-%m-%d')")->sum('total_price');
-	}
-
-	/**
-	 * Get total New Members
-	 *@param none
-	 *@return none
-	 */
-	public static function getTotalNewMembers( $m )
-	{
-		return (int)User::leftJoin('groups', 'users.group_id', '=', 'groups.id')->whereRaw('DATE_FORMAT(gy_users.created_at, "%m") = '.$m.' AND gy_groups.group = "Customer"')->count();
-	}
-
-
-	/**
-	 * Get total Members
-	 *@param none
-	 *@return none
-	 */
-	public static function getTotalMembers()
-	{
-		return (int)User::leftJoin('groups', 'users.group_id', '=', 'groups.id')->whereRaw('gy_groups.group = "Customer"')->count();
-	}
-
-	
-
-	/**
-	 * Get Month total order
-	 *@param none
-	 *@return count  - Month total order (int)
-	 */
-	public static function getMonthTotalOrders( $m )
-	{
-        return 0;
-		return Order::whereRaw('DATE_FORMAT(date_order, "%m") = '.$m.'  AND order_status = "Complete"')
-		->count();
-	}
-
-
-	/**
-	 * Get Month total sales
-	 *@param none
-	 *@return total_sales  - Month total sales (float)
-	 */
-	public static function getMonthSales( $m )
-	{
-        return 0;
-//		return (float)Order::whereRaw('DATE_FORMAT(date_order, "%m") = '.$m.'  AND order_status = "Complete"')
-//		->sum('total_price');
-	}
-
-
-	/**
-	 * Get Today total order
-	 *@param none
-	 *@return count  - Today total order (int)
-	 */
-	public static function getTodayTotalOrders()
-	{
-        return 0;
-		return (int)Order::whereRaw('DATE_FORMAT(date_order, "%Y-%m-%d") = curdate() AND order_status = "Complete"')
-		->count();
-	}
-
-
-	/**
-	 * Get Today total sales
-	 *@param none
-	 *@return total_sales  - today total sales (float)
-	 */
-	public static function getTodaySales()
-	{
-        return 0;
-		return (float)Order::whereRaw('DATE_FORMAT(date_order, "%Y-%m-%d") = curdate() AND order_status = "Complete"')
-		->sum('total_price');
-	}
-
-	/**
-	 * Get Last week total sales
-	 *@param none
-	 *@return total_sales  - last week total sales (float)
-	 */
-	public static function getLastWeekTotalSales()
-	{
-        return 0;
-
-		return (float)Order::whereRaw('date_order >= curdate() - INTERVAL DAYOFWEEK(curdate())+6 DAY AND date_order < curdate() - INTERVAL DAYOFWEEK(curdate())-1 DAY AND order_status = "Complete"')
-		->sum('total_price');
-	}
-
-	/**
-	 * Get Last week total order
-	 *@param none
-	 *@return total_sales  - last week total order (int)
-	 */
-	public static function getLastWeekTotalOrders()
-	{
-        return 0;
-
-		return (int)Order::whereRaw('date_order >= curdate() - INTERVAL DAYOFWEEK(curdate())+6 DAY AND date_order < curdate() - INTERVAL DAYOFWEEK(curdate())-1 DAY AND order_status = "Complete"')
-		->count();
-	}
-
-    public static function getTitles() {
-        return array(
-            'Mr' => 'Mr',
-            'Mrs' => 'Mrs',
-            'Miss' => 'Miss',
-            'Ms' => 'Ms',
-            'Dr' => 'Dr'
-        );
-    }
-
-    public static function auStates() {
-        return array(
-            "NSW"=>"New South Wales",
-            "VIC"=>"Victoria",
-            "QLD"=>"Queensland",
-            "TAS"=>"Tasmania",
-            "SA"=>"South Australia",
-            "WA"=>"Western Australia",
-            "NT"=>"Northern Territory",
-            "ACT"=>"Australian Capital Terrirory");
-    }
-
-    public static function getLumpSumType() {
-        return array(
-            'T' => 'T',
-            'R' => 'R'
-        );
-    }
-
-    public static function getSelfEducationType() {
-        return array(
-            'K' => 'K',
-            'I' => 'I',
-            'O' => 'O'
-        );
-    }
-
-    public static function getPHIBenefitCodes() {
-        return array(
-            30 => 30,
-            40 => 40,
-            45 => 45
-        );
-    }
-
-    public static function getPHIHealthFundNames() {
-        return array(
-            "MBP - medicare Private" => "MBP - medicare Private",
-        );
-    }
-
-
-
-    public static function getPHITypeOfCoverage() {
-        return array(
-            "MBP - medicare Private"            => "Ancillary",
-            "Hospital Cover"                    => "Hospital Cover",
-            "Combined Hospital and Ancillary"   => "Combined Hospital and Ancillary",
-        );
-    }
-
-    public static function getPHITaxClaimCode() {
-        return array(
-            'A' => 'A',
-            'B' => 'B',
-            'C' => 'C',
-            'D' => 'D',
-            'E' => 'E',
-            'F' => 'F',
-        );
-    }
-
-    public static function getSelectYesOrNo() {
-        return array(
-            0 => 'No',
-            1 => 'Yes'
-        );
-    }
-
-    public static function getZoneAmount($which_zone) {
-        $zone_code = array(
-            'a' => '1173',
-            'b' => '1173',
-            'x' => '338',
-            'y' => '57',
-            'z' => '338',
-        );
-
-        if (array_key_exists($which_zone,$zone_code)) {
-            return $zone_code[$which_zone];
-        } else {
-            return $zone_code['a'];
-        }
-    }
-
-
-
-    public static function getUniformDescription() {
-        return array(
-            'Compulsory Work Uniform'       => 'Compulsory Work Uniform',
-            'Non-compulsory Work Uniform'   => 'Non-compulsory Work Uniform',
-            'Occupation Specific Clothing'  => 'Occupation Specific Clothing',
-            'Protective Clothing'           => 'Protective Clothing',
-        );
-    }
-
-    public static function whichProcessActive($which_process = "income") {
-
-        $process__active_class = array(
-            'income' => 'process-2-active',
-            'deductions' => 'process-3-active',
-            'tax_offsets' => 'process-4-active',
-            'summary' => 'process-5-active',
-        );
-
-        if (array_key_exists($which_process,$process__active_class)) {
-            return $process__active_class[$which_process];
-        } else {
-            return $process__active_class['income'];
-        }
-    }
-
-    public static function getMessageHasCoveredPPHC() {
-
-        if ( TaxMedicare::hasCoveredPPHC(Session::get('user_tax_year_id')) ) {
-
-            $message = '<i class="fa fa-question-circle"></i> Because you answered "Yes" to the question "For the whole tax period...." or there were days that you indicated you were not liable for the Medicare surcharge, you need to enter your Private Health Insurance details in Tax Offsets.';
-
-            ?>
-            <div class="alert alert-info">
-                <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-                <?php echo $message; ?>
-            </div>
-            <?php
-        }
-
-    }
-
-
-
-    public static function getUserTaxYearStatus( $status ) {
-        $status__markup_label = array(
-            UserTaxYear::STATUS_PAID_AND_SUBMITTED => '<span class="lasbel labesl-progress">Paid And Sumitted</span>',
-            UserTaxYear::STATUS_IN_PROGRESS => '<span class="labesl label-progresss">In Progress</span>',
-            UserTaxYear::STATUS_REVIEWED_BY_ACCOUNTANT => '<span class="labesl labsel-progress">Reviewed By Accountant</span>',
-            UserTaxYear::STATUS_REVIEWED_BY_AGENT => '<span class="lasbel label-psrogress">Reviewed By Agent</span>',
-            UserTaxYear::STATUS_SUBMITTED_TO_ATO => '<span class="lasbel label-psrogress">Submitted To ATO</span>',
-        );
-
-        if (array_key_exists($status,$status__markup_label)) {
-            return $status__markup_label[$status];
-        } else {
-            return $status__markup_label[UserTaxYear::STATUS_IN_PROGRESS];
-        }
-    }
 
 
     // CMS HELPER

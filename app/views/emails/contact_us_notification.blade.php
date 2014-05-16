@@ -68,13 +68,15 @@
                                 <tr>
                                     <td><strong>From: </strong> {{ $name }} <{{ $email }}>
                                         <br />
+                                        <strong>Phone: </strong> {{ $phone }}
+                                        <br />
                                     </td>
                                 </tr>
                                 <tr>
                                     <td><strong>Message Body: </strong> </td>
                                 </tr>
                                 <tr>
-                                    <td>{{ $data_message }}</td>
+                                    <td>{{ $comment }}</td>
                                 </tr>
                             </table>
                         </td>
@@ -85,6 +87,8 @@
         </tr>
         </tbody>
     </table>
+
+
     <table width="90%" style="max-width: 650px; margin: 0 auto;" cellpadding="20" cellspacing="0">
         <tbody>
         <tr>
