@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="{{ URL::asset('assets/global/css/bootstrap.css') }}">
-    <link rel="stylesheet" href="{{ URL::asset('assets/global/css/font-awesome.css') }}">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ URL::asset('assets/admin/css/icons.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('assets/admin/css/main.css') }}">
 
@@ -156,7 +156,7 @@
                         @if( Auth::User()->group->hasRole('manage_blogs') )
                         <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/projects">
                             <a href="{{ URL::to('admin/projects') }}">
-                                <i class="fa fa-bullhorn"></i>
+                                <i class="fa fa-building"></i>
                                 <span>Projects</span>
                             </a>
                             <ul class="sub" >
@@ -181,7 +181,7 @@
                        
                         <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/people">
                             <a href="{{ URL::to('admin/people') }}">
-                                <i class="fa fa-bullhorn"></i>
+                                <i class="fa fa-users"></i>
                                 <span>People</span>
                             </a>
                             <ul class="sub" >
@@ -305,7 +305,7 @@
                         @if( Auth::User()->group->hasRole('manage_navigation') )
                         <li data-mysegment="admin/widget">
                             <a href="{{ URL::to('admin/widget') }}">
-                                <i class="fa fa-link"></i>
+                                <i class="fa fa-cubes"></i>
                                 <span>Widgets</span>
                             </a>
                         </li>
