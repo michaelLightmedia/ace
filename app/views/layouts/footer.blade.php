@@ -1,19 +1,16 @@
         <footer class="l-footer">
           <div class="widget-list">
-            <h4>Menu</h4>
-            <ul class="list-inline list-inline-bordered">
-              <li><a href="">Home</a></li>
-              <li><a href="">Profile</a></li>
-              <li><a href="people">Our People</a></li>
-              <li><a href="">Culture</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="tenders">Tenders</a></li>
-              <li><a href="tenders">Publications</a></li>
-              <li><a href="contact">Contact Us</a></li>
-            </ul>  
+            <!-- <h4>Menu</h4> -->
+
+            {{ Site::site_nav_menu(array(
+              'level' => 0,
+              'menu'  => 'Footer Menu',
+              'menu_class' => 'list-inline list-inline-bordered'
+            )) }} 
+            
           </div> 
 
-          <div class="widget-list widget-services">
+         <!--  <div class="widget-list widget-services">
             <h4>Services</h4>
             <ul class="list-inline list-inline-bordered">
               <li><a href="">Ace Civil Services</a></li>
@@ -23,9 +20,9 @@
               <li><a href="">Ace Landscape Services</a></li>
               <li><a href="">Ace Water Services</a></li>
             </ul>  
-          </div> 
+          </div>  -->
 
-          <div class="widget-list widget-addr">
+         <!--  <div class="widget-list widget-addr">
             <h4>Ace contractors</h4>
             <ul class="list-inline list-inline-bordered">
               <li class="addr">Office Address
@@ -34,7 +31,7 @@
               <li class="tel"><a href="tel:1200-367-274">Phone: <span>1200-367-274</span></a></li>
               <li class="email"><a href="mailto:inco@acecon.com.au">Email: <span>inco@acecon.com.au</span></a></li>
             </ul>  
-          </div> 
+          </div>  -->
 
              <div class="col-xs-12">
              <div class="row">
