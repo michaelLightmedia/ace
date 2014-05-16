@@ -5720,10 +5720,13 @@ ul.wysihtml5-toolbar div[data-wysihtml5-command-value="orange"] {
  *
  */
 .t-content {
-  margin-top: 64px;
+  margin-top: 120px;
   min-width: 768px;
   width: 100%;
   padding-left: 200px;
+}
+.t-content .alert {
+  margin: 14px 15px 0;
 }
 .page-title {
   float: left;

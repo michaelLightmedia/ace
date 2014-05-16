@@ -34,7 +34,7 @@
 			
 		</div>
 	</div>
-	<div class="section section--box mt-58px">
+	<div class="section section--box">
 		<div class="row">
 			<div class="col-lg-5 col-md-5">
 				<div class="mb-15px">

@@ -38,7 +38,7 @@
   </div>
 	{{ Site::system_messages() }}
 
-    <div class="section section--box mt-58px">
+    <div class="section section--box">
       <div class="row">
       	{{ Form::open(array('url' => 'admin/dashboard', 'method' => 'GET')) }}
         <div class="section section--offset">

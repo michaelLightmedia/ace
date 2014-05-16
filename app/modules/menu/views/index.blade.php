@@ -28,7 +28,7 @@
         
   
 
-    <div class="section section--box mt-58px">
+    <div class="section section--box">
       {{ Form::open(array('method' => 'get')) }}
 
         <div class="clearfix mb-15px">

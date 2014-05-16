@@ -12,7 +12,7 @@
 	<title></title>
 
 	<link rel="stylesheet" href="{{ URL::to('assets/global/css/bootstrap.css') }}">
-	<link rel="stylesheet" href="{{ URL::to('assets/global/css/font-awesome.css') }}">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="{{ URL::to('assets/admin/css/main.css') }}">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
