@@ -77,6 +77,8 @@ Route::get('/', function()
 });
 
 
+
+
 Route::post('offsetTimeZone', function(){
 	$offset = Input::get('offset');
 

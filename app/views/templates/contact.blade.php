@@ -49,53 +49,17 @@
     </form>
   </div>
   <div class="main-content-sidebar">
-    <div class="widget widget-l2">
-      <h3 class="widget-title">General Info</h3>
-      <div class="widget-body">
-        <div class="post-testimonial">
-          <div class="row">
-            <div class="col-xs-4">
-              <div class="avatar">
-                <img src="{{ URL::asset('assets/site/placeholders/avatar.jpg') }}" alt="">                  
-              </div>
-            </div>
-            <div class="col-xs-8 widget-bl copy">
-              <p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei, </p>
-              <span>Chuck M.</span>
-            </div>
-          </div>
-        </div>
-        <div class="post-testimonial">
-          <div class="row">
-            <div class="col-xs-4">
-              <div class="avatar">
-                <img src="{{ URL::asset('assets/site/placeholders/avatar2.jpg') }}" alt="">                  
-              </div>
-            </div>
-            <div class="col-xs-8 widget-bl copy">
-              <p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei, </p>
-              <span>Chuck M.</span>
-            </div>
-          </div>
-        </div>
-        <div class="post-testimonial">
-          <div class="row">
-            <div class="col-xs-4">
-              <div class="avatar">
-                <img src="{{ URL::asset('assets/site/placeholders/avatar3.jpg') }}" alt="">                  
-              </div>
-            </div>
-            <div class="col-xs-8 widget-bl copy">
-              <p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei, </p>
-              <span>Chuck M.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ Site::getWidget(array(
+            'widget'  => 'Sidebar',
+            'widgetWrap' => 'div',
+            'widgetWrapClass' => 'widget widget-l2',
+            'showTitle' => true,
+            'titleWrap' => 'h3',
+            'titleWrapClass' => 'widget-title'
+          )) }}
   </div>
 </div>
-
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
 <script>// if HTML DOM Element that contains the map is found...
     /** @constructor */
     function CoordMapType(tileSize) {

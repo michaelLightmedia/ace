@@ -38,7 +38,7 @@ class PeopleTable  extends TableHelper
     {
 		$title =(strlen($item['post_title']) > 50) ? substr($item['post_title'], 0, 50).'...' : $item['post_title'];
     	return sprintf(
-            '<a href="blog/%s/edit">%s</a>', $item['id'], $title
+            '<a href="people/%s/edit">%s</a>', $item['id'], $title
         );
     }
 	

@@ -58,21 +58,21 @@
 <div class="navbar-skin-feat">
 <ul class="nav navbar-nav navbar-featured center-block">
     <li>
-      <a href="#"><span class="nav-icon"><i class="icon icon-civilservices"></i></span> <span class="navbar-text">Civil Services</span></a>
+      <a href="/civil-services"><span class="nav-icon"><i class="icon icon-civilservices"></i></span> <span class="navbar-text">Civil Services</span></a>
     </li>
     <li>
-      <a href="solutions.php"><span class="nav-icon"><i class="icon icon-electInfrast"></i></span> <span class="navbar-text">Electrical Infrastructure</span></a>
+      <a href="/electrical-infrastructure"><span class="nav-icon"><i class="icon icon-electInfrast"></i></span> <span class="navbar-text">Electrical Infrastructure</span></a>
     </li>
     <li>
-      <a href="resources.php"><span class="nav-icon"><i class="icon icon-environmental"></i></span> <span class="navbar-text">Ace Environmental</span></a>
+      <a href="/ace-environment"><span class="nav-icon"><i class="icon icon-environmental"></i></span> <span class="navbar-text">Ace Environmental</span></a>
     </li>
-    <li><a href="company.php"><span class="nav-icon"><i class="icon icon-aceinfrast"></i></span> <span class="navbar-text">Ace Infrastructure</span></a>
-    </li>
-    <li>
-      <a href="contact.php"><span class="nav-icon"><i class="icon icon-landscapeservices"></i></span> <span class="navbar-text">Lands+cape Sevices</span></a>
+    <li><a href="/ace-infrastructure"><span class="nav-icon"><i class="icon icon-aceinfrast"></i></span> <span class="navbar-text">Ace Infrastructure</span></a>
     </li>
     <li>
-      <a href="contact.php"><span class="nav-icon"><i class="icon icon-aceWaterServices"></i></span> <span class="navbar-text">Ace Water Services</span></a>
+      <a href="/landscape-services"><span class="nav-icon"><i class="icon icon-landscapeservices"></i></span> <span class="navbar-text">Lands+cape Sevices</span></a>
+    </li>
+    <li>
+      <a href="/ace-water-services"><span class="nav-icon"><i class="icon icon-aceWaterServices"></i></span> <span class="navbar-text">Ace Water Services</span></a>
     </li>
 </ul>
 </div>
@@ -80,65 +80,9 @@
 
 <div class="main-content main-content-home">
 <div class="row">
-  <div class="col-sm-4">
-    <div class="post post-block">
-      <a href="people.php">
-        <img src="{{ URL::asset('assets/site/placeholders/post-1.jpg') }}" alt="">
-        <div class="post-content">
-          <h2 class="post-title">Our people!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="post post-block">
-      <div id="widget-carousel" class="carousel carousel-main slide" data-ride="carousel">
-        <!-- Indicators -->
-        <div class="carousel-indicators-wrap carousel-indicators-wrap--secondary">
-          <a class="" href="#widget-carousel" data-slide="prev">
-            <span class="icon-prev"></span>
-          </a>
-          <a class="" href="#widget-carousel" data-slide="next">
-            <span class="icon-next"></span>
-          </a>
-        </div>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <a href="projects.php">
-              <img src="{{ URL::asset('assets/site/placeholders/post-2.jpg') }}" alt="...">
-            </a>
-          </div>
-          <div class="item">
-            <a href="projects.php">
-              <img src="{{ URL::asset('assets/site/placeholders/post-2.jpg') }}" alt="...">
-            </a>
-          </div>
-          <div class="item">
-            <a href="projects.php">
-              <img src="{{ URL::asset('assets/site/placeholders/post-2.jpg') }}" alt="...">
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="post-content">
-        <h2 class="post-title">Our Projects!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="post post-block">
-      <a href="">
-        <img src="{{ URL::asset('assets/site/placeholders/post-3.jpg') }}" alt="">
-        <div class="post-content">
-          <h2 class="post-title">Our Services!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>
-        </div>
-      </a>
-    </div>
-  </div>
+  {{ Site::getWidget(array(
+      'widget'  => 'Footer Widget',
+    )) }}
 </div>
 </div>
 

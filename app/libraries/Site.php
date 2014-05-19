@@ -434,9 +434,14 @@ class Site
 	{
 		extract($arr);
 
+
 		$default = array(
 			'showTitle' => isset($showTitle) ? $showTitle : null,
 			'widget'		=> isset($widget) ? $widget : null,
+			'widgetWrap' => isset($widgetWrap) ? $widgetWrap : null,
+			'widgetWrapClass' => isset($widgetWrapClass) ? $widgetWrapClass : null,
+			'titleWrap' => isset($titleWrap) ? $titleWrap : null,
+			'titleWrapClass' => isset($titleWrapClass) ? $titleWrapClass : null,
 		);
 
 		extract($default);
@@ -453,15 +458,26 @@ class Site
 
 		if($resultSet)
 		{
+			if( $widgetWrap )
+				echo '<'.$widgetWrap.' class="'.$widgetWrapClass.'">';
 			foreach($resultSet as $k => $result)
 			{
 				//echo '<div class="container">';
-				if( $showTitle )
-					echo '<h3>'.$result->post_title.'</h3>';
+				if( $showTitle ) {
+					if( $titleWrap )
+						echo '<'.$titleWrap.' class="'.$titleWrapClass.'" >';
+					echo $result->post_title;
+					if( $titleWrap )
+						echo '</'.$titleWrap.'>';
+					
+				}
 
-				echo $result->post_content;
+				echo the_content($result->post_content);
 				//echo '</div>';
 			}
+
+			if( $widgetWrap )
+				echo '</'.$widgetWrap.'>';
 		}
 
 
