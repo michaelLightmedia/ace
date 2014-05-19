@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: May 16, 2014 at 04:25 PM
+-- Generation Time: May 19, 2014 at 01:48 PM
 -- Server version: 5.5.25
 -- PHP Version: 5.4.4
 
@@ -234,7 +234,7 @@ CREATE TABLE `ace_postmeta` (
   `meta_value` longtext,
   PRIMARY KEY (`meta_id`),
   KEY `fk_ace_postmeta_ace_posts1_idx` (`post_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3265 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3333 ;
 
 --
 -- Dumping data for table `ace_postmeta`
@@ -250,12 +250,6 @@ INSERT INTO `ace_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (1872, 506, 'page_title', '1323'),
 (1873, 506, 'page_meta_description', '12 1212 12 123312'),
 (1874, 506, 'notes', ''),
-(2510, 634, '_widget_item_object_id', NULL),
-(2511, 634, '_widget_item_object', 'custom'),
-(2512, 634, '_widget_item_type', 'custom'),
-(2513, 634, '_widget_item_classes', 'N;'),
-(2514, 634, '_widget_item_target', '0'),
-(2515, 634, '_widget_item_url', 'http://'),
 (2572, 641, 'page_title', ' Ut enim ad minim veniam, quis nostrud exercitation'),
 (2573, 641, 'page_meta_description', ' Ut enim ad minim veniam, quis nostrud exercitation'),
 (2690, 657, 'page_title', 'Treatments & Services '),
@@ -266,12 +260,10 @@ INSERT INTO `ace_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (2956, 506, 'attachment', '618'),
 (2963, 710, 'page_title', 'Contact us'),
 (2964, 710, 'page_meta_description', 'Dsd'),
-(2973, 713, 'page_title', 'About us'),
-(2974, 713, 'page_meta_description', 'About us lorem ipsum'),
 (2979, 715, '_menu_item_object_id', NULL),
 (2980, 715, '_menu_item_object', 'custom'),
 (2981, 715, '_menu_item_type', 'custom'),
-(2982, 715, '_menu_item_url', 'http://acegroup.lightmedia.com.au/company'),
+(2982, 715, '_menu_item_url', 'http://acegroup.lightmedia.com.au/about-us'),
 (2983, 716, '_menu_item_object_id', NULL),
 (2984, 716, '_menu_item_object', 'custom'),
 (2985, 716, '_menu_item_type', 'custom'),
@@ -279,7 +271,7 @@ INSERT INTO `ace_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (2987, 718, '_menu_item_object_id', NULL),
 (2988, 718, '_menu_item_object', 'custom'),
 (2989, 718, '_menu_item_type', 'custom'),
-(2990, 718, '_menu_item_url', 'http://acegroup.lightmedia.com.au/benefits'),
+(2990, 718, '_menu_item_url', 'http://acegroup.lightmedia.com.au/projects'),
 (2991, 719, '_menu_item_object_id', NULL),
 (2992, 719, '_menu_item_object', 'custom'),
 (2993, 719, '_menu_item_type', 'custom'),
@@ -452,7 +444,75 @@ INSERT INTO `ace_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (3261, 871, '_menu_item_type', 'custom'),
 (3262, 871, '_menu_item_url', 'http://acegroup.lightmedia.com.au/solutions'),
 (3263, 871, '_menu_item_classes', 's:0:"";'),
-(3264, 871, '_menu_item_target', '0');
+(3264, 871, '_menu_item_target', '0'),
+(3265, 872, 'page_template', 'default'),
+(3266, 872, 'page_title', ''),
+(3267, 872, 'page_meta_description', ''),
+(3268, 873, 'page_template', 'default'),
+(3269, 873, 'page_title', 'Electrical Infrastructure'),
+(3270, 873, 'page_meta_description', ''),
+(3271, 874, 'page_template', 'default'),
+(3272, 874, 'page_title', 'Ace Environment'),
+(3273, 874, 'page_meta_description', ''),
+(3274, 875, 'page_template', 'default'),
+(3275, 875, 'page_title', ''),
+(3276, 875, 'page_meta_description', ''),
+(3277, 876, 'page_template', 'default'),
+(3278, 876, 'page_title', ''),
+(3279, 876, 'page_meta_description', ''),
+(3280, 877, 'page_template', 'default'),
+(3281, 877, 'page_title', 'Ace Water Services'),
+(3282, 877, 'page_meta_description', ''),
+(3283, 878, 'attachment_title', ''),
+(3284, 878, 'attachment_type', 'post'),
+(3285, 878, 'attachment', '820'),
+(3286, 878, 'banner_url', ''),
+(3287, 878, 'button_text', ''),
+(3288, 878, 'banner_target', NULL),
+(3289, 879, 'banner_url', 'http://acegroup.lightmedia.com.au/projects'),
+(3290, 879, 'button_text', ''),
+(3291, 879, 'banner_target', NULL),
+(3292, 881, 'page_template', 'default'),
+(3293, 881, 'page_title', ''),
+(3294, 881, 'page_meta_description', ''),
+(3295, 880, 'banner_url', 'http://acegroup.lightmedia.com.au/our-services'),
+(3296, 880, 'button_text', ''),
+(3297, 880, 'banner_target', NULL),
+(3298, 880, 'attachment_title', ''),
+(3299, 880, 'attachment_type', 'post'),
+(3300, 880, 'attachment', '822'),
+(3301, 882, '_widget_item_object_id', NULL),
+(3302, 882, '_widget_item_object', 'custom'),
+(3303, 882, '_widget_item_type', 'custom'),
+(3304, 882, '_widget_item_classes', 'N;'),
+(3305, 882, '_widget_item_target', '0'),
+(3306, 882, '_widget_item_url', 'http://'),
+(3307, 883, 'page_title', ''),
+(3308, 883, 'page_meta_description', ''),
+(3309, 884, 'attachment_metadata', '{"file":"media\\/uploads\\/2014\\/19\\/people-3.jpg","type":"image\\/jpeg","size":7912,"sizes":{"post-thumbnail":"media\\/uploads\\/2014\\/19\\/post-thumbnail\\/people-3.jpg","large":"media\\/uploads\\/2014\\/19\\/large\\/people-3.jpg","listing-thumbnail":"media\\/uploads\\/2014\\/19\\/listing-thumbnail\\/people-3.jpg","thumbnail":"media\\/uploads\\/2014\\/19\\/thumbnail\\/people-3.jpg","medium":"media\\/uploads\\/2014\\/19\\/medium\\/people-3.jpg","project_thumbnail":"media\\/uploads\\/2014\\/19\\/project_thumbnail\\/people-3.jpg"}}'),
+(3310, 883, 'attachment_title', ''),
+(3311, 883, 'attachment_type', 'post'),
+(3312, 883, 'attachment', '884'),
+(3313, 885, 'page_title', 'Simon Cock'),
+(3314, 885, 'page_meta_description', ''),
+(3315, 886, 'attachment_metadata', '{"file":"media\\/uploads\\/2014\\/19\\/people-4.jpg","type":"image\\/jpeg","size":6850,"sizes":{"post-thumbnail":"media\\/uploads\\/2014\\/19\\/post-thumbnail\\/people-4.jpg","large":"media\\/uploads\\/2014\\/19\\/large\\/people-4.jpg","listing-thumbnail":"media\\/uploads\\/2014\\/19\\/listing-thumbnail\\/people-4.jpg","thumbnail":"media\\/uploads\\/2014\\/19\\/thumbnail\\/people-4.jpg","medium":"media\\/uploads\\/2014\\/19\\/medium\\/people-4.jpg","project_thumbnail":"media\\/uploads\\/2014\\/19\\/project_thumbnail\\/people-4.jpg"}}'),
+(3316, 885, 'attachment_title', ''),
+(3317, 885, 'attachment_type', 'post'),
+(3318, 885, 'attachment', '886'),
+(3319, 888, 'attachment_metadata', '{"file":"media\\/uploads\\/2014\\/19\\/people-5.jpg","type":"image\\/jpeg","size":6672,"sizes":{"post-thumbnail":"media\\/uploads\\/2014\\/19\\/post-thumbnail\\/people-5.jpg","large":"media\\/uploads\\/2014\\/19\\/large\\/people-5.jpg","listing-thumbnail":"media\\/uploads\\/2014\\/19\\/listing-thumbnail\\/people-5.jpg","thumbnail":"media\\/uploads\\/2014\\/19\\/thumbnail\\/people-5.jpg","medium":"media\\/uploads\\/2014\\/19\\/medium\\/people-5.jpg","project_thumbnail":"media\\/uploads\\/2014\\/19\\/project_thumbnail\\/people-5.jpg"}}'),
+(3320, 887, 'attachment_title', ''),
+(3321, 887, 'attachment_type', 'post'),
+(3322, 887, 'attachment', '888'),
+(3323, 887, 'page_title', 'Warren Higgs'),
+(3324, 887, 'page_meta_description', ''),
+(3325, 889, 'page_title', ''),
+(3326, 889, 'page_meta_description', ''),
+(3327, 890, '_widget_item_object_id', NULL),
+(3328, 890, '_widget_item_object', 'custom'),
+(3329, 890, '_widget_item_type', 'custom'),
+(3330, 890, '_widget_item_classes', 'N;'),
+(3331, 890, '_widget_item_target', '0'),
+(3332, 890, '_widget_item_url', 'http://');
 
 -- --------------------------------------------------------
 
@@ -481,7 +541,7 @@ CREATE TABLE `ace_posts` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `guid` (`guid`),
   KEY `fk_ace_posts_ace_users1_idx` (`author_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=872 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=891 ;
 
 --
 -- Dumping data for table `ace_posts`
@@ -490,26 +550,24 @@ CREATE TABLE `ace_posts` (
 INSERT INTO `ace_posts` (`id`, `post_title`, `post_content`, `post_excerpt`, `post_type`, `author_id`, `comment_status`, `post_parent`, `post_name`, `guid`, `menu_order`, `menu_level`, `post_mimetype`, `comment_count`, `post_date`, `updated_at`, `post_status`) VALUES
 (48, 'Privacy Policy', '<p><span style="background-color:rgb(255, 255, 255)">Sed&nbsp;</span><strong>ut perspiciatis unde omnis</strong><span style="background-color:rgb(255, 255, 255)">&nbsp;iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem&nbsp;</span><strong>sequi nesciunt. Neque porro quisquam</strong><span style="background-color:rgb(255, 255, 255)">&nbsp;est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span></p>\r\n', 'quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui', 'page', 1, 'open', 0, '', 'privacy-policy-1', 0, 1, '', '', '2013-12-12 11:05:46', '2013-12-12 11:05:52', 'publish'),
 (506, 'Disclaimer', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>[contactus &quot;title&quot;=&quot;Contact US&quot;]</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '123', 'page', 1, 'open', 0, '', 'disclaimer', 0, 1, '', '0', '2014-03-17 18:01:04', '2014-03-17 18:01:27', 'publish'),
-(634, 'Content', '<ul class="social pull-left">\r\n            <li><a class="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>\r\n            <li><a class="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>\r\n            <li><a class="pinterest" href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>\r\n            <li><a class="gplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>\r\n            <li><a class="youtube" href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>\r\n            <li><a class="instagram" href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>\r\n          </ul>\r\n\r\n          <ul class="list-inline list-inline-separator pull-right">            \r\n            <li>\r\n              Hotline: (65) 6100 6868\r\n            </li>\r\n            <li>\r\n                <span class="copyright">\r\n                  &copy; 2014 ClearSK™\r\n                </span>\r\n              </a>\r\n            </li>\r\n          </ul>', '0', 'widget_item', 1, 'close', 0, 'Content', 'content', 0, 1, NULL, '0', '2014-01-27 10:20:55', '2014-01-27 10:20:55', 'publish'),
 (641, 'Terms & Conditions', '<p><span style="font-size:18px"><strong>Lorem ipsum dolor</strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><span style="font-size:18px"><strong>Lorem ipsum dolor&nbsp;</strong></span></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>\r\n', '', 'page', 1, 'open', 0, '', 'terms-conditions', 0, 1, '', '0', '2014-01-13 19:10:16', '2014-01-13 19:10:49', 'publish'),
 (657, 'Treatments & Services', '', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.', 'page', 1, 'open', 0, '', 'treatments-services', 0, 1, '', '0', '2014-01-28 17:22:51', '2014-01-28 17:23:08', 'publish'),
 (710, 'Contact us', '', '', 'page', 323, 'open', 0, '', 'contact-us-1', 0, 1, '', '0', '2014-05-15 05:57:56', '2014-05-15 05:58:12', 'publish'),
-(713, 'about-us', '', '', 'page', 1, 'open', 0, '', 'about-us', 0, 1, '', '0', '2014-03-23 10:21:16', '2014-03-23 10:22:14', 'publish'),
-(715, '<i class="icon icon-briefcase"></i> Company', '', '', 'nav_menu_item', 323, 'close', 0, 'Pricings', 'i-classicon-icon-briefcasei-company', 3, 1, NULL, '0', '2014-05-16 08:15:26', '2014-05-16 08:15:26', 'publish'),
-(716, '<i class="icon icon-envelope"></i> Contact Us', '', '', 'nav_menu_item', 323, 'close', 0, 'Blog', 'i-classicon-icon-envelopei-contact-us', 4, 1, NULL, '0', '2014-05-16 08:15:26', '2014-05-16 08:15:26', 'publish'),
-(718, '<i class="icon icon-group"></i> Resources', '', '', 'nav_menu_item', 323, 'close', 0, 'Benefits', 'i-classicon-icon-groupi-resources', 2, 1, NULL, '0', '2014-05-16 08:15:26', '2014-05-16 08:15:26', 'publish'),
-(719, '<i class="icon icon-home"></i> Home', '', '', 'nav_menu_item', 323, 'close', 0, 'Home', 'i-classicon-icon-homei-home', 0, 1, NULL, '0', '2014-05-16 08:15:26', '2014-05-16 08:15:26', 'publish'),
+(715, '<i class="icon icon-briefcase"></i> Company', '', '', 'nav_menu_item', 323, 'close', 0, 'Pricings', 'i-classicon-icon-briefcasei-company', 3, 1, NULL, '0', '2014-05-19 02:03:49', '2014-05-19 02:03:49', 'publish'),
+(716, '<i class="icon icon-envelope"></i> Contact Us', '', '', 'nav_menu_item', 323, 'close', 0, 'Blog', 'i-classicon-icon-envelopei-contact-us', 4, 1, NULL, '0', '2014-05-19 02:03:49', '2014-05-19 02:03:49', 'publish'),
+(718, '<i class="icon icon-group"></i> Resources', '', '', 'nav_menu_item', 323, 'close', 0, 'Benefits', 'i-classicon-icon-groupi-resources', 2, 1, NULL, '0', '2014-05-19 02:03:49', '2014-05-19 02:03:49', 'publish'),
+(719, '<i class="icon icon-home"></i> Home', '', '', 'nav_menu_item', 323, 'close', 0, 'Home', 'i-classicon-icon-homei-home', 0, 1, NULL, '0', '2014-05-19 02:03:49', '2014-05-19 02:03:49', 'publish'),
 (727, 'Thanks for contacting us.', '<p>This email is checked regularly during business hours (9-5 EST). We&rsquo;ll get back to you as soon as possible, usually within a few hours. Either John or Jay will respond to your email.</p>\r\n\r\n<p>Until then, make sure to check out the following resources:</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Frequently Asked Questions</strong>:&nbsp;<a href="/#">www.acegroup.lightmedia.com.au/faqs/</a>and</p>\r\n\r\n<p>&nbsp;</p>\r\n', '', 'page', 323, 'open', 0, '', 'contact-us-thank-you', 0, 1, '', '0', '2014-05-16 07:52:08', '2014-05-16 08:10:12', 'publish'),
 (813, 'Welcome to Ace Contractors Group Pty. Ltd.', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol.', '', 'banner', 323, 'open', 0, '', 'welcome-to-ace-contractors-group-pty-ltd', 1, 1, '', '0', '2014-05-15 07:36:01', '2014-05-15 07:36:06', 'publish'),
-(814, 'People', '', '', 'page', 323, 'open', 0, '', 'people', 0, 1, '', '0', '2014-05-16 02:15:33', '2014-05-16 02:15:48', 'publish'),
+(814, 'People', '', '', 'page', 323, 'open', 0, '', 'people', 0, 1, '', '0', '2014-05-19 02:08:59', '2014-05-19 02:10:46', 'publish'),
 (817, 'banner-a', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/banner-a.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 05:57:35', '2014-05-15 05:57:35', 'Published'),
 (818, 'Lorem ipsum dolor', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'blog', 323, 'open', 0, '', 'auto-draft-1', 0, 1, '', '0', '2014-05-16 03:25:21', '2014-05-16 04:57:08', 'publish'),
 (820, 'post-1', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/post-1.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:24:09', '2014-05-15 06:24:09', 'Published'),
 (821, 'ipsum lorem hello', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'project', 323, 'open', 0, '', 'ipsum-lorem-hello', 0, 1, '', '0', '2014-05-16 06:26:55', '2014-05-16 06:27:34', 'publish'),
 (822, 'post-3', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/post-3.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:30:17', '2014-05-15 06:30:17', 'Published'),
-(823, 'John Smit', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-family:helvetica neue,helvetica,arial,sans-serif; font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', '', 'people', 323, 'open', 0, '', 'auto-draft-3', 0, 1, '', '0', '2014-05-15 06:55:21', '2014-05-15 06:55:26', 'publish'),
+(823, 'John Smit', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-family:helvetica neue,helvetica,arial,sans-serif; font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', 'President of Ace Contractors Group', 'people', 323, 'open', 0, '', 'john-smit', 0, 1, '', '0', '2014-05-19 02:13:02', '2014-05-19 02:13:15', 'publish'),
 (824, 'people-1', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/people-1.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:55:09', '2014-05-15 06:55:09', 'Published'),
-(825, 'Tony Baker', '', '', 'people', 323, 'open', 0, '', 'auto-draft-4', 0, 1, '', '0', '2014-05-15 06:55:43', '2014-05-15 06:56:34', 'publish'),
+(825, 'Tony Baker', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', 'consectetur adipisicing elit.', 'people', 323, 'open', 0, '', 'tony-baker', 0, 1, '', '0', '2014-05-19 02:14:16', '2014-05-19 02:14:23', 'publish'),
 (826, 'people-2', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/people-2.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:56:12', '2014-05-15 06:56:12', 'Published'),
 (827, 'Chuck M.', '<p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei,</p>\r\n', '', 'testimonial', 323, 'open', 0, '', 'auto-draft-5', 0, 1, '', '0', '2014-05-15 06:57:35', '2014-05-15 06:58:00', 'publish'),
 (828, 'avatar', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/avatar.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:57:01', '2014-05-15 06:57:01', 'Published'),
@@ -517,7 +575,7 @@ INSERT INTO `ace_posts` (`id`, `post_title`, `post_content`, `post_excerpt`, `po
 (830, 'avatar2', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/avatar2.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 06:58:32', '2014-05-15 06:58:32', 'Published'),
 (832, 'avatar3', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/15/avatar3.jpg', 0, 1, 'image/jpeg', '0', '2014-05-15 07:00:21', '2014-05-15 07:00:21', 'Published'),
 (835, 'Jane Doe', '<p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei,</p>\r\n', '', 'testimonial', 323, 'open', 0, '', 'auto-draft', 0, 1, '', '0', '2014-05-15 07:01:58', '2014-05-15 07:02:19', 'publish'),
-(836, 'About Us', '<p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Nam liber tempor cum soluta nobis eleifend option congue</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Dtem insitam; est usus legentis in iis qui.</p>\r\n\r\n<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore</p>\r\n\r\n<hr />\r\n<p><img alt="" src="http://acegroup.lightmedia.com.au/assets/site/placeholders/post-md.jpg" /></p>\r\n\r\n<h2><a href=""> Lorem Ipsum </a></h2>\r\n\r\n<p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum,Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. <a href="#">read more</a></p>\r\n\r\n<p><img alt="" src="http://acegroup.lightmedia.com.au/assets/site/placeholders/post-md.jpg" /></p>\r\n\r\n<h2><a href=""> Lorem Ipsum </a></h2>\r\n\r\n<p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum,Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. <a href="#">read more</a></p>\r\n', '', 'page', 323, 'open', 0, '', 'draft-1', 0, 1, '', '0', '2014-05-15 07:25:52', '2014-05-15 07:29:24', 'publish'),
+(836, 'About Us', '<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>\r\n', '', 'page', 323, 'open', 0, '', 'about-us', 0, 1, '', '0', '2014-05-19 02:02:47', '2014-05-19 02:02:52', 'publish'),
 (837, 'Welcome to Ace Contractors Group Pty. Ltd.', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol.', '', 'banner', 323, 'open', 0, '', 'welcome-to-ace-contractors-group-pty-ltd-1', 1, 1, '', '0', '2014-05-15 07:38:58', '2014-05-15 07:39:19', 'publish'),
 (838, 'Home', '', '', 'nav_menu_item', 323, 'close', 0, 'Home', 'home-1', 0, 1, NULL, '0', '2014-05-16 02:31:53', '2014-05-16 02:31:53', 'publish'),
 (846, 'Solutions', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'solutions', 0, 1, '', '0', '2014-05-16 02:10:56', '2014-05-16 02:11:04', 'publish'),
@@ -541,7 +599,26 @@ INSERT INTO `ace_posts` (`id`, `post_title`, `post_content`, `post_excerpt`, `po
 (865, 'images', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/16/images.jpeg', 0, 1, 'image/jpeg', '0', '2014-05-16 06:29:34', '2014-05-16 06:29:34', 'Published'),
 (867, 'onsectetur adipisicing elit', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'project', 323, 'open', 0, '', 'onsectetur-adipisicing-elit', 0, 1, '', '0', '2014-05-16 06:46:52', '2014-05-16 06:47:14', 'publish'),
 (869, 'android-robot-sign-234', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/16/android-robot-sign-234.jpeg', 0, 1, 'image/jpeg', '0', '2014-05-16 06:47:08', '2014-05-16 06:47:08', 'Published'),
-(871, '<i class="icon icon-monitorCheck"></i> Solutions', '', '', 'nav_menu_item', 323, 'close', 0, '<i class="icon icon-monitorCheck"></i> Solutions', 'i-classicon-icon-monitorchecki-solutions', 1, 1, NULL, '0', '2014-05-16 08:15:26', '2014-05-16 08:15:26', 'publish');
+(871, '<i class="icon icon-monitorCheck"></i> Solutions', '', '', 'nav_menu_item', 323, 'close', 0, '<i class="icon icon-monitorCheck"></i> Solutions', 'i-classicon-icon-monitorchecki-solutions', 1, 1, NULL, '0', '2014-05-19 02:03:49', '2014-05-19 02:03:49', 'publish'),
+(872, 'Civil Services', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'civil-services', 0, 1, '', '0', '2014-05-19 00:10:41', '2014-05-19 00:11:53', 'publish'),
+(873, 'Electrical Infrastructure', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'electrical-infrastructure', 0, 1, '', '0', '2014-05-19 00:13:02', '2014-05-19 00:13:50', 'publish'),
+(874, 'Ace Environment', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'ace-environment', 0, 1, '', '0', '2014-05-19 00:15:46', '2014-05-19 00:16:16', 'publish'),
+(875, 'Ace Infrastructure', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'ace-infrastructure', 0, 1, '', '0', '2014-05-19 00:16:58', '2014-05-19 00:17:15', 'publish'),
+(876, 'Landscape Services', '<p><span style="background-color:rgb(255, 255, 255)">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>\r\n', '', 'page', 323, 'open', 0, '', 'landscape-services', 0, 1, '', '0', '2014-05-19 00:17:48', '2014-05-19 00:18:08', 'publish'),
+(877, 'Ace Water Services', '<p><span style="background-color:rgb(255, 255, 255)">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>\r\n', '', 'page', 323, 'open', 0, '', 'ace-water-services', 0, 1, '', '0', '2014-05-19 00:22:08', '2014-05-19 00:22:20', 'publish'),
+(878, 'Our people!', 'Lorem ipsum dolor sit amet, consectetuer adipis.', '', 'banner', 323, 'open', 0, '', 'our-people-1', 1, 1, '', '0', '2014-05-19 00:47:53', '2014-05-19 00:47:58', 'publish'),
+(879, 'OUR PROJECTS!', '[our-projects]', '', 'banner', 323, 'open', 0, '', 'our-projects', 1, 1, '', '0', '2014-05-19 00:48:14', '2014-05-19 00:48:19', 'publish'),
+(880, 'OUR SERVICES!', 'Lorem ipsum dolor sit amet, consectetuer adipis.', '', 'banner', 323, 'open', 0, '', 'our-services-1', 1, 1, '', '0', '2014-05-19 00:48:01', '2014-05-19 00:48:06', 'publish'),
+(881, 'Our Services!', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>\r\n', '', 'page', 323, 'open', 0, '', 'our-services', 0, 1, '', '0', '2014-05-19 00:37:24', '2014-05-19 00:37:33', 'publish'),
+(882, 'Client Testimonials', '[client-testimonials]', '0', 'widget_item', 323, 'close', 0, 'Client Testimonials', 'client-testimonials', 0, 1, NULL, '0', '2014-05-19 01:28:33', '2014-05-19 01:28:33', 'publish'),
+(883, 'Russell Moore', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', 'President of Ace Contractors Group', 'people', 323, 'open', 0, '', 'russell-moore', 0, 1, '', '0', '2014-05-19 02:17:04', '2014-05-19 02:21:57', 'publish'),
+(884, 'people-3', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/19/people-3.jpg', 0, 1, 'image/jpeg', '0', '2014-05-19 02:21:50', '2014-05-19 02:21:50', 'Published'),
+(885, 'Simon Cock', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', 'Lorem ipsum dolor sit amet', 'people', 323, 'open', 0, '', 'simon-cock', 0, 1, '', '0', '2014-05-19 02:22:40', '2014-05-19 02:23:06', 'publish'),
+(886, 'people-4', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/19/people-4.jpg', 0, 1, 'image/jpeg', '0', '2014-05-19 02:22:59', '2014-05-19 02:22:59', 'Published'),
+(887, 'Warren Higgs', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', 'consectetur adipisicing elit', 'people', 323, 'open', 0, '', 'warren-higgs', 0, 1, '', '0', '2014-05-19 02:23:11', '2014-05-19 02:24:22', 'publish'),
+(888, 'people-5', NULL, NULL, 'attachment', 323, 'close', 0, '', 'http://acegroup.lightmedia.com.au/media/uploads/2014/19/people-5.jpg', 0, 1, 'image/jpeg', '0', '2014-05-19 02:24:17', '2014-05-19 02:24:17', 'Published'),
+(889, 'consectetur adipisicing elit', '<p><span style="background-color:rgb(255, 255, 255); color:rgb(102, 102, 102); font-size:12px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, quis, assumenda cum aperiam recusandae ab velit natus labore deserunt harum! Et, maxime eveniet sequi aperiam facere rerum est consequuntur qui suscipit ad veniam minima ex alias soluta voluptate ratione totam error fugit quidem sunt. Veritatis, expedita, optio, nisi sunt exercitationem aliquam</span></p>\r\n', '', 'people', 323, 'open', 0, '', 'consectetur-adipisicing-elit', 0, 1, '', '0', '2014-05-19 02:25:11', '2014-05-19 02:25:17', 'publish'),
+(890, '3 Boxes', '<div class="col-sm-4">\r\n    <div class="post post-block">\r\n      <a href="/people">\r\n        <img src="http://acegroup.lightmedia.com.au/assets/site/placeholders/post-1.jpg" alt="">\r\n        <div class="post-content">\r\n          <h2 class="post-title">Our people!</h2>\r\n          <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>\r\n        </div>\r\n      </a>\r\n    </div>\r\n  </div>\r\n  <div class="col-sm-4">\r\n    <div class="post post-block">\r\n[carousel-projects]\r\n   <div class="post-content">\r\n        <h2 class="post-title">Our Projects!</h2>\r\n        <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class="col-sm-4">\r\n    <div class="post post-block">\r\n      <a href="/our-services">\r\n        <img src="http://acegroup.lightmedia.com.au/assets/site/placeholders/post-3.jpg" alt="">\r\n        <div class="post-content">\r\n          <h2 class="post-title">Our Services!</h2>\r\n          <p>Lorem ipsum dolor sit amet, consectetuer adipis.</p>\r\n        </div>\r\n      </a>\r\n    </div>\r\n  </div>', '0', 'widget_item', 323, 'close', 0, '', '3-boxes', 0, 1, NULL, '0', '2014-05-19 05:19:17', '2014-05-19 05:19:17', 'publish');
 
 -- --------------------------------------------------------
 
@@ -704,7 +781,7 @@ CREATE TABLE `ace_terms` (
   PRIMARY KEY (`term_id`),
   UNIQUE KEY `name` (`name`),
   UNIQUE KEY `slug` (`slug`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=77 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=79 ;
 
 --
 -- Dumping data for table `ace_terms`
@@ -724,7 +801,9 @@ INSERT INTO `ace_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 (73, 'Home', 'home', 0),
 (74, 'Middle Menu', 'middle-menu', 0),
 (75, 'Footer Menu', 'footer-menu', 0),
-(76, 'Top Right Widget', 'top-right-widget', 0);
+(76, 'Top Right Widget', 'top-right-widget', 0),
+(77, 'Configurable Box', 'configurable-box', 0),
+(78, 'Sidebar', 'sidebar', 0);
 
 -- --------------------------------------------------------
 
@@ -745,7 +824,6 @@ CREATE TABLE `ace_term_relationships` (
 --
 
 INSERT INTO `ace_term_relationships` (`object_id`, `term_taxonomy_id`, `menu_order`) VALUES
-(634, 46, 0),
 (813, 71, 0),
 (837, 71, 0),
 (838, 73, 0),
@@ -757,11 +835,16 @@ INSERT INTO `ace_term_relationships` (`object_id`, `term_taxonomy_id`, `menu_ord
 (860, 73, 0),
 (850, 73, 0),
 (861, 74, 0),
+(878, 75, 0),
+(880, 75, 0),
+(879, 75, 0),
+(882, 76, 0),
 (719, 70, 0),
 (871, 70, 0),
 (718, 70, 0),
 (715, 70, 0),
-(716, 70, 0);
+(716, 70, 0),
+(890, 46, 0);
 
 -- --------------------------------------------------------
 
@@ -778,7 +861,7 @@ CREATE TABLE `ace_term_taxonomy` (
   `count` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`term_taxonomy_id`),
   KEY `fk_ace_term_taxonomy_ace_terms_idx` (`term_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=75 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=77 ;
 
 --
 -- Dumping data for table `ace_term_taxonomy`
@@ -798,7 +881,9 @@ INSERT INTO `ace_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `des
 (71, 73, 'banner-category', '', 0, 0),
 (72, 74, 'nav_menu', '', 0, 0),
 (73, 75, 'nav_menu', '', 0, 0),
-(74, 76, 'widget', '', 0, 0);
+(74, 76, 'widget', '', 0, 0),
+(75, 77, 'banner-category', '', 0, 0),
+(76, 78, 'widget', '', 0, 0);
 
 -- --------------------------------------------------------
 

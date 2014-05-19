@@ -22,42 +22,42 @@
                 <div class="section--buttons">
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/pages') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Pages</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/projects') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Projects</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/blogs') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Posts</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/members') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Users</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/menu') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Navigations</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/banners') }}" class="btn btn-default btn-md btn-block">
                                 <span>Manage Sliders</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/settings/general') }}" class="btn btn-default btn-md btn-block">
                                 <span>Settings</span>
                             </a>
                         </div>
                         <div class="col-md-6">
-                            <a href="{{ URL::to('admin/blog/create') }}" class="btn btn-default btn-md btn-block">
+                            <a href="{{ URL::to('admin/testimonial/create') }}" class="btn btn-default btn-md btn-block">
                                 <span>Add Testimonials</span>
                             </a>
                         </div>
