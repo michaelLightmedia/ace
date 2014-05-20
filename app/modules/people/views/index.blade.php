@@ -70,7 +70,7 @@
 
   <script>
     $(function(){
-      tableHelper.init("{{ URL::to('admin/peoples') }}");
+      tableHelper.init("{{ URL::to('admin/people') }}");
     })
   </script>
 @stop
