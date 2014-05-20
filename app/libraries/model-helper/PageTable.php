@@ -38,20 +38,25 @@ class PageTable  extends TableHelper
     public function column_post_title( $item ) 
     {
 		$title =(strlen($item['post_title']) > 50) ? substr($item['post_title'], 0, 50).'...' : $item['post_title'];
+    	// return sprintf(
+     //        '<a href="page/%s/edit">%s</a>
+     //    	 <div class="row-actions">
+	    //         <span class="edit">
+	    //             <a href="page/%s/edit" title="Edit this item">Edit</a> |
+	    //         </span>
+	    //         <span class="delete">
+	    //             <a href="page/%s/view" class="confirm-delete" title="Delete " rel="permalink">View</a> | 
+	    //         </span>
+	    //         <span class="delete">
+	    //             <a href="page/%s/delete" class="confirm-delete" title="Delete " rel="permalink">Delete</a>
+	    //         </span>
+	    //      </div>
+     //        ', $item['id'], $title,$item['id'],$item['id'],$item['id']	
+     //    );
+
+		$title =(strlen($item['post_title']) > 50) ? substr($item['post_title'], 0, 50).'...' : $item['post_title'];
     	return sprintf(
-            '<a href="page/%s/edit">%s</a>
-        	 <div class="row-actions">
-	            <span class="edit">
-	                <a href="page/%s/edit" title="Edit this item">Edit</a> |
-	            </span>
-	            <span class="delete">
-	                <a href="page/%s/view" class="confirm-delete" title="Delete " rel="permalink">View</a> | 
-	            </span>
-	            <span class="delete">
-	                <a href="page/%s/delete" class="confirm-delete" title="Delete " rel="permalink">Delete</a>
-	            </span>
-	         </div>
-            ', $item['id'], $title,$item['id'],$item['id'],$item['id']	
+            '<a href="page/%s/edit">%s</a>', $item['id'], $title
         );
     }
 	

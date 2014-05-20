@@ -89,7 +89,7 @@ function client_testimonials() {
 
 	$innerHTML = '';
 
-	$testimonials 	= \PPost::where('post_type', 'testimonial')->get();
+	$testimonials 	= \PPost::where('post_type', 'testimonial')->orderBy('id', 'asc')->take(5)->get();
 	if( $testimonials ) {
 
 		$innerHTML .= '<div class="widget-body">';
