@@ -17,8 +17,7 @@
 			"app/tests/TestCase.php",
 			"app/modules",
             "app/libraries",
-			"app/libraries/model-helper",
-			"app/libraries/payment"
+			"app/libraries/model-helper"
 		],
 		"files": [
 	    ]

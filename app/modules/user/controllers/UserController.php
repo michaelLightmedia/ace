@@ -616,8 +616,8 @@ class UserController extends \Controller
 	{
 
 		
-		$tab = \Input::get('tab');
-		$tab = (isset($tab)) ? $tab : 'member-details';
+		//$tab = \Input::get('tab');
+		//$tab = (isset($tab)) ? $tab : 'member-details';
 
 
 		$user = new User;
@@ -632,11 +632,10 @@ class UserController extends \Controller
 			$input = \Input::all();
 			
 			
-			if( $tab == 'member-details' )
-			{			
+			// if( $tab == 'member-details' )
+			// {			
 				$rules = array(
-					'username'			=> 'required|unique:users,username,'.$user->id,
-					'nric' 				=> 'required',
+					'email'			=> 'required|email|unique:users,email,'.$user->id,
 					'firstname' 		=> 'required',
 					'lastname' 			=> 'required',
 					//'avatar' 			=> 'image|max:2000',
@@ -655,12 +654,12 @@ class UserController extends \Controller
 				}
 				
 				$password 			= $input['password'];	
-				$user->username 	= $input['username'];
+				$user->email 		= $input['email'];
 				$user->firstname 	= $input['firstname'];
 				$user->lastname 	= $input['lastname'];
 				$user->birthdate 	= $input['birthdate'];
 				$user->points 		= 0;
-				$user->nric 		= $input['nric'];
+				// $user->nric 		= $input['nric'];
 				
 				if( isset($input['password']) && $input['password'] != '' )
 				{
@@ -672,26 +671,26 @@ class UserController extends \Controller
 					$password 		= Hash::make($password);
 					$user->password = $password;
 				}
-			}
-			elseif( $tab == 'contact-details' )
-			{
-				$rules = array(
-					'email'				=> 'required|email|unique:users,email,'.$user->id,
-					'birthdate' 		=> 'date',
-					'address_1' 		=> 'required',
-					'state' 			=> 'required',
-					'postcode'			=> 'required',
-					'country'			=> 'required',
-				);
-				$email 				= $input['email'];
-				$user->email 		= $email;
-				$user->address_1 	= $input['address_1'];
-				$user->address_2 	= $input['address_2'];
-				$user->postcode 	= $input['postcode'];
-				$user->state 		= $input['state'];
-				$user->country 		= $input['country'];
-				$user->mobile 		= $input['mobile'];
-			}
+			// }
+			// elseif( $tab == 'contact-details' )
+			// {
+			// 	$rules = array(
+			// 		'email'				=> 'required|email|unique:users,email,'.$user->id,
+			// 		'birthdate' 		=> 'date',
+			// 		'address_1' 		=> 'required',
+			// 		'state' 			=> 'required',
+			// 		'postcode'			=> 'required',
+			// 		'country'			=> 'required',
+			// 	);
+			// 	$email 				= $input['email'];
+			// 	$user->email 		= $email;
+			// 	$user->address_1 	= $input['address_1'];
+			// 	$user->address_2 	= $input['address_2'];
+			// 	$user->postcode 	= $input['postcode'];
+			// 	$user->state 		= $input['state'];
+			// 	$user->country 		= $input['country'];
+			// 	$user->mobile 		= $input['mobile'];
+			// }
 
 
 			$validator = Validator::make($input, $rules);
@@ -742,7 +741,7 @@ class UserController extends \Controller
 
 							unset($img);
 
-					        return Redirect::to('admin/member/'.$user->id.'/edit?tab='.$tab)
+					        return Redirect::to('admin/member/'.$user->id.'/edit/membership')
 									->withInput()
 									->with('success_msg', 'User successfully saved');
 				        }
@@ -750,14 +749,14 @@ class UserController extends \Controller
 
 					$user['id'] = $user->id;
 
-					return Redirect::to('admin/member/'.$user['id'].'/edit?tab='.$tab)
+					return Redirect::to('admin/member/'.$user['id'].'/edit/membership')
 						->withInput()
 						->with('success_msg', 'User successfully saved');
 
 				}
 				else
 				{
-					return Redirect::to('admin/member/create?tab='.$tab)
+					return Redirect::to('admin/member/create')
 						->withInput()
 						->with('error_msg', 'Unable to save the data');
 				}
@@ -765,7 +764,7 @@ class UserController extends \Controller
 			}
 			else
 			{
-				return Redirect::to('admin/member/create?tab='.$tab)
+				return Redirect::to('admin/member/create')
 					->withInput()
 					->with('errors', $validator->getMessageBag()->toArray());
 			}
@@ -774,7 +773,7 @@ class UserController extends \Controller
 
 		}
 
-		$user['tab'] = $tab;
+		$user['tab'] = 'member-details';
 
 		$groups = new \Group;
 		$groupObj = $groups->lists();

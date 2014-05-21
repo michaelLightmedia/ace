@@ -14,18 +14,8 @@
 
 
 @section('content')
-
-<br />
-<br />
-<br />
 		{{ Site::system_messages() }}
 			
-			<div class="section section--offset">
-				<div class="panel panel--offset">
-
-					@yield('sub-content')
-					
-
-				</div>
-			</div>
+			@yield('sub-content')
+			
 @stop

@@ -259,7 +259,7 @@
                         @if( Auth::User()->group->hasRole('manage_users') )
                         <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/members">
                             <a href="{{ URL::to('admin/members') }}">
-                                <i class="fa fa-group"></i>
+                                <i class="fa fa-user"></i>
                                 <span>Users</span>
                             </a>
                             <ul class="sub">
@@ -271,6 +271,23 @@
                                 </li>
                             </ul>
                         </li>
+
+                        <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/members">
+                           <a href="{{ URL::to('admin/members/groups') }}">
+                                <i class="fa fa-group"></i>
+                                <span>Groups</span>
+                            </a>
+                            <ul class="sub">
+                                <li data-mysegment="admin/members/groups">
+                                    <a href="{{ URL::to('admin/members/groups') }}"><i class="fa fa-star"></i>All</a>
+                                </li>
+                                <li data-mysegment="admin/members/group/create">
+                                    <a href="{{ URL::to('admin/members/group/create') }}"><i class="fa fa-tag"></i>Add User</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        
                         @endif
 
 

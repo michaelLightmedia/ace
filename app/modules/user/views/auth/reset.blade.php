@@ -1,13 +1,17 @@
 @extends('layouts.auth_master')
 
 @section('content')
+<div class="banner banner-home banner-l3 banner-full">
+    <div class="container">
+        <div class="banner-form banner-form-show">
+            <h1 class="title">Reset Passsword</h1>
      {{ Form::open(array(
         "url" => URL::route("user/reset") . $token,
         "autocomplete" => "off",
         "id" => "gyForm",
         'role' => 'form', 'class' => 'form-horizontal',  
     )) }}
-
+        <div class="form-login">
         <div class="form-group form-ease-in">
             <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
@@ -44,9 +48,12 @@
             </div>
         </div>
         {{ Site::system_messages() }}
-
+    </div>
 
     {{ Form::close() }}
+    </div>
+    </div>
+</div>
 @stop
 
 

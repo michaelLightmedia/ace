@@ -84,23 +84,23 @@ Route::group(array("before" => "auth"), function()
     Route::any('admin/member/{id}/edit/membership', 'App\Modules\User\UserController@userMembershipAction')
         ->where('id', '[0-9]+')->before('users_edit_permission');
 
-    Route::any('admin/member/{id}/edit/contact', 'App\Modules\User\UserController@userContactAction')
-        ->where('id', '[0-9]+')->before('users_edit_permission');
+    // Route::any('admin/member/{id}/edit/contact', 'App\Modules\User\UserController@userContactAction')
+    //     ->where('id', '[0-9]+')->before('users_edit_permission');
 
-    Route::any('admin/member/{id}/edit/purchases', 'App\Modules\User\UserController@userOrdersAction')
-        ->where('id', '[0-9]+')->before('users_edit_permission');
+    // Route::any('admin/member/{id}/edit/purchases', 'App\Modules\User\UserController@userOrdersAction')
+    //     ->where('id', '[0-9]+')->before('users_edit_permission');
 
     // Route::any('admin/member/{id}/edit/orders', 'App\Modules\User\UserController@userOrdersAction')
     //     ->where('id', '[0-9]+')->before('users_edit_permission');
 
-    Route::any('admin/member/{id}/edit/points', 'App\Modules\User\UserController@userPointsAction')
-        ->where('id', '[0-9]+')->before('users_edit_permission');
+    // Route::any('admin/member/{id}/edit/points', 'App\Modules\User\UserController@userPointsAction')
+    //     ->where('id', '[0-9]+')->before('users_edit_permission');
 
-    Route::any('admin/member/{id}/edit/friends', 'App\Modules\User\UserController@userFriendsAction')
-        ->where('id', '[0-9]+')->before('users_edit_permission');
+    // Route::any('admin/member/{id}/edit/friends', 'App\Modules\User\UserController@userFriendsAction')
+    //     ->where('id', '[0-9]+')->before('users_edit_permission');
 
-    Route::any('admin/member/delete/friends', 'App\Modules\User\UserController@deleteFriendsAction')
-    ->before('users_edit_permission');
+    // Route::any('admin/member/delete/friends', 'App\Modules\User\UserController@deleteFriendsAction')
+    // ->before('users_edit_permission');
     
         
     /*---------------------------------------------

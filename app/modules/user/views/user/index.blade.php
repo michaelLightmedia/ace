@@ -15,13 +15,13 @@
     <div class="section-left">
       <ul class="action-list">
         <li>
-          <a href="{{ URL::to('admin/page/create') }}" class="btn btn-success">
+          <a href="{{ URL::to('admin/member/create') }}" class="btn btn-success">
             <i class="fa fa-plus"></i>
             <span>Add New</span>
           </a>
         </li>
         <li>
-          <a onclick="cskAdmin.BootrstrapAlert.xdelete('admin/page/delete', 'Group buy');return false;" class="delete-post btn btn-default">
+          <a onclick="cskAdmin.BootrstrapAlert.xdelete('admin/member/delete', 'Group buy');return false;" class="delete-post btn btn-default">
             <i class="fa fa-trash-o"></i>
             <span>Delete</span>
           </a>
