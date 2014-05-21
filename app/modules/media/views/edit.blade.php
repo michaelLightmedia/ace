@@ -2,27 +2,42 @@
 
 @section('section-top')
 
-<!-- Main Content -->
-<div class="section section--top">
-	<div class="pull-left">
-		<h1 class="h3 section__title">
-			<i class="fa fa-picture-o mr-5px"></i>
-			<span>Edit Media</span>
-		</h1>
-	</div>
+<div class="navbar-left">
+    <h1 class="page-title">
+        <span>Page</span>
+    </h1>
 </div>
+
 @stop
 @section('content')
- <div class="t-content">
+    <div class="section section--top">  
+        <div class="section-left">
+            <ul class="action-list">
+                <li>
+                    <a href="{{ URL::to('admin/page/create') }}" class="btn btn-success">
+                        <i class="fa fa-plus mr-5px"></i>
+                        <span>Add New</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     {{ Site::system_messages() }}
-	
-	{{ Form::open(array('url' => 'admin/media/'. $post['id'].'/edit', 'id' => 'post-form' )) }}
-	{{ Form::hidden('id', $post['id']) }}
+    
+    {{ Form::open(array('url' => 'admin/media/'.$post['id'].'/edit', 'id' => 'post-form' )) }}
+    {{ Form::hidden('post_type', 'media') }}
+    {{ Form::hidden('id', $post['id'], array('id' => 'post_id')) }}
+    {{ Form::hidden('comment_status', 'open') }}
+    {{ Form::hidden('post_parent', '0') }}
+    {{ Form::hidden('post_date', date('Y-m-d H:i:s')) }}
+    {{ Form::hidden('post_mimetype', '') }}
+
     <div class="section">
         <div class="pull-left mr-15px">
             <button type="submit" class="btn btn-default"><i class="fa fa-edit"></i>
-				<span>Update</span></button>
+                <span>Update</span></button>
         </div>
+
         <div class="pull-left">
             <a href="{{ URL::to('/?attachment_id='.$post['id']) }}" target="_blank" class="btn btn-default"><i class="fa fa-eye"></i>
                 <span>View</span></a>
@@ -89,9 +104,6 @@
                 </div>
                 </div>
             </div>
-        </div>
-
     </div>
     {{ Form::close() }}
-</div>
 @stop

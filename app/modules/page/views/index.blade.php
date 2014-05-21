@@ -41,7 +41,7 @@
 
 <!-- Main Content -->
 	{{ Site::system_messages() }}
-
+  {{ $lists->prepare_items() }}
     <div class="section section--box">
       <div class="row">
       	{{ Form::open(array('url' => 'admin/dashboard', 'method' => 'GET')) }}
@@ -55,7 +55,7 @@
             </div>
           </div>
 
-          {{ $lists->prepare_items() }}
+          
           {{ $lists->display() }}
         
          <div class="table-actions">

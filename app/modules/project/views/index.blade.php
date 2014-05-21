@@ -3,7 +3,7 @@
 @section('section-top')
   <div class="navbar-left">
     <h1 class="page-title">
-      <span>Posts</span>
+      <span>Pages</span>
     </h1>
     {{ $lists->search_box() }}
   </div>
@@ -37,7 +37,7 @@
     </div>
   </div>
 	{{ Site::system_messages() }}
-
+  {{ $lists->prepare_items() }}
     <div class="section section--box">
       <div class="row">
       	{{ Form::open(array('url' => 'admin/dashboard', 'method' => 'GET')) }}
@@ -51,7 +51,7 @@
               </div>
             </div>
 
-            {{ $lists->prepare_items() }}
+            
             {{ $lists->display() }}
           <div class="table-actions">
             <div class="table-action-left">
