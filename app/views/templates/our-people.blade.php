@@ -41,7 +41,7 @@ $person_id = Input::get('id') ? Input::get('id') : ( $people ? $people[0]->id : 
         <?php 
           
           foreach( $people as $person ) { 
-            $thumbnail = \PPost::mediaAttachment($person->id, 'post_thubnail');
+            $thumbnail = \PPost::mediaAttachment($person->id, 'post-thumbnail');
          ?>
         <div class="block">
           <a href="/people?id={{ $person->id }}" data-person="{{ $person->id }}" class="the-person">
