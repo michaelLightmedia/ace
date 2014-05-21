@@ -18,61 +18,6 @@
 Route::get('/', function()
 {
 
-
-	/*$attachment_id = Input::get('attachment_id');
-
-	if( isset($attachment_id) )
-	{
-		$post 	= \PPost::where('id', Input::get('attachment_id'))->firstOrFail();
-		
-		$metas = $post->postmeta->toArray();
-
-		$arrPost = $post->toArray();
-
-		foreach($metas as $row)
-		{
-			$arrPost[$row['meta_key']] = $row['meta_value'];
-		}
-
-		$arrPost['post-media'] = Site::postFeatureMedia( $arrPost['guid'] );
-
-
-		return View::make('front.single')
-			->with('page', $arrPost);
-	}
-
-
-	$s = Input::get('s');
-
-	if( isset($s) )
-	{
-
-		//Get page
-		$page 		= Input::get('page');
-		//Check if page is set
-		$page 		= isset($page) ? $page : 1;
-
-		//Per page
-		$per_page 	= Settings::get('post_per_page') ? Settings::get('post_per_page') : 9;
-		$offset  = ($page - 1) * $per_page;
-		//Get total items
-		
-
-
-		$posts = PPost::whereRaw("(post_title like '%$s%' OR post_content like '%$s%') AND post_type IN ('blog', 'groupbuy', 'promotion', 'event', 'service-treatment') ")
-		->select(DB::raw('post_title, post_content, guid, post_type '));
-
-		$totalRows = $posts->count();
-
-		$results = $posts->skip($offset)->take($per_page)->orderby('post_date','desc')->get();
-
-
-
-		return View::make('front.search')
-			->with('totalItems', $totalRows)
-			->with('key', preg_quote($s))
-			->with('results', $results);
-	}*/
 	return View::make('front.home');
 });
 
@@ -211,7 +156,7 @@ Route::any('{guid}',function($guid){
 
         //$arrPost['post_content']  = str_replace('[contact_form param1="hello" param2="3"]', 'Hello World', $arrPost['post_content']);
         $arrPost['post-media'] = Site::postFeatureMedia($post::mediaAttachment($arrPost['id'], 'large'));
-		$template = isset($arrPost['page_template']) ? $arrPost['page_template'] : 'default' ;
+		$template = isset($arrPost['page_template']) && View::exists('templates.'.$arrPost['page_template']) ? $arrPost['page_template'] : 'default' ;
 
 		return View::make('templates.'.$template)
 			->with('page', $arrPost);

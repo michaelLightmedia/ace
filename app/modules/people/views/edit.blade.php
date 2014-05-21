@@ -109,7 +109,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-12 col-md-12">
+			<div class="col-lg-6 col-md-6">
 				<div class="panel">
 					<header class="panel__heading">
 						<h3 class="h4">Excerpt</h3>
@@ -120,46 +120,6 @@
 						'cols' => '30',
 						'rows' => '3'
 						)) }}
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-6 col-sm-6">
-				<div class="panel">
-					<header class="panel__heading">
-						<h3 class="h4">Comments</h3>
-					</header>
-					<div class="panel__content">
-						<div class="timeline-messages-listing">
-							<div class="timeline-messages">
-							</div>
-								<!-- Timeline Messages -->
-						</div>
-						@if(Auth::check() && Auth::User()->group->hasRole('add_comment'))
-						 <div class="chat-form">
-                              <div class="input-cont ">
-                              		{{ Form::text('comment', Input::get('comment'), array(
-									'class' => 'form-control form-pretty col-lg-12',
-									'placeholder' => 'Type a message here...',
-									'id' => 'comment'
-									)) }}
-                              </div>
-                              <div class="form-group">
-                                  <div class="pull-right chat-features">
-                                      <a href="javascript:;">
-                                          <i class="icon-camera"></i>
-                                      </a>
-                                      <a href="javascript:;">
-                                          <i class="icon-link"></i>
-                                      </a>
-                                      {{ Form::button('Send', array('class' => 'btn btn-teal btn-chat', 'id' => 'send-comment')) }}
-                                  </div>
-                              </div>
-
-                          </div>
-                        @endif
 					</div>
 				</div>
 			</div>
