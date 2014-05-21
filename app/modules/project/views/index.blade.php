@@ -3,7 +3,7 @@
 @section('section-top')
   <div class="navbar-left">
     <h1 class="page-title">
-      <span>Pages</span>
+      <span>Projects</span>
     </h1>
     {{ $lists->search_box() }}
   </div>
