@@ -27,14 +27,14 @@
           </a>
         </li>
 
-        <li>
+       <!-- <li>
              {{ Form::open(array( 'url' => 'admin/members/import', 'files' => true )) }}
               <span class="btn btn-blue btn-uc btn-sm-2nd mt-5px fileinput-button">
                 <span><i class="fa fa-plus mr-5px"></i><input type="file" name="csv">Browse</span>
               </span>
               <button type="submit" class="btn btn-warning btn-uc btn-sm-2nd mt-5px" >Go</button>
               {{ Form::close() }}
-        </li>
+        </li>-->
       </ul>
     </div>
     <div class="section-right">
