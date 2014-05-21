@@ -57,6 +57,9 @@
                             <div style="text-align: center">
                                 <a href="{{ URL::route('user/reset').'?token='. $token }}" class="btn" style="display: inline-block; padding: 15px 28px; background: #35a5c7; color: #fff; border-radius: 4px; text-decoration: none; font-size: 16px;">Click here to activate</a>
                             </div>
+                            <p style="margin: 0 0 35px 0; text-align: center;">
+                                Copy this link if above link not working. 
+                                {{ URL::route('user/reset').'?token='. $token }}</p>
                         </td>
                     </tr>
                 </tbody>
