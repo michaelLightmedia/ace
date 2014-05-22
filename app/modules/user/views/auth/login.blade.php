@@ -23,7 +23,7 @@
             {{ Form::close() }}
 
             <div class="banner-form-footer">
-                <p>Dont't have an account yet? <a href="{{ URL::to("/signup") }}">Sign up »</a></p>
+               <!-- <p>Dont't have an account yet? <a href="{{ URL::to("/signup") }}">Sign up »</a></p>-->
             </div>
 
         </div>

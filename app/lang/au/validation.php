@@ -172,7 +172,7 @@ $___ =  array(
     'terms_condition'             => 'Please Accept Terms and Conditions to Proceed',
     'password'                      => 'Password must contain 8-16, a combination of letters or numbers with atleast one letter and one number',
 
-    'login_email'           => 'No account found for this email. Sign up for <a href="'.url('/signup').'">Gytbo</a>.',
+    'login_email'           => 'No account found for this email.', //' Sign up for <a href="'.url('/signup').'">Gytbo</a>.',
     'tfn' => 'Tax file number is invalid. Tax file number should only contains 9 number.',
     'abn' => 'ABN is invalid.',
     'postal_code' => 'Postal code is invalid.',
