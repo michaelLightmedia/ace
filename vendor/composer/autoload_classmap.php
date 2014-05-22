@@ -11,8 +11,6 @@ return array(
     'App\\Modules\\Banner\\ServiceProvider' => $baseDir . '/app/modules/banner/ServiceProvider.php',
     'App\\Modules\\Blog\\BlogController' => $baseDir . '/app/modules/blog/controllers/BlogController.php',
     'App\\Modules\\Blog\\ServiceProvider' => $baseDir . '/app/modules/blog/ServiceProvider.php',
-    'App\\Modules\\Comment\\CommentController' => $baseDir . '/app/modules/comment/controllers/CommentController.php',
-    'App\\Modules\\Comment\\ServiceProvider' => $baseDir . '/app/modules/comment/ServiceProvider.php',
     'App\\Modules\\Media\\MediaController' => $baseDir . '/app/modules/media/controllers/MediaController.php',
     'App\\Modules\\Media\\ServiceProvider' => $baseDir . '/app/modules/media/ServiceProvider.php',
     'App\\Modules\\Menu\\MenuController' => $baseDir . '/app/modules/menu/controllers/MenuController.php',
