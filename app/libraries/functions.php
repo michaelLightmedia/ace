@@ -13,7 +13,7 @@ function our_projects( $attr = false ) {
 
 	foreach( $projects as $project ) {
 
-		$project_thumbnail = \PPost::mediaAttachment($project->id, 'post-thumbnail');
+		$project_thumbnail = \PPost::mediaAttachment($project->id, 'project_thumbnail');
 
 
 		$innerHTML .= '<div class="col-xm-12 col-xs-6 col-sm-4">
