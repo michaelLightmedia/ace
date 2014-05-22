@@ -122,7 +122,6 @@ return array(
     	'App\Modules\Widget\ServiceProvider',
     	'App\Modules\Settings\ServiceProvider',
     	'App\Modules\Banner\ServiceProvider',
-    	'App\Modules\Comment\ServiceProvider',
     	'App\Modules\Project\ServiceProvider',
     	'App\Modules\People\ServiceProvider',
     	'App\Modules\Testimonial\ServiceProvider',
