@@ -8,7 +8,7 @@ function our_projects( $attr = false ) {
 
 	$innerHTML = '';
 
-	$projects 	= \PPost::where('post_type', 'project')->get();
+	$projects 	= \PPost::where('post_type', 'project')->where('post_status', 'publish')->get();
 	
 
 	foreach( $projects as $project ) {
@@ -45,7 +45,7 @@ add_shortcode( 'carousel-projects', 'carousel_projects' );
 function carousel_projects() {
 	$innerHTML = '';
 
-	$projects 	= \PPost::where('post_type', 'project')->get();
+	$projects 	= \PPost::where('post_type', 'project')->where('post_status', 'publish')->get();
 	
 
 	$innerHTML .= '<div id="widget-carousel" class="carousel carousel-main slide" data-ride="carousel">
@@ -89,7 +89,7 @@ function client_testimonials() {
 
 	$innerHTML = '';
 
-	$testimonials 	= \PPost::where('post_type', 'testimonial')->orderBy('id', 'asc')->take(5)->get();
+	$testimonials 	= \PPost::where('post_type', 'testimonial')->where('post_status', 'publish')->orderBy('id', 'asc')->take(5)->get();
 	if( $testimonials ) {
 
 		$innerHTML .= '<div class="widget-body">';

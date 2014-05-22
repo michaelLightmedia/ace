@@ -77,7 +77,7 @@ return array(
     'TestCase' => $baseDir . '/app/tests/TestCase.php',
     'TestimonialTable' => $baseDir . '/app/libraries/model-helper/TestimonialTable.php',
     'UploadController' => $baseDir . '/app/controllers/UploadController.php',
-    'UploadHandler' => $baseDir . '/app/libraries/model-helper/UploadHandler.php',
+    'UploadHandler' => $baseDir . '/app/libraries/UploadHandler.php',
     'User' => $baseDir . '/app/models/User.php',
     'UserHelper' => $baseDir . '/app/libraries/model-helper/UserHelper.php',
     'UserMeta' => $baseDir . '/app/models/UserMeta.php',

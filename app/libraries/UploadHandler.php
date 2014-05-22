@@ -124,6 +124,7 @@ class UploadHandler
                 ),
                 // Uncomment the following to create medium sized images:
                 
+                
                 'thumbnail' => array(
                     // Uncomment the following to use a defined directory for the thumbnails
                     // instead of a subdirectory based on the version identifier.
