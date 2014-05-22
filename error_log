@@ -25,3 +25,33 @@ Stack trace:
 #5 {main}
   thrown in /home/acegroup/public_html/app/start/global.php on line 64
 [16-May-2014 02:41:36 UTC] PHP Fatal error:  main(): Failed opening required '/home/acegroup/public_html/app/libraries/shortcode.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:54:26 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/acegroup/public_html/app/libraries/shortcode.php): failed to open stream: No such file or directory' in /home/acegroup/public_html/app/start/global.php:64
+Stack trace:
+#0 /home/acegroup/public_html/app/start/global.php(64): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/acegroup/...', 64, Array)
+#1 /home/acegroup/public_html/app/start/global.php(64): require_once()
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php(223): require('/home/acegroup/...')
+#3 /home/acegroup/public_html/bootstrap/start.php(61): require('/home/acegroup/...')
+#4 /home/acegroup/public_html/index.php(36): require_once('/home/acegroup/...')
+#5 {main}
+  thrown in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:54:26 UTC] PHP Fatal error:  main(): Failed opening required '/home/acegroup/public_html/app/libraries/shortcode.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:54:37 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/acegroup/public_html/app/libraries/shortcode.php): failed to open stream: No such file or directory' in /home/acegroup/public_html/app/start/global.php:64
+Stack trace:
+#0 /home/acegroup/public_html/app/start/global.php(64): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/acegroup/...', 64, Array)
+#1 /home/acegroup/public_html/app/start/global.php(64): require_once()
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php(223): require('/home/acegroup/...')
+#3 /home/acegroup/public_html/bootstrap/start.php(61): require('/home/acegroup/...')
+#4 /home/acegroup/public_html/index.php(36): require_once('/home/acegroup/...')
+#5 {main}
+  thrown in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:54:37 UTC] PHP Fatal error:  main(): Failed opening required '/home/acegroup/public_html/app/libraries/shortcode.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:55:08 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require_once(/home/acegroup/public_html/app/libraries/shortcode.php): failed to open stream: No such file or directory' in /home/acegroup/public_html/app/start/global.php:64
+Stack trace:
+#0 /home/acegroup/public_html/app/start/global.php(64): Illuminate\Exception\Handler->handleError(2, 'require_once(/h...', '/home/acegroup/...', 64, Array)
+#1 /home/acegroup/public_html/app/start/global.php(64): require_once()
+#2 /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/start.php(223): require('/home/acegroup/...')
+#3 /home/acegroup/public_html/bootstrap/start.php(61): require('/home/acegroup/...')
+#4 /home/acegroup/public_html/index.php(36): require_once('/home/acegroup/...')
+#5 {main}
+  thrown in /home/acegroup/public_html/app/start/global.php on line 64
+[16-May-2014 02:55:08 UTC] PHP Fatal error:  main(): Failed opening required '/home/acegroup/public_html/app/libraries/shortcode.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/acegroup/public_html/app/start/global.php on line 64
