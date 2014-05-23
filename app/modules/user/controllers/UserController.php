@@ -73,26 +73,9 @@ class UserController extends \Controller
 					{
 						$userGroup = Auth::user()->group->group;
 
-						if( $userGroup == 'Client')
-						{
-
-							$returURL = ($returURL) ? $returURL : "/dashboard";
-
-							return Redirect::to($returURL);	
-						
-						}
-						elseif(Auth::User()->group->hasRole('manage_settings'))
-						{
-							$returURL = $returURL = ($returURL) ? $returURL : 'admin/dashboard'; 
+						$returURL = $returURL = ($returURL) ? $returURL : 'admin/dashboard'; 
 							
-							return Redirect::to($returURL);	
-						}
-						else
-						{
-							$returURL = $returURL = ($returURL) ? $returURL : 'admin/profile'; 
-							
-							return Redirect::to($returURL);	
-						}
+						return Redirect::to($returURL);	
 					}
 				}
 				else
