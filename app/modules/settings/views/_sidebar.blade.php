@@ -18,7 +18,7 @@
 					<i class="fa fa-cog mr-5px"></i>
 					Site Settings
 				</a>
-				<a href="{{ URL::to('admin/settings/contact-info') }}" id="contact-info" class="list-group-item">
+				<!--<a href="{{ URL::to('admin/settings/contact-info') }}" id="contact-info" class="list-group-item">
 					<i class="fa fa-user mr-5px"></i>
 					Contact Information
 				</a>
@@ -29,11 +29,11 @@
 				<a href="{{ URL::to('admin/settings/user-security') }}" id="user-security" class="list-group-item">
 					<i class="fa fa-user mr-5px"></i>
 					User Security
-				</a>
-				<a href="{{ URL::to('admin/settings/user') }}" id="user" class="list-group-item">
+				</a>-->
+				<!--<a href="{{ URL::to('admin/settings/user') }}" id="user" class="list-group-item">
 					<i class="fa fa-user mr-5px"></i>
 					User Role
-				</a>
+				</a>-->
 			</div>
 		</div>
         <div class="content-body-main">

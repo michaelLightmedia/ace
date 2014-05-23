@@ -62,10 +62,10 @@ Route::group(array("before" => "auth"), function()
     //Logout
     Route::any("logout", 'App\Modules\User\UserController@logoutAction');
     //Lists of members
-    Route::any('admin/members','App\Modules\User\UserController@indexAction')->before('users_manage_permission');
+    Route::any('admin/members','App\Modules\User\UserController@indexAction');//->before('users_manage_permission');
 
     //Lists of members
-    Route::post('admin/members/import','App\Modules\User\UserController@importAction')->before('users_manage_permission');
+    Route::post('admin/members/import','App\Modules\User\UserController@importAction');//->before('users_manage_permission');
     //Create member
 	Route::any('admin/member/create', 'App\Modules\User\UserController@createAction')
         ->before('users_create_permission');
@@ -73,16 +73,16 @@ Route::group(array("before" => "auth"), function()
     // Route::any('admin/member/{id}/edit', 'App\Modules\User\UserController@editAction')
     //     ->where('id', '[0-9]+')->before('users_edit_permission');
     //Delete member
-    Route::post('admin/member/delete', 'App\Modules\User\UserController@deleteAction')->before('users_delete_permission');
+    Route::post('admin/member/delete', 'App\Modules\User\UserController@deleteAction');//->before('users_delete_permission');
     //Change status of the member
-    Route::post('admin/member/activate','App\Modules\User\UserController@activateAction')->before('users_manage_permission');
+    Route::post('admin/member/activate','App\Modules\User\UserController@activateAction');//->before('users_manage_permission');
     //Administrator profile
     Route::any('admin/profile', 'App\Modules\User\UserController@profileAction');//->before('users_manage_permission');
 
         
 
     Route::any('admin/member/{id}/edit/membership', 'App\Modules\User\UserController@userMembershipAction')
-        ->where('id', '[0-9]+')->before('users_edit_permission');
+        ->where('id', '[0-9]+');//->before('users_edit_permission');
 
     // Route::any('admin/member/{id}/edit/contact', 'App\Modules\User\UserController@userContactAction')
     //     ->where('id', '[0-9]+')->before('users_edit_permission');
@@ -107,29 +107,29 @@ Route::group(array("before" => "auth"), function()
         LIST OF MEMBER ROUTES
      -----------------------------------------------*/
      //Customer Dashboard
-    Route::get('customer/dashboard', function(){
-        return View::make('user::customer.dashboard');
+    // Route::get('customer/dashboard', function(){
+    //     return View::make('user::customer.dashboard');
 
-    })->before('customer');
-    //Call membership page
-    Route::any('customer/profile/{membership?}', 'App\Modules\User\UserController@customerMembershipAction')
-    ->where(array('membership' => 'membership'))
-    ->before('customer');
-    //Call contact details page
-    Route::any('customer/profile/contact-details', 'App\Modules\User\UserController@customerDetailsAction')
-    ->before('customer');
-    //Call purchases page
-    Route::any('customer/profile/purchases', 'App\Modules\User\UserController@customerPurchasesAction')
-    ->before('customer');
-    //Call orders page
-    Route::any('customer/profile/orders', 'App\Modules\User\UserController@customerOrdersAction')
-    ->before('customer');
-    //Call points page
-    Route::any('customer/profile/points', 'App\Modules\User\UserController@customerPointsAction')
-    ->before('customer');
-    //Call friends page
-    Route::any('customer/profile/friends', 'App\Modules\User\UserController@customerFriendsAction')
-    ->before('customer');
+    // })->before('customer');
+    // //Call membership page
+    // Route::any('customer/profile/{membership?}', 'App\Modules\User\UserController@customerMembershipAction')
+    // ->where(array('membership' => 'membership'))
+    // ->before('customer');
+    // //Call contact details page
+    // Route::any('customer/profile/contact-details', 'App\Modules\User\UserController@customerDetailsAction')
+    // ->before('customer');
+    // //Call purchases page
+    // Route::any('customer/profile/purchases', 'App\Modules\User\UserController@customerPurchasesAction')
+    // ->before('customer');
+    // //Call orders page
+    // Route::any('customer/profile/orders', 'App\Modules\User\UserController@customerOrdersAction')
+    // ->before('customer');
+    // //Call points page
+    // Route::any('customer/profile/points', 'App\Modules\User\UserController@customerPointsAction')
+    // ->before('customer');
+    // //Call friends page
+    // Route::any('customer/profile/friends', 'App\Modules\User\UserController@customerFriendsAction')
+    // ->before('customer');
 
 
     /*---------------------------------------------

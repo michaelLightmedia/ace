@@ -46,7 +46,7 @@ Route::group(array('before' => 'auth'), function()
 	Route::any('admin/dashboard',function() {
 
 		return View::make('admin.dashboard');
-	})->before('manage_settings_permission');
+	});//->before('manage_settings_permission');
 
 	
 	Route::get('admin/download', function(){
