@@ -95,17 +95,17 @@
                         <li>
                             <span class="separator">General</span>
                         </li>
-                        @if(Auth::User()->group->hasRole('manage_settings'))
+                   
                         <li class="" data-mysegment="admin/dashboard">
                             <a href="{{ URL::to('admin/dashboard') }}" >
                                 <i class="fa fa-eye"></i>
                                 <span>Dashboard</span>
                             </a>
                         </li>
-                        @endif
+                      
 
                          <!-- Check if current user has capability to manage manage_pages -->
-                        @if( Auth::User()->group->hasRole('manage_pages') )
+     
                         <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/pages">
                             <a href="{{ URL::to('admin/pages') }}">
                                 <i class="fa fa-copy"></i>
@@ -126,10 +126,10 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                    
 
                         <!-- Check if current user has capability to manage manage_blogs -->
-                        @if( Auth::User()->group->hasRole('manage_blogs') )
+                      
                         <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/blogs">
                             <a href="{{ URL::to('admin/blogs') }}">
                                 <i class="fa fa-bullhorn"></i>
@@ -150,10 +150,10 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                       
 
                         <!-- Check if current user has capability to manage manage_blogs -->
-                        @if( Auth::User()->group->hasRole('manage_blogs') )
+                       
                         <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/projects">
                             <a href="{{ URL::to('admin/projects') }}">
                                 <i class="fa fa-building"></i>
@@ -174,7 +174,7 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                    
 
 
                          <!-- Check if current user has capability to manage manage_blogs -->
@@ -228,7 +228,7 @@
                      
                         
                         <!-- Check if current user has capability to manage manage_blogs -->
-                        @if( Auth::User()->group->hasRole('manage_blogs') )
+                        
                         <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/banners">
                             <a href="{{ URL::to('admin/banners') }}">
                                 <i class="fa fa-bullhorn"></i>
@@ -249,14 +249,14 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                      
                         
                         <li>
                             <span class="separator">Manage the Website</span>
                         </li>
                         
                         <!-- Check if current user has capability to manage manage_users -->
-                        @if( Auth::User()->group->hasRole('manage_users') )
+                       
                         <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/members">
                             <a href="{{ URL::to('admin/members') }}">
                                 <i class="fa fa-user"></i>
@@ -288,7 +288,7 @@
                         </li>
 
                         
-                        @endif
+                      
 
 
                         <!-- Check if current user has capability to manage manage_blogs -->
@@ -302,7 +302,7 @@
                         @endif -->
 
                         <!-- Check if current user has capability to manage manage_navigation -->
-                        @if( Auth::User()->group->hasRole('manage_navigation') )
+                       
                         <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/menu">
                             <a href="{{ URL::to('admin/menu') }}">
                                 <i class="fa fa-link"></i>
@@ -317,18 +317,18 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                       
                         <!-- Check if current user has capability to manage manage_navigation -->
-                        @if( Auth::User()->group->hasRole('manage_navigation') )
+                        
                         <li data-mysegment="admin/widget">
                             <a href="{{ URL::to('admin/widget') }}">
                                 <i class="fa fa-cubes"></i>
                                 <span>Widgets</span>
                             </a>
                         </li>
-                        @endif
+                        
                         <!-- Check if current user has capability to manage manage_media -->
-                        @if( Auth::User()->group->hasRole('manage_media') )
+                        
                         <li class="sub-menu sub-menu--extended collapse" data-mysegment="admin/media">
                             <a href="{{ URL::to('admin/media') }}">
                                 <i class="fa fa-picture-o"></i>
@@ -347,9 +347,9 @@
                                 </li>
                             </ul>
                         </li>
-                        @endif
+                        
                         <!-- Check if current user has capability to manage manage_settings -->
-                        @if( Auth::User()->group->hasRole('manage_settings') )
+                        
 
                         <li class="@if(Request::segment(2) == 'settings'){{ 'active' }}@endif">
                             <a href="{{ URL::to('admin/settings/general') }}">
@@ -357,7 +357,7 @@
                                 <span>Settings</span>
                             </a>
                         </li>
-                        @endif
+                        
                     </ul>
                 </nav>
             </aside>
