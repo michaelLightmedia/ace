@@ -55,3 +55,5 @@ Stack trace:
 #5 {main}
   thrown in /home/acegroup/public_html/app/start/global.php on line 64
 [16-May-2014 02:55:08 UTC] PHP Fatal error:  main(): Failed opening required '/home/acegroup/public_html/app/libraries/shortcode.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/acegroup/public_html/app/start/global.php on line 64
+[22-May-2014 07:43:51 UTC] PHP Fatal error:  Class 'App\Modules\Comment\ServiceProvider' not found in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
+[22-May-2014 07:44:51 UTC] PHP Fatal error:  Class 'App\Modules\Comment\ServiceProvider' not found in /home/acegroup/public_html/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 123
