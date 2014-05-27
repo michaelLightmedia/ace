@@ -4,7 +4,7 @@ class SiteController extends BaseController {
 
 
     function getContactUs() {
-        return View::make('front.contact-us');
+        return View::make('contact-us');
     }
 
     function postContactUs() {

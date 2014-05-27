@@ -227,10 +227,8 @@ Route::any( 'archive/{category}/{year}', function( $category, $year ) {
 				->get();
 
 	$post->lists = $items;
-	$post->taxonomy = 'asdfasdf';
-	$post->category = 'asdfasd';//Terms::Where('slug', $category)->pluck('name');
 
-	return View::make('category')
+	return View::make('archive')
 			->with('post', $post);
 
 })->where('year', '[0-9]+');

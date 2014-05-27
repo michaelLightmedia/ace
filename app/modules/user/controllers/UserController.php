@@ -643,6 +643,8 @@ class UserController extends \Controller
 				$user->lastname 	= $input['lastname'];
 				$user->birthdate 	= $input['birthdate'];
 				$user->points 		= 0;
+				$user->group_id 	= $input['group_id'];
+				$user->active 		= $input['active'];
 				// $user->nric 		= $input['nric'];
 				
 				if( isset($input['password']) && $input['password'] != '' )
