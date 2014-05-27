@@ -115,3 +115,66 @@ function client_testimonials() {
 
 	return $innerHTML;
 }
+
+add_shortcode('lists-taxonomy', 'lists_taxonomy');
+function lists_taxonomy( $attr = false ) {
+
+	if( $attr !== false )
+		extract( $attr );
+
+	$terms = \DB::table('term_taxonomy')->join('terms', 'term_taxonomy.term_id', '=', 'terms.term_id')->where('taxonomy', $slug)->get();
+	$innerHTML = '';
+
+	$innerHTML .= '<ul class="list-pretty">';
+
+	foreach( $terms as $term ) {
+    	$innerHTML .= '<li><a href="'. URL::to( $term->taxonomy.'/'.$term->slug ) .'">'. $term->name .'</a></li>';
+	}
+
+    $innerHTML .= '</ul>';
+
+    return $innerHTML;
+
+}
+
+
+add_shortcode('cat-archive', 'category_archive');
+function category_archive( $attr = false ) {
+
+	if( $attr !== false )
+		extract( $attr );
+
+	$terms = DB::table('posts')
+				->select( DB::raw(' YEAR(post_date) as publish_year, slug,name  ') )
+				->join('term_relationships', 'posts.id', '=', 'term_relationships.object_id')
+				->join('term_taxonomy', 'term_relationships.term_taxonomy_id', '=', 'term_taxonomy.term_taxonomy_id')
+				->join('terms', 'term_taxonomy.term_id', '=', 'terms.term_id')
+				->where('term_taxonomy.taxonomy', '=', $taxonomy)
+				->where('terms.slug', $category)
+				->groupBy('publish_year')
+				->get();
+
+
+	$innerHTML = '';
+	$innerHTML .= '<ul class="list-pretty">';
+
+	foreach( $terms as $term ) {
+    	$innerHTML .= '<li><a href="'. URL::to( 'archive/'.$term->slug.'/'.$term->publish_year ) .'">'. $term->name.' '.$term->publish_year .'</a></li>';
+	}
+
+    $innerHTML .= '</ul>';
+
+    return $innerHTML;
+
+}
+
+
+add_shortcode('search-form', 'search_form');
+
+function search_form( $attr = false  ) {
+	$innerHTML = '';
+	$innerHTML .= '<form method="GET" action="'.URL::to('/q').'">
+                    <input type="text" name="s" value="'. Input::get('s') .'" class="form-control">
+                  </form>';
+    return $innerHTML;
+}

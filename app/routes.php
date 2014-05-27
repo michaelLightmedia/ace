@@ -18,10 +18,35 @@
 Route::get('/', function()
 {
 
-	return View::make('front.home');
+	return View::make('home');
 });
 
 
+Route::any('q', function(){
+
+	$data = Input::all();
+
+	$posts = DB::table('posts')
+				->leftJoin('term_relationships', 'posts.id', '=', 'term_relationships.object_id')
+				->leftJoin('term_taxonomy', 'term_relationships.term_taxonomy_id', '=', 'term_taxonomy.term_taxonomy_id')
+				->leftJoin('terms', 'term_taxonomy.term_id', '=', 'terms.term_id')
+				->whereNotIn('post_type', array('nav_menu_item', 'banner', 'attachment', 'widget_item', 'page' ) )
+				->where(function( $query ) use ( $data ) {
+
+					$s = $data['s'];
+
+					$query->where('post_title', 'like', "%$s%")
+						->orWhere( 'post_content', 'like', "%$s%" )
+						->orWhere( 'post_excerpt', 'like', "%$s%" );
+						
+				})
+				->groupBy('posts.id')
+				->get();
+
+
+	return View::make('search')
+				->with('posts', $posts);
+});
 
 
 Route::post('offsetTimeZone', function(){
@@ -162,6 +187,53 @@ Route::any('{guid}',function($guid){
 			->with('page', $arrPost);
     }
 });
+
+
+Route::any( '{taxonomy}/{category}', function( $taxonomy, $category ) {
+
+	$post = new StdClass;
+
+	$items = DB::table('posts')
+				->join('term_relationships', 'posts.id', '=', 'term_relationships.object_id')
+				->join('term_taxonomy', 'term_relationships.term_taxonomy_id', '=', 'term_taxonomy.term_taxonomy_id')
+				->join('terms', 'term_taxonomy.term_id', '=', 'terms.term_id')
+				->where('term_taxonomy.taxonomy', '=', $taxonomy)
+				->where('terms.slug', $category)
+				->groupBy('posts.id')
+				->get();
+
+	$post->lists = $items;
+	$post->taxonomy = $taxonomy;
+	$post->category = Terms::Where('slug', $category)->pluck('name');
+
+	return View::make('category')
+			->with('post', $post);
+
+
+});
+
+Route::any( 'archive/{category}/{year}', function( $category, $year ) {
+	
+	$post = new StdClass;
+
+	$items = DB::table('posts')
+				->join('term_relationships', 'posts.id', '=', 'term_relationships.object_id')
+				->join('term_taxonomy', 'term_relationships.term_taxonomy_id', '=', 'term_taxonomy.term_taxonomy_id')
+				->join('terms', 'term_taxonomy.term_id', '=', 'terms.term_id')
+				//->whereNotIn('post_type', array('nav_menu_item', 'banner', 'attachment', 'widget_item', 'page' ) )
+				->where('terms.slug', '=', $category)
+				->where(DB::raw('YEAR(post_date)'),'=', $year)
+				->groupBy('posts.id')
+				->get();
+
+	$post->lists = $items;
+	$post->taxonomy = 'asdfasdf';
+	$post->category = 'asdfasd';//Terms::Where('slug', $category)->pluck('name');
+
+	return View::make('category')
+			->with('post', $post);
+
+})->where('year', '[0-9]+');
 
 
 

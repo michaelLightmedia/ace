@@ -19,7 +19,7 @@
     {{ Site::site_nav_menu(array(
               'level' => 0,
               'menu'  => 'Nav Menu',
-              'menu_class' => 'nav navbar-nav navbar-bottom navbar-left navbar-offcanvas offcanvas navbar-main navmenu-fixed-left'
+              'menu_class' => 'nav navbar-nav navbar-bottom navbar-right navbar-offcanvas offcanvas navbar-main navmenu-fixed-left'
             )) }}    
   </div><!--/.nav-collapse -->
 </div>

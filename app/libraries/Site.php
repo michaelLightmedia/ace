@@ -458,10 +458,12 @@ class Site
 
 		if($resultSet)
 		{
-			if( $widgetWrap )
-				echo '<'.$widgetWrap.' class="'.$widgetWrapClass.'">';
+			
 			foreach($resultSet as $k => $result)
 			{
+
+				if( $widgetWrap )
+					echo '<'.$widgetWrap.' class="'.$widgetWrapClass.'">';
 				//echo '<div class="container">';
 				if( $showTitle ) {
 					if( $titleWrap )
@@ -474,10 +476,12 @@ class Site
 
 				echo the_content($result->post_content);
 				//echo '</div>';
+
+				if( $widgetWrap )
+					echo '</'.$widgetWrap.'>';
 			}
 
-			if( $widgetWrap )
-				echo '</'.$widgetWrap.'>';
+			
 		}
 
 
