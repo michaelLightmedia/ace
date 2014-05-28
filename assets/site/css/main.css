@@ -385,9 +385,6 @@ li.backLava {
 .list-inline-bordered > li:first-child {
   border: 0;
 }
-.list-brand {
-  margin-top: 20px;
-}
 @media (max-width: 1030px) {
   .list-brand {
     text-align: center;
@@ -552,9 +549,6 @@ li.backLava {
 .l-footer .list-inline-bordered li:first-child {
   padding-left: 0;
 }
-.l-footer .copyright {
-  margin-top: -18px;
-}
 .l-footer a {
   color: #fff;
 }
@@ -639,6 +633,15 @@ li.backLava {
   .carousel-main.slide {
     display: block;
   }
+}
+.post-block a {
+  position: relative;
+  height: 230px;
+}
+.post-block img {
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
 }
 .st_pinterest_hcount *,
 .st_twitter_hcount *,
@@ -1148,59 +1151,6 @@ hr {
   width: 90px;
   float: left;
   margin: 0 20px 20px 0;
-}
-.page-l2 .l-content-header {
-  text-align: center;
-}
-.page-l2 .navbar-brand {
-  float: none;
-}
-.page-l2 .l-content {
-  margin: 0em 0;
-}
-.banner-form.banner-form-show {
-  background: #ffffff;
-  padding: 0;
-  max-width: 450px;
-  margin: auto;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.33) 0 1px 2px;
-}
-.banner-form.banner-form-show .title {
-  text-align: center;
-  font-size: 29px;
-  padding: 29px 0 20px;
-  display: block;
-}
-.banner-form.banner-form-show .btn {
-  background: #FDBB2F;
-  border: 1px solid #D69B1C;
-  border-radius: 3px;
-  box-shadow: rgba(255, 255, 255, 0.34) 0 1px 0 inset;
-  color: #7C5C17;
-  text-shadow: rgba(255, 255, 255, 0.28) 0 1px 0;
-}
-.banner-form.banner-form-show .forgot-pass {
-  margin: 10px 0;
-}
-.banner-form.banner-form-show .banner-form-footer {
-  background: #eee;
-  padding: 12px;
-  border-radius: 0 0 4px 4px;
-}
-.banner-form.banner-form-show .banner-form-footer p {
-  margin: 0;
-  text-align: center;
-  color: #666;
-}
-.banner-form.banner-form-show .form-login {
-  padding: 0 41px 20px;
-}
-.banner-form.banner-form-show .form-group {
-  margin-bottom: 10px;
-}
-.banner-form.banner-form-show .form-control {
-  height: 43px;
 }
 .social {
   margin: 0;

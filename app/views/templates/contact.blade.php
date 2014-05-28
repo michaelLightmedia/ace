@@ -49,14 +49,38 @@
     </form>
   </div>
   <div class="main-content-sidebar">
-    {{ Site::getWidget(array(
+    <!-- {{ Site::getWidget(array(
             'widget'  => 'Sidebar',
             'widgetWrap' => 'div',
             'widgetWrapClass' => 'widget widget-l2',
             'showTitle' => true,
             'titleWrap' => 'h3',
             'titleWrapClass' => 'widget-title'
-          )) }}
+          )) }} -->
+
+    <div class="widget widget-l2">
+      <h3 class="widget-title">General Info</h3>
+      <div class="widget-body">
+        <div class="post-testimonial">
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="avatar">
+                <img src="http://ace.local/media/uploads/2014/15/thumbnail/ace.jpg" alt="">                  
+              </div>
+            </div>
+            <div class="col-xs-8 widget-bl copy">
+              <ul>
+                <li>Local: (817) 907-5300</li>
+                <li>Local: (817) 907-5300</li>
+
+                <li>Local: (817) 907-5300</li>
+                <li>Local: (817) 907-5300</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
