@@ -20,7 +20,7 @@
 
   <link rel="stylesheet" href="{{ URL::asset('assets/site/css/icons.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/site/css/main.css') }}">
-
+  
   <!--[if IE]>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/global/css/ie.css') }}" />
   <![endif]-->

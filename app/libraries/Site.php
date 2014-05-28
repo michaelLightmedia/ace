@@ -248,6 +248,7 @@ class Site
 		->where('terms.name', $category)
 		->select('posts.id','posts.post_title','posts.post_content', 'posts.post_excerpt')
 		->orderby('posts.menu_order', 'asc')
+		->remember(10)
 		->get();
 
 		$banners = array();
@@ -398,7 +399,7 @@ class Site
 		$tblPrefix = DB::getTablePrefix();
 
 		$sql = "SELECT * FROM ".$tblPrefix."posts WHERE post_type= ? and post_parent = ?";
-		$resultSet =  DB::select($sql, array('nav_menu_item',$level)); 
+		$resultSet =  DB::select($sql, array('nav_menu_item',$level));
 
 		if($resultSet)	
 		{
@@ -454,6 +455,7 @@ class Site
 		->where('terms.name', $widget)
 		->select('posts.id','posts.post_title','posts.post_content')
 		->orderby('posts.menu_order', 'asc')
+		->remember(10)
 		->get();
 
 		if($resultSet)
@@ -515,6 +517,7 @@ class Site
 		->where('terms.name', $menu)
 		->select('posts.id','posts.post_title','posts.guid', 'posts.post_parent')
 		->orderby('posts.menu_order', 'asc')
+		->remember(10)
 		->get();
 
 		if($resultSet)
@@ -553,6 +556,7 @@ class Site
 					$hasChild = PPost::where('post_type', 'nav_menu_item')
 					->where('post_parent', $item->post_parent)
 					->orderBy('menu_order', 'asc')
+					->remember(10)
 					->first();
 
 					if($hasChild)
