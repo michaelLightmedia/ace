@@ -150,6 +150,27 @@
                                 </li>
                             </ul>
                         </li>
+
+                        <li class="sub-menu sub-menu--extended collapse " data-mysegment="admin/policies">
+                            <a href="{{ URL::to('admin/policies') }}">
+                                <i class="fa fa-bullhorn"></i>
+                                <span>Policies</span>
+                            </a>
+                            <ul class="sub" >
+                                <li data-mysegment="admin/policies">
+                                    <a href="{{ URL::to('admin/policies') }}"><i class="fa fa-star"></i><span>All</span></a>
+                                </li>
+                                <li data-mysegment="admin/policy">
+                                    <a href="{{ URL::to('admin/policy/create') }}">
+                                        <i class="fa fa-plus"></i>
+                                        <span>Add New</span>
+                                    </a>
+                                </li>
+                                <li data-mysegment="admin/taxonomy/policy-category">
+                                    <a href="{{ URL::to('admin/taxonomy/policy-category') }}"><i class="fa fa-tag"></i><span>Category</span></a>
+                                </li>
+                            </ul>
+                        </li>
                        
 
                         <!-- Check if current user has capability to manage manage_blogs -->

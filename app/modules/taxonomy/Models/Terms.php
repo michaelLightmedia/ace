@@ -8,7 +8,7 @@ class Terms extends \Eloquent
 
 	public function taxonomy()
 	{
-		return $this->belongsTo('Taxonomy');
+		return $this->belongsTo('Taxonomy', 'term_id');
 	}
 	
 

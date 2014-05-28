@@ -17,6 +17,10 @@ class PPost extends Eloquent
     {
         return $this->hasMany('Comment', 'post_id');
     }
+
+    public function taxonomy() {
+        return $this->belongsToMany('PPost', 'term_relationships', 'term_taxonomy_id', 'object_id');
+    }
     
     //Deprecated
     public function getAttachment($post_id, $size = false)

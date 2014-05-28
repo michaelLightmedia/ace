@@ -2061,6 +2061,7 @@ function do_shortcode( $shortcode = false ) {
 
 function excerpt_content( $content = false, $length = 100, $more_text = '', $is_echo = false ) {
 
+    $content = strip_tags( $content );
 
     if( strlen($content) > $length) {
         $content = substr($content, 0, $length).$more_text;

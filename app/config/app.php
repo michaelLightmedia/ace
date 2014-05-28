@@ -124,6 +124,7 @@ return array(
     	'App\Modules\Banner\ServiceProvider',
     	'App\Modules\Project\ServiceProvider',
     	'App\Modules\People\ServiceProvider',
+    	'App\Modules\Policy\ServiceProvider',
     	'App\Modules\Testimonial\ServiceProvider',
 		'Intervention\Image\ImageServiceProvider'
 	),

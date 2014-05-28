@@ -8,7 +8,12 @@ class Taxonomy extends \Eloquent
 
 	public function terms()
 	{
-		return $this->hasMany('Terms');
+		return $this->hasMany('Terms', 'term_id', 'term_taxonomy_id');
+	}
+
+
+	public function pposts() {
+		return $this->belongsToMany('Taxonomy', 'term_relationships', 'object_id', 'term_taxonomy_id');
 	}
 
 }
