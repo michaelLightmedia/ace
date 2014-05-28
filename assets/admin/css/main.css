@@ -4518,7 +4518,7 @@ ul.wysihtml5-toolbar div[data-wysihtml5-command-value="orange"] {
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
-  background-image: url("../../global//i/logo-gray.png");
+  background-image: url("../../global//i/logo-gray.gif");
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
