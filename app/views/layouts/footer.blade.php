@@ -1,14 +1,5 @@
         <footer class="l-footer">
-          <div class="widget-list">
-            <!-- <h4>Menu</h4> -->
-
-            {{ Site::site_nav_menu(array(
-              'level' => 0,
-              'menu'  => 'Footer Menu',
-              'menu_class' => 'list-inline list-inline-bordered'
-            )) }} 
-            
-          </div> 
+          
 
          <!--  <div class="widget-list widget-services">
             <h4>Services</h4>
@@ -33,28 +24,32 @@
             </ul>  
           </div>  -->
 
-             <div class="col-xs-12">
-             <div class="row">
-                <div class="col-xm-12 col-xs-6">
-                  <div class="list-inline pull-left list-brand">
-                    <li><img src="{{ URL::asset('assets/site/i/logos/brand1.png') }}" alt=""></li>
-                    <li><img src="{{ URL::asset('assets/site/i/logos/brand2.png') }}" alt=""></li>
-                  </div>
-                </div>
-                <div class="col-xm-12 col-xs-6">
-                  <p class="copyright pull-right">Copyright 2013 - ACE Contractors - All rights reserved</p>
-                </div>
-                <div class="col-xm-12 col-xs-6">
-                  <ul class="social social-inline social-md">
-                    <li class="facebook"><a href="#" target="_BLANK"><span class="fa fa-facebook"></span></a></li>
-                    <li class="twitter"><a href="#" target="_BLANK"><span class="fa fa-twitter"></span></a></li>
-                    <li class="linkedin"><a href="#" target="_BLANK"><span class="fa fa-linkedin"></span></a></li>
-                    <li class="rss"><a href="#" target="_BLANK"><span class="fa fa-rss"></span></a></li>
-                  </ul>
-                </div>
+             <div class="pull-left">
+               <div class="widget-list">
+                <!-- <h4>Menu</h4> -->
 
-              </div>
-            </div>
+                {{ Site::site_nav_menu(array(
+                  'level' => 0,
+                  'menu'  => 'Footer Menu',
+                  'menu_class' => 'list-inline list-inline-bordered'
+                )) }} 
+                
+              </div> 
+              <p class="copyright pull-left">Copyright 2013 - ACE Contractors - All rights reserved</p>
+             </div>
+
+             <div class="pull-right">
+               <div class="list-inline pull-left list-brand">
+                  <li><img src="{{ URL::asset('assets/site/i/logos/brand1.png') }}" alt=""></li>
+                  <li><img src="{{ URL::asset('assets/site/i/logos/brand2.png') }}" alt=""></li>
+                </div>
+                <ul class="social social-inline social-md">
+                  <li class="facebook"><a href="#" target="_BLANK"><span class="fa fa-facebook"></span></a></li>
+                  <li class="twitter"><a href="#" target="_BLANK"><span class="fa fa-twitter"></span></a></li>
+                  <li class="linkedin"><a href="#" target="_BLANK"><span class="fa fa-linkedin"></span></a></li>
+                  <li class="rss"><a href="#" target="_BLANK"><span class="fa fa-rss"></span></a></li>
+                </ul>
+             </div>
         </footer>
 
      
