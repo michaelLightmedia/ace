@@ -69,10 +69,9 @@ class BannerController extends \BaseController
 		if( $_product = $post->product )
 		{
 			
-			$arrPost = \Site::multiToSingleArr($_product->toArray(), $arrPost);
+			$arrPost = array_merge((array)$_product->toArray(), (array)$arrPost);//\Site::multiToSingleArr($_product->toArray(), $arrPost);
 		}
-		
-		
+
 
 
 
@@ -156,7 +155,7 @@ class BannerController extends \BaseController
 		}
 
 		$terms = new \Terms;
-		$levels = \UserHelper::getAllLevels();
+		// $levels = \UserHelper::getAllLevels();
 		//$comment = new \CommentHelper();
 		
 		$arrayOfTerms = $terms->getArrayTerms('banner-category');

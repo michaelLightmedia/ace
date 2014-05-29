@@ -256,7 +256,7 @@ class MediaController extends \BaseController
 			$resultSet = $resultSet->skip($page)->take($per_row);
 		// }
 		
-		$resultSet = $resultSet->get();
+		$resultSet = $resultSet->remember(10)->get();
 		
 		
 		$data = array();

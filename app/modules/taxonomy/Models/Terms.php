@@ -66,7 +66,7 @@ class Terms extends \Eloquent
 		$resultSet	= \DB::table('terms')
 						->leftJoin('term_taxonomy', 'terms.term_id', '=', 'term_taxonomy.term_id')
 						->where('term_taxonomy.taxonomy', '=', $taxonomy)
-						->select('term_taxonomy.term_taxonomy_id', 'terms.name')->get();
+						->select('term_taxonomy.term_taxonomy_id', 'terms.name')->remember(10)->get();
 						
 		return $resultSet;
 	}
@@ -100,7 +100,7 @@ class Terms extends \Eloquent
 	{
 		$terms = \DB::table('term_relationships')
 			->select('term_taxonomy_id')
-			->where('object_id', $post_id)->get();
+			->where('object_id', $post_id)->remember(10)->get();
 			
 		return $terms;
 		

@@ -41,6 +41,7 @@ Route::any('q', function(){
 						
 				})
 				->groupBy('posts.id')
+				->remember(10)
 				->get();
 
 
@@ -168,7 +169,7 @@ Route::post( '/contact-us', function(){
 
 
 Route::any('{guid}',function($guid){
-	$post 	= \PPost::where('guid', $guid)->firstOrFail();
+	$post 	= \PPost::where('guid', $guid)->remember(10)->firstOrFail();
     if ($post) {
         $metas = $post->postmeta->toArray();
 
@@ -200,6 +201,7 @@ Route::any( '{taxonomy}/{category}', function( $taxonomy, $category ) {
 				->where('term_taxonomy.taxonomy', '=', $taxonomy)
 				->where('terms.slug', $category)
 				->groupBy('posts.id')
+				->remember(10)
 				->get();
 
 	$post->lists = $items;
@@ -224,6 +226,7 @@ Route::any( 'archive/{category}/{year}', function( $category, $year ) {
 				->where('terms.slug', '=', $category)
 				->where(DB::raw('YEAR(post_date)'),'=', $year)
 				->groupBy('posts.id')
+				->remember(10)
 				->get();
 
 	$post->lists = $items;

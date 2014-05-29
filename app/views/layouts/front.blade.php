@@ -20,14 +20,13 @@
 
   <link rel="stylesheet" href="{{ URL::asset('assets/site/css/icons.css') }}">
   <link rel="stylesheet" href="{{ URL::asset('assets/site/css/main.css') }}">
-
+  
   <!--[if IE]>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('assets/global/css/ie.css') }}" />
   <![endif]-->
 
   <script type="text/javascript" src="{{ URL::asset('assets/global/js/ext/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
   <script type="text/javascript" src="{{ URL::asset('assets/global/js/libs/jquery-1.10.1.js') }}"></script>
-
     <script>
     //<![CDATA[
     var baseURL = '{{ URL::to("/"); }}/';
@@ -71,7 +70,7 @@
   <script src="{{ URL::asset('assets/site/js/main.js') }}"></script>
 
 
-  <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f06957f6dbea277"></script>
+   <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+              <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-512f47f5015632cb"></script>
   </body>
 </html>
