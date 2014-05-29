@@ -25,10 +25,15 @@
               <p>{{ excerpt_content( $policy->post_content, 700 ) }}</p>
             </div>
             <div class="pull-left">
-              <span class='st_pinterest_hcount' displayText='Pinterest'></span>
-              <span class='st_fblike_hcount' displayText='Facebook Like'></span>
-              <span class='st_twitter_hcount' displayText='Tweet'></span>
-              <span class='st_plusone_hcount' displayText='Google +1'></span>
+              <!-- AddThis Button BEGIN -->
+              <div class="addthis_toolbox addthis_default_style ">
+              <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+              <a class="addthis_button_tweet"></a>
+              <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
+              <a class="addthis_counter addthis_pill_style"></a>
+              </div>
+             
+              <!-- AddThis Button END -->
             </div>
             <div class="pull-right">
               <a href="{{ $policy->guid }}" class="btn btn-sm btn-yellow-strip">Read More</a>
@@ -37,6 +42,7 @@
         </div>
       </article>
   <?php } ?>
+  
   </div>
   <div class="main-content-sidebar">
     {{ Site::getWidget(array(
