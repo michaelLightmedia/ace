@@ -15,7 +15,6 @@
     )) }}
   </div>
   <div class="navbar-collapse " role="navigation">
-
     {{ Site::site_nav_menu(array(
               'level' => 0,
               'menu'  => 'Nav Menu',
@@ -23,7 +22,3 @@
             )) }}    
   </div><!--/.nav-collapse -->
 </div>
-
-
-
-<?php // Gy::gy_nav_menu(array( 'level' => 0, 'menu'  => 'Nav Menu', 'menu_class' => 'nav navbar-nav' )) ?>

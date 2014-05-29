@@ -27,7 +27,6 @@
 
   <script type="text/javascript" src="{{ URL::asset('assets/global/js/ext/modernizr-2.6.2-respond-1.1.0.min.js') }}"></script>
   <script type="text/javascript" src="{{ URL::asset('assets/global/js/libs/jquery-1.10.1.js') }}"></script>
-
     <script>
     //<![CDATA[
     var baseURL = '{{ URL::to("/"); }}/';

@@ -568,8 +568,6 @@ class Site
 
 						self::site_nav_menu($default);
 					}
-
-
 					echo '</li>';
 				}
 			echo '</ul>';
