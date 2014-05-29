@@ -38,7 +38,19 @@ class PeopleTable  extends TableHelper
     {
 		$title =(strlen($item['post_title']) > 50) ? substr($item['post_title'], 0, 50).'...' : $item['post_title'];
     	return sprintf(
-            '<a href="people/%s/edit">%s</a>', $item['id'], $title
+            '<a href="people/%s/edit">%s</a>
+        	 <div class="row-actions">
+	            <span class="edit">
+	                <a href="people/%s/edit" title="Edit this item">Edit</a> |
+	            </span>
+	            <span class="view">
+	                <a href="%s" target="_blank" title="Delete " rel="permalink">View</a> | 
+	            </span>
+	            <span class="delete">
+	                <a href="people/delete?cid[]=%s" class="confirm-delete" title="Delete " rel="permalink">Delete</a>
+	            </span>
+	         </div>
+            ', $item['id'], $title,$item['id'], URL::to($item['guid']),$item['id']	
         );
     }
 	
@@ -149,6 +161,7 @@ class PeopleTable  extends TableHelper
 		$this->query = "SELECT 
 				p.id, 
 				p.post_title, 
+				p.guid,
 				u.firstname as author, 
 				p.post_date,
 				p.post_status 

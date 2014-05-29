@@ -218,12 +218,32 @@ class ProjectController extends \BaseController
 					}
 				}
 			}
+			$message = $affectedRows.' item(s) Successfully deleted!';
 			
+		}
+		else 
+		{
+			$message = 'Can`t delete item, Please try again.';
 		}
 
 		
 
-		echo json_encode(array('status' => $affectedRows));
-		exit;
+		if(\Request::ajax())
+		{
+			echo json_encode(array('status' => $affectedRows));
+			exit;
+		}
+
+		if( $affectedRows )
+		{
+			return \Redirect::to('admin/projects/')
+				->with('success_msg', $message);
+		}
+		else
+		{
+
+			return \Redirect::to('admin/projects/')
+				->with('error_msg', $message);
+		}
 	}
 }

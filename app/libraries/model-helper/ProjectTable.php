@@ -38,7 +38,19 @@ class ProjectTable  extends TableHelper
     {
 		$title =(strlen($item['post_title']) > 50) ? substr($item['post_title'], 0, 50).'...' : $item['post_title'];
     	return sprintf(
-            '<a href="project/%s/edit">%s</a>', $item['id'], $title
+            '<a href="project/%s/edit">%s</a>
+        	 <div class="row-actions">
+	            <span class="edit">
+	                <a href="project/%s/edit" title="Edit this item">Edit</a> |
+	            </span>
+	            <span class="view">
+	                <a href="%s" target="_blank" title="Delete " rel="permalink">View</a> | 
+	            </span>
+	            <span class="delete">
+	                <a href="project/delete?cid[]=%s" class="confirm-delete" title="Delete " rel="permalink">Delete</a>
+	            </span>
+	         </div>
+            ', $item['id'], $title,$item['id'], URL::to($item['guid']),$item['id']	
         );
     }
 	
@@ -147,6 +159,7 @@ class ProjectTable  extends TableHelper
 		$tablPrefix = DB::getTablePrefix();
 
 		$this->query = "SELECT 
+				p.guid,
 				p.id, 
 				p.post_title, 
 				u.firstname as author, 
