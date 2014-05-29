@@ -660,6 +660,10 @@ hr {
     }
 }
 
+.avatar-secondary {
+    border: 0;
+}
+
 /// 
 .copy {
     blockquote {
@@ -898,6 +902,53 @@ hr {
         color: #fff;
         .transition(background .2s linear);
     }
+}
+
+.block-spread {
+    .block-title {
+        font-size: 14px;
+        color: #000;
+        text-transform: uppercase;
+    }
+    .block-content {
+        font-size: 12px;
+    }
+}
+
+.img-shadow {
+    position: relative;
+    float: left;
+    margin-bottom: 15px;
+
+    img {
+        float: left;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .box-shadow(0 1px 10px rgba(0,0,0,0.3) inset);    
+    }
+    
+}
+
+.contact-info {
+    padding: 10px 6px;
+    font-size: 13px;
+
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+}
+
+.live-chat {
+    display: block;
+    padding: 15px 0;
 }
 
 // Table
