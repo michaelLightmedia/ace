@@ -49,65 +49,14 @@
     </form>
   </div>
   <div class="main-content-sidebar">
-    <!-- {{ Site::getWidget(array(
-            'widget'  => 'Sidebar',
+   {{ Site::getWidget(array(
+            'widget'  => 'contact-sidebar',
             'widgetWrap' => 'div',
             'widgetWrapClass' => 'widget widget-l2',
             'showTitle' => true,
             'titleWrap' => 'h3',
             'titleWrapClass' => 'widget-title'
-          )) }} -->
-
-    <div class="widget widget-l2">
-      <h3 class="widget-title">General Info</h3>
-      <div class="widget-body">
-        <div class="post-testimonial">
-          <div class="row">
-            <div class="col-xs-4">
-              <div class="avatar avatar-secondary">
-                <img src="http://ace.local/media/uploads/2014/15/thumbnail/ace.jpg" alt="">                  
-              </div>
-            </div>
-            <div class="col-xs-8 widget-bl copy">
-              <div class="contact-info">
-                Local: (817) 907-5300 <br>
-                Free:  (855) 907-5300 <br>
-                <span class="live-chat">
-                  Live Chat 24 hours
-                </span>
-                <a href="mailto:info@acecompany.com">info@acecompany.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post-testimonial">
-          <div class="row">
-            <div class="col-xs-4">
-            </div>
-            <div class="col-xs-8 widget-bl">
-              <div class="contact-info">
-                Ace Contractors <br>
-                Group Pty. Ltd. <br> <br>
-                
-                Post Office Box # 16622 <br>
-                Fort Worth, Texas 76126 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="post-testimonial">
-          <div class="block-spread">
-            <div class="img-shadow">
-              <img src="http://ace.local/media/uploads/2014/15/thumbnail/sidebar-img.jpg" alt="">         
-            </div>
-            <h3 class="block-title">Lorem Ipsum</h3>
-            <div class="block-content">
-              <p>Lorem ipsum dolor sit amet, vix suscipit deserunt in, platonem prodesset at cum. Saperet mentitum tractatos ei ius, id dolore accumsan placerat est. Erant nostrud ut mei, </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          )) }}
   </div>
 </div>
 <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
