@@ -174,12 +174,12 @@ class MenuController extends \BaseController
 						$item_title 	= isset($arr['_menu_item_title']) ? $arr['_menu_item_title'] : null;
 						$item_url 		= isset($arr['_menu_item_url']) ? $arr['_menu_item_url'] : null;
 						$item_id 		= isset($arr['_menu_item_id']) ? $arr['_menu_item_id'] : null;
-						$item_classes  	= isset($arr['_menu_item_classes']) ? $arr['_menu_item_classes'] :null;
-						$item_content 	= isset($arr['_menu_item_description']) ? $arr['_menu_item_description'] :null;
+						$item_classes  	= isset($arr['_menu_item_classes']) ? strip_tags($arr['_menu_item_classes']) :null;
+						$item_content 	= isset($arr['_menu_item_description']) ? strip_tags($arr['_menu_item_description']) :null;
 						$item_target 	= isset($arr['_menu_item_target']) ? $arr['_menu_item_target'] :0;
 						$item_level 	= isset($arr['_menu_item_level']) ? $arr['_menu_item_level'] :0;
 						$item_order 	= isset($arr['_menu_item_order']) ? $arr['_menu_item_order'] :0;
-						$item_title_attr = isset($arr['_menu_item_attr_title']) ? $arr['_menu_item_attr_title'] :0;
+						$item_title_attr = isset($arr['_menu_item_attr_title']) ? strip_tags($arr['_menu_item_attr_title']) :0;
 						$item_parent 	= isset($arr['_menu_item_parent']) ? $arr['_menu_item_parent'] :0;
 
 						$item = array(

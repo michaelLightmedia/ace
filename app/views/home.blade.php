@@ -44,17 +44,7 @@
   @endforeach
   </div>
 </div>
-<div class="main-links">
-  <div class="title">
-    <p>Welcome</p>
-    <h3 class="">Ace Contractors Group Pty. Ltd.</h3>
-  </div>
-  <ul>
-    <li> <a href=""> <span>Our</span> Profile<i class="icon-chevron"></i></a></li>
-    <li> <a href=""> <span>Our</span> Projects<i class="icon-chevron"></i></a></li>
-    <li> <a href="people.php"> <span>Our</span> People<i class="icon-chevron"></i></a></li>
-  </ul>
-</div>
+
 <div class="navbar-skin-feat">
 <ul class="nav navbar-nav navbar-featured center-block">
     <li>
