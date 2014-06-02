@@ -4,7 +4,7 @@
 
 <div class="navbar-left">
 	<h1 class="page-title">
-		<span>Page</span>
+		<span>Banner</span>
 	</h1>
 </div>
 
