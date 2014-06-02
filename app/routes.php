@@ -158,9 +158,9 @@ Route::post( '/contact-us', function(){
 
 	} 
 
-	return \Redirect::to('/contact')
-					->withInput()
-					->with('errors', $validator->getMessageBag()->toArray());
+	return Redirect::to('/contact')
+				->with('errors', $validator->getMessageBag()->toArray())
+				->withInput(Input::all());
 
 	
 

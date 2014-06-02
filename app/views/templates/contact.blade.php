@@ -19,29 +19,29 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" name="first_name" class="form-control validate[required]" id="" placeholder="First Name">
+            <input type="text" name="first_name" value="<?php echo Input::old('first_name'); ?>" class="helo form-control validate[required]" id="" placeholder="First Name">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" name="last_name" class="form-control validate[required]" id="" placeholder="Last Name">
+            <input type="text" name="last_name" value="<?php echo Input::old('last_name'); ?>" class="form-control validate[required]" id="" placeholder="Last Name">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="email" name="email" class="form-control validate[required,email]" id="" placeholder="Email">
+            <input type="email" name="email" value="<?php echo Input::old('email'); ?>" class="form-control validate[required,email]" id="" placeholder="Email">
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" name="phone" class="form-control validate[required]" id="" placeholder="Phone Number">
+            <input type="text" name="phone" value="<?php echo Input::old('phone'); ?>" class="form-control validate[required]" id="" placeholder="Phone Number">
           </div>
         </div>
       </div>
       <div class="form-group">
-        <textarea name="comment" id="" cols="30" rows="10" class="form-control validate[required]" placeholder="Comment"></textarea>
+        <textarea name="comment" id="" cols="30" rows="10" class="form-control validate[required]" placeholder="Comment"><?php echo Input::old('comment'); ?></textarea>
       </div>
       <div class="pull-right">
         <button type="submit" class="btn btn-sm btn-yellow-strip">Submit</button>
