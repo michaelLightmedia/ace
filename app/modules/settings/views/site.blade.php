@@ -38,7 +38,7 @@
                                 {{ Form::textarea('option[site_meta_desc]', Settings::get('site_meta_desc'), array('class' => 'form-control validate[required]', 'rows' => '3', 'autofocus' => 'autofocus')) }}
                             </div>
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <label for="admin_email" class="col-lg-4 col-sm-4 control-label">
                                 Timezone
                                 <i class="fa fa-question-circle fa-tooltip tooltip2" data-toggle="tooltip" data-placement="top" title="Select your timezone" data-original-title="Select your timezone"></i>
@@ -74,7 +74,7 @@
                         <div class="form-group">
                             <label for="option[time_format]" class="col-lg-4 col-sm-4 control-label">
                                 Time Format
-                                <!--<i class="fa fa-question-circle fa-tooltip tooltip2" data-toggle="tooltip" data-placement="top" title="This address is used for admin purposes, like new user notification." data-original-title="This address is used for admin purposes, like new user notification."></i>-->
+                                
                             </label>
                             <div class="col-lg-8 col-md-7 col-sm-7">
                                 <div class="selectpicker-full selectpicker-format">
@@ -95,7 +95,7 @@
                                     </fieldset>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="form-group">
                             <label for="option[admin_email]" class="col-lg-4 col-sm-4 control-label">
                                 New User Default Role
