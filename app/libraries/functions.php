@@ -63,11 +63,11 @@ function carousel_projects() {
 
         $flag = true;
         foreach( $projects as $project ) {
-
+        	//URL::to( $project->guid )
 			$project_thumbnail = \PPost::mediaAttachment($project->id, 'post-thumbnail');
 	        $innerHTML .= '
 	          <div class="item '.( $flag ? 'active' : null ).'">
-	            <a href="'. URL::to( $project->guid ) .'">
+	            <a href="'. URL::to( '/projects' ) .'">
 	              <img src="'.$project_thumbnail.'" alt="...">
 	            </a>
 	          </div>';
