@@ -26,7 +26,12 @@
             </div>
             <div class="pull-left">
               <!-- AddThis Button BEGIN -->
-              <div class="addthis_toolbox addthis_default_style ">
+              <div class="addthis_toolbox addthis_default_style "
+
+               addthis:url="{{ URL::to($policy->guid) }}"
+              addthis:title="{{ $policy->post_title }}"
+              addthis:description="{{ excerpt_content( $policy->post_content, 700 ) }}"
+              >
               <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
               <a class="addthis_button_tweet"></a>
               <a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
@@ -36,7 +41,7 @@
               <!-- AddThis Button END -->
             </div>
             <div class="pull-right">
-              <a href="{{ $policy->guid }}" class="btn btn-sm btn-yellow-strip">Read More</a>
+              <a href="{{ URL::to($policy->guid) }}" class="btn btn-sm btn-yellow-strip">Read More</a>
             </div>
           </div>
         </div>
