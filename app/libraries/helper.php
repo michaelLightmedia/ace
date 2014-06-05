@@ -2001,14 +2001,15 @@ function the_content( $content ) {
 
         $short_code = explode( " " , $match[1] );
 
-
+       
         $params = array();
         for( $i = 1; $i < count( $short_code ); $i++ ) {
 
             $paramStr = explode( "=", preg_replace('/(\'|")/','', $short_code[$i] ) );
 
-            $params[$paramStr[0]] = $paramStr[1];
-            
+            if (isset($paramStr[1]) && isset($paramStr[0])) {
+                $params[$paramStr[0]] = $paramStr[1];
+            }
             
         }
 
