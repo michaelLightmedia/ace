@@ -14,11 +14,16 @@
 
 
 
-
 Route::get('/', function()
 {
 
 	return View::make('home');
+});
+
+
+
+Route::get('/phpinfo', function(){
+ 	phpinfo();
 });
 
 

@@ -12,7 +12,7 @@ $person_id = Input::get('id') ? Input::get('id') : ( $people ? $people[0]->id : 
          <h1>{{ $page['post_title'] }}</h1>
       </div>
       <div class="row">
-        <div class="col-md-7">
+        <div class="group group-l5">
           @if( $person_id )
           <div class="profile profile-lg clearfix">
             
@@ -34,10 +34,7 @@ $person_id = Input::get('id') ? Input::get('id') : ( $people ? $people[0]->id : 
             
           </div>
           @endif
-        </div>
-      </div>
-      <div class="group group-l5">
-        @if( $people )
+           @if( $people )
         <?php 
           
           foreach( $people as $person ) { 
@@ -52,6 +49,7 @@ $person_id = Input::get('id') ? Input::get('id') : ( $people ? $people[0]->id : 
         <?php } ?>
         @endif
 
+        </div>
       </div>
     </div>
     <div class="main-content-sidebar">
