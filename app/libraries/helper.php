@@ -1994,30 +1994,30 @@ function the_content( $content ) {
 
     global $short_codes;
 
+    preg_match_all('/\[(.*?)\]/', $content, $match );
 
-    preg_match( '/\[(.*?)\]/', $content, $match );
 
-    if( $match ) {
+    if(isset($match[1])) {
+  
+        for($indx = 0; $indx < count($match[1]); $indx++) {
+            $short_code = explode( " " , $match[1][$indx] );
+     
+            $params = array();
+            for( $i = 1; $i < count( $short_code ); $i++ ) {
 
-        $short_code = explode( " " , $match[1] );
+                $paramStr = explode( "=", preg_replace('/(\'|")/','', $short_code[$i] ) );
 
-       
-        $params = array();
-        for( $i = 1; $i < count( $short_code ); $i++ ) {
-
-            $paramStr = explode( "=", preg_replace('/(\'|")/','', $short_code[$i] ) );
-
-            if (isset($paramStr[1]) && isset($paramStr[0])) {
-                $params[$paramStr[0]] = $paramStr[1];
+                if (isset($paramStr[1]) && isset($paramStr[0])) {
+                    $params[$paramStr[0]] = $paramStr[1];
+                }
+                
             }
             
-        }
+            if( isset( $short_codes[$short_code[0]] ) ) {
 
-
-        if( isset( $short_codes[$short_code[0]] ) ) {
-
-            if( is_callable( $short_codes[$short_code[0]] ) )
-                echo preg_replace( '/\[(.*?)\]/', $short_codes[$short_code[0]]($params), $content );
+                if( is_callable( $short_codes[$short_code[0]] ) )
+                    echo preg_replace( '/\[(.*?)\]/', $short_codes[$short_code[0]]($params), $content );
+            }
         }
     } else {
         echo $content;
