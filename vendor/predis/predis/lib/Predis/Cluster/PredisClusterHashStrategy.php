@@ -73,6 +73,7 @@ class PredisClusterHashStrategy implements CommandHashStrategyInterface
             'GETSET'                => $keyIsFirstArgument,
             'INCR'                  => $keyIsFirstArgument,
             'INCRBY'                => $keyIsFirstArgument,
+            'INCRBYFLOAT'           => $keyIsFirstArgument,
             'SETBIT'                => $keyIsFirstArgument,
             'SETEX'                 => $keyIsFirstArgument,
             'MSET'                  => array($this, 'getKeyFromInterleavedArguments'),
@@ -137,6 +138,9 @@ class PredisClusterHashStrategy implements CommandHashStrategyInterface
             'ZSCORE'                => $keyIsFirstArgument,
             'ZUNIONSTORE'           => array($this, 'getKeyFromZsetAggregationCommands'),
             'ZSCAN'                 => $keyIsFirstArgument,
+            'ZLEXCOUNT'             => $keyIsFirstArgument,
+            'ZRANGEBYLEX'           => $keyIsFirstArgument,
+            'ZREMRANGEBYLEX'        => $keyIsFirstArgument,
 
             /* commands operating on hashes */
             'HDEL'                  => $keyIsFirstArgument,
@@ -153,6 +157,11 @@ class PredisClusterHashStrategy implements CommandHashStrategyInterface
             'HSETNX'                => $keyIsFirstArgument,
             'HVALS'                 => $keyIsFirstArgument,
             'HSCAN'                 => $keyIsFirstArgument,
+
+            /* commands operating on HyperLogLog */
+            'PFADD'                 => $keyIsFirstArgument,
+            'PFCOUNT'               => $keysAreAllArguments,
+            'PFMERGE'               => $keysAreAllArguments,
 
             /* scripting */
             'EVAL'                  => array($this, 'getKeyFromScriptingCommands'),

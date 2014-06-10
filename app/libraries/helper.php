@@ -1997,8 +1997,8 @@ function the_content( $content ) {
     preg_match_all('/\[(.*?)\]/', $content, $match );
 
 
-    if(isset($match[1])) {
-  
+    if(isset($match[1]) && $match[1] != null) {
+
         for($indx = 0; $indx < count($match[1]); $indx++) {
             $short_code = explode( " " , $match[1][$indx] );
      

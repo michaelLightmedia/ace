@@ -458,12 +458,11 @@ class Site
 		->remember(10)
 		->get();
 
+
 		if($resultSet)
 		{
-			
 			foreach($resultSet as $k => $result)
 			{
-
 				if( $widgetWrap )
 					echo '<'.$widgetWrap.' class="'.$widgetWrapClass.'">';
 				//echo '<div class="container">';
