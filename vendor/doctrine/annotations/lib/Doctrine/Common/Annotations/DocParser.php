@@ -843,16 +843,7 @@ final class DocParser
      */
     private function Values()
     {
-        $values = array();
-
-        // Handle the case of a single array as value, i.e. @Foo({....})
-        if ($this->lexer->isNextToken(DocLexer::T_OPEN_CURLY_BRACES)) {
-            $values['value'] = $this->Value();
-
-            return $values;
-        }
-
-        $values[] = $this->Value();
+        $values = array($this->Value());
 
         while ($this->lexer->isNextToken(DocLexer::T_COMMA)) {
             $this->match(DocLexer::T_COMMA);
@@ -940,6 +931,12 @@ final class DocParser
             if ($found) {
                  $identifier = $className . '::' . $const;
             }
+        }
+
+        // checks if identifier ends with ::class, \strlen('::class') === 7
+        $classPos = stripos($identifier, '::class');
+        if ($classPos === strlen($identifier) - 7) {
+            return substr($identifier, 0, $classPos);
         }
 
         if (!defined($identifier)) {

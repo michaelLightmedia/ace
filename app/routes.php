@@ -26,6 +26,12 @@ Route::get('/phpinfo', function(){
  	phpinfo();
 });
 
+Route::get('/test', function(){
+	$x = DB::connection('odbc')->select();
+	print_r($x);
+	die;
+});
+
 
 Route::any('q', function(){
 
