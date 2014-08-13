@@ -49,6 +49,8 @@ var cskMain = {
 					        [ 'TextColor','BGColor' ],
 						]
 					});
+					
+					CKEDITOR.config.allowedContent = true; 
 
 				
 			}

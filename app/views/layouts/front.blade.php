@@ -59,7 +59,7 @@
       </div>
       
       <div class="screen-pattern"></div>
-      <div class="screen"></div>
+      <div class="screen" style="background: url('{{ \Settings::get('site_background') }}') no-repeat center;"></div>
     </div>
 
 

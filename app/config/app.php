@@ -126,7 +126,8 @@ return array(
     	'App\Modules\People\ServiceProvider',
     	'App\Modules\Policy\ServiceProvider',
     	'App\Modules\Testimonial\ServiceProvider',
-		'Intervention\Image\ImageServiceProvider'
+		'Intervention\Image\ImageServiceProvider',
+		'jtgrimes\Laravelodbc\ODBCServiceProvider'
 	),
 
 	/*

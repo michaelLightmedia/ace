@@ -6,14 +6,11 @@
     <div class="main-content-heading">
       <h1>Contact</h1>
     </div>
-    <div class="copy copy-sm">
-      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Nam liber tempor cum soluta nobis eleifend option congue</p>
-    </div>
 
     <div id="map-canvas" style="width: 100%; height: 300px;"></div>
     <h4>Contact Form</h4>
     <div class="copy copy-sm">
-      <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Nam liber tempor cum soluta nobis eleifend option congue</p>
+      <p>To allow us to respond to your enquiry promptly, please provide all required information.</p>
     </div>
     <form role="form" class="form" action="{{ URL::to('/contact-us') }}" method="post">
       <div class="row">
@@ -76,11 +73,11 @@
     };
 
     var map;
-    var melbourne = new google.maps.LatLng(-38.007423,145.3838693);
+    var melbourne = new google.maps.LatLng(-37.717434, 145.139789);
 
     function initialize() {
       var mapOptions = {
-        zoom: 10,
+        zoom: 15,
         center: melbourne
       };
       map = new google.maps.Map(document.getElementById('map-canvas'),
@@ -91,6 +88,22 @@
       // their parent base map.
       map.overlayMapTypes.insertAt(
           0, new CoordMapType(new google.maps.Size(256, 256)));
+	
+	var infowindow = new google.maps.InfoWindow({
+      content: '18 Brisbane Street, Eltham Vic 3095'
+  });
+
+
+
+      var marker = new google.maps.Marker({
+        position: melbourne,
+        map: map,
+        title: '18 Brisbane Street, Eltham Vic 3095'
+      });
+      
+       google.maps.event.addListener(marker, 'click', function() {
+		    infowindow.open(map,marker);
+		  });
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);

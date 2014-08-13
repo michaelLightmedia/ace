@@ -17,7 +17,7 @@ Intervention Image is a **PHP image handling and manipulation** library providin
 ## Getting started
 
 - [Installation](http://image.intervention.io/getting_started/installation)
-- [Laravel Framework Integration](http://image.intervention.io/getting_started/laravel)
+- [Laravel Framework Integration](http://image.intervention.io/getting_started/installation#laravel)
 - [Official Documentation](http://image.intervention.io/)
 
 ## Code Examples
@@ -37,6 +37,14 @@ $img->save('public/bar.jpg');
 ```
 
 Refer to the [documentation](http://image.intervention.io/) to learn more about Intervention Image.
+
+## Contributing
+
+Contributions to the Intervention Image library are welcome. Please note the following guidelines before submiting your pull request.
+
+- Follow [PSR-0](http://www.php-fig.org/psr/psr-0/), [PSR-1](http://www.php-fig.org/psr/psr-1/) and [PSR-2](http://www.php-fig.org/psr/psr-2/) coding standards.
+- Write tests for new functions and added features
+- API calls should work consistently with both GD and Imagick drivers
 
 ## License
 

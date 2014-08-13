@@ -27,9 +27,15 @@ Route::get('/phpinfo', function(){
 });
 
 Route::get('/test', function(){
-	$x = DB::connection('odbc')->select();
+	/*$x = DB::connection('odbc')->select();
 	print_r($x);
-	die;
+	die;*/
+	//print_r(PDO::getAvailableDrivers());
+	//$cnx = new PDO("dblib:host=103.31.113.5:1433;dbname=AceDataBucket", "acgweb", "fgVB12#$"); 
+	//$cnx = new PDO("odbc:Driver={ACECON};Server=103.31.113.5,3340;dbname=AceDataBucket", "acgweb", "fgVB12#$"); 
+	$cnx = new PDO("odbc:Driver={SQL Server};Server=ACECON\SQLSERVER;Database=AceDataBucket;Uid=103.31.113.5:3340\acgweb;Pwd=fgVB12#$;"); 
+	//print_r($cnx);
+	//die;
 });
 
 
@@ -263,21 +269,7 @@ App::missing(function($exception)
     return Response::view('errors.404', array(), 404);
 });
 
-//Error exception
-// App::error(function(ErrorException $e)
-// {
-// 	Log::error($e);
-// 	if(Request::ajax())
-// 	{
-// 	    return Response::json(array(
-// 	        'error' => 'Error:'.$e->getMessage()
-// 	    ));
-// 	}
-// 	else
-// 	{
-// 		return Response::view('errors.500', array('message' => $exception->getMessage()), 500);
-// 	}
-// });
+
 
 //Model not found exception
 App::error(function(Illuminate\Database\Eloquent\ModelNotFoundException $e)
@@ -298,7 +290,7 @@ App::error(function(Illuminate\Database\Eloquent\ModelNotFoundException $e)
 
 
 
- 
+ /*
 
 //Method not allowed exception
 App::error(function(Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException $e)
@@ -375,3 +367,4 @@ App::error(function($exception, $code)
     }
 });
 
+*/

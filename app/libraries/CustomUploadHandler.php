@@ -16,11 +16,11 @@ class CustomUploadHandler extends UploadHandler
         );
         $versions = $this->options['image_versions'];
 
-        $meta_data = [
+        $meta_data = array(
             'file' => $this->get_upload_path($file->name),
             'type' => $file->type,
             'size' => $file->size,
-        ];
+        );
 
         foreach($versions as $version => $val)
         {

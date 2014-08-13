@@ -117,6 +117,15 @@
                             </div>
                         </div>
                         <div class="form-group">
+                            <label for="option[admin_email]" class="col-lg-4 col-sm-4 control-label">
+                                Site Background
+                                <i class="fa fa-question-circle fa-tooltip tooltip2" data-toggle="tooltip" data-placement="top" title="This address is used for admin purposes, like new user notification." data-original-title="This address is used for admin purposes, like new user notification."></i>
+                            </label>
+                            <div class="col-lg-8 col-md-7 col-sm-7">
+                                {{ Form::text('option[site_background]', Settings::get('site_background'), array('class' => 'form-control', 'autofocus' => 'autofocus')) }}
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label for="admin_email" class="col-lg-4 col-sm-4 control-label">&nbsp;</label>
                             <div class="col-lg-8 col-md-7 col-sm-7">
                                     {{ Form::button('<i class="fa fa-edit mr-5px"></i>&nbsp;<span>Save</span>',array('name' => 'action', 'type' => 'submit', 'value' => 'save', 'class' => 'btn btn-lg btn-success')) }}
